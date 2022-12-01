@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii10090" format="2">
+  <advance width="810"/>
+  <unicode hex="0448"/>
+  <outline>
+    <contour>
+      <point x="80" y="0" type="line"/>
+      <point x="730" y="0" type="line" name="ab01"/>
+      <point x="730" y="530" type="line"/>
+      <point x="642" y="530" type="line" name="at03"/>
+      <point x="642" y="78" type="line" name="sv03"/>
+      <point x="449" y="78" type="line" name="sv02"/>
+      <point x="449" y="530" type="line"/>
+      <point x="361" y="530" type="line" name="at02"/>
+      <point x="361" y="78" type="line" name="ih01"/>
+      <point x="168" y="78" type="line" name="sv01"/>
+      <point x="168" y="530" type="line"/>
+      <point x="80" y="530" type="line" name="at01"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>lc</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at02</string>
+      <key>zone</key>
+      <string>lc</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at03</string>
+      <key>zone</key>
+      <string>lc</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>ab01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>stem</key>
+      <string>ond: 78</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>sv01</string>
+      <key>point2</key>
+      <string>sv02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>sv02</string>
+      <key>point2</key>
+      <string>sv03</string>
+      <key>align</key>
+      <string>double</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolateh</string>
+      <key>point</key>
+      <string>ih01</string>
+      <key>point1</key>
+      <string>lsb</string>
+      <key>point2</key>
+      <string>rsb</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w810m80,0l730,0l730,530l642,530l642,78l449,78l449,530l361,530l361,78l168,78l168,530l80,530</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 78</string>
+          <string>hstem 530 -20</string>
+          <string>vstem 80 88</string>
+          <string>vstem 361 88</string>
+          <string>vstem 642 88</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

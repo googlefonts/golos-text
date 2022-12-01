@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="foursuperior" format="2">
+  <advance width="390"/>
+  <unicode hex="2074"/>
+  <outline>
+    <contour>
+      <point x="209" y="380" type="line"/>
+      <point x="315" y="380" type="line" name="ab01"/>
+      <point x="315" y="457" type="line"/>
+      <point x="355" y="457" type="line" name="sv04"/>
+      <point x="355" y="543" type="line"/>
+      <point x="315" y="543" type="line" name="sv03"/>
+      <point x="315" y="780" type="line"/>
+      <point x="199" y="780" type="line" name="ih01"/>
+      <point x="15" y="528" type="line" name="sv02"/>
+      <point x="15" y="457" type="line"/>
+      <point x="209" y="457" type="line" name="sv01"/>
+    </contour>
+    <contour>
+      <point x="120" y="543" type="line"/>
+      <point x="209" y="672" type="line" name="iv01"/>
+      <point x="209" y="543" type="line" name="sh01"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>ih01</string>
+      <key>zone</key>
+      <string>sup</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>sup_b</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolatev</string>
+      <key>point</key>
+      <string>sh01</string>
+      <key>point1</key>
+      <string>ab01</string>
+      <key>point2</key>
+      <string>ih01</string>
+      <key>align</key>
+      <string>left</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>sh01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>stem</key>
+      <string>sup_ordfem: 88</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>sv01</string>
+      <key>point2</key>
+      <string>sv04</string>
+      <key>align</key>
+      <string>center</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>sh01</string>
+      <key>point2</key>
+      <string>sv03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>sh01</string>
+      <key>point2</key>
+      <string>sv02</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolatev</string>
+      <key>point</key>
+      <string>iv01</string>
+      <key>point1</key>
+      <string>ih01</string>
+      <key>point2</key>
+      <string>ab01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolateh</string>
+      <key>point</key>
+      <string>ih01</string>
+      <key>point1</key>
+      <string>lsb</string>
+      <key>point2</key>
+      <string>rsb</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singleh</string>
+      <key>point1</key>
+      <string>ih01</string>
+      <key>point2</key>
+      <string>sh01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w390m209,380l315,380l315,457l355,457l355,543l315,543l315,780l199,780l15,528l15,457l209,457m120,543l209,672l209,543</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 401 -21</string>
+          <string>hstem 457 86</string>
+          <string>hstem 780 -20</string>
+          <string>vstem 209 106</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

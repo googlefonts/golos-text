@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bullet" format="2">
+  <advance width="400"/>
+  <unicode hex="2022"/>
+  <outline>
+    <contour>
+      <point x="200" y="105" type="curve" smooth="yes"/>
+      <point x="296" y="105"/>
+      <point x="370" y="179" name="sv01"/>
+      <point x="370" y="275" type="curve" smooth="yes"/>
+      <point x="370" y="371" name="ih01"/>
+      <point x="296" y="445" name="ih02"/>
+      <point x="200" y="445" type="curve" smooth="yes" name="ih03"/>
+      <point x="104" y="445"/>
+      <point x="30" y="371"/>
+      <point x="30" y="275" type="curve" smooth="yes"/>
+      <point x="30" y="179"/>
+      <point x="104" y="105"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>ih01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>ih01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>align</key>
+      <string>right</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolateh</string>
+      <key>point</key>
+      <string>ih01</string>
+      <key>point1</key>
+      <string>ih02</string>
+      <key>point2</key>
+      <string>ih03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w400m200,105c296,105 370,179 370,275c370,371 296,445 200,445c104,445 30,371 30,275c30,179 104,105 200,105</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 126 -21</string>
+          <string>hstem 445 -20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

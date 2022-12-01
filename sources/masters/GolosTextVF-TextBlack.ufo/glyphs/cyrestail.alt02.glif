@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cyrestail.alt02" format="2">
+  <advance width="590"/>
+  <unicode hex="F50D"/>
+  <outline>
+    <component base="c"/>
+    <component base="cedilla" xOffset="160"/>
+  </outline>
+</glyph>

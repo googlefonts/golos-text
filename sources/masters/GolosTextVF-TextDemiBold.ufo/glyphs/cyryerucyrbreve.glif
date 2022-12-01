@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cyryerucyrbreve" format="2">
+  <advance width="740"/>
+  <unicode hex="F537"/>
+  <anchor x="372" y="530" name="top"/>
+  <outline>
+    <component base="afii10093"/>
+    <component base="cyrbreve" xOffset="180"/>
+  </outline>
+</glyph>

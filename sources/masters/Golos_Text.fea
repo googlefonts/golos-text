@@ -1,0 +1,124 @@
+@cpsp_1=[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn Lslash OE Scaron Ydieresis Zcaron afii10023 afii10051 afii10052 afii10053 afii10054 afii10055 afii10056 afii10057 afii10058 afii10059 afii10060 afii10061 afii10062 afii10145 afii10017 afii10018 afii10019 afii10020 afii10021 afii10022 afii10024 afii10025 afii10026 afii10027 afii10028 afii10029 afii10030 afii10031 afii10032 afii10033 afii10034 afii10035 afii10036 afii10037 afii10038 afii10039 afii10040 afii10041 afii10042 afii10043 afii10044 afii10045 afii10046 afii10047 afii10048 afii10049 afii10050 uni04D8 uni0496 uni04A2 uni04E8 uni04AE uni04BA cyrGebar cyrGehook cyrZetail cyrKadesc cyrKavertbar cyrKaback cyrEnGe cyrEstail cyrstraightUbar cyrHadesc cyrChedesc cyrChevertbar cyrKahook cyrEnhook cyrChedescleft uni04CF cyrAcyrbreve cyrAdieresis cyrAE cyrIecyrbreve cyrinvEdieresis cyrZhedieresis cyrZedieresis cyrImacron cyrIdieresis cyrOdieresis cyrObardieresis cyrUmacron cyrUdieresis cyrUdblacute cyrChedieresis cyrYerudieresis uni0512 cyrEstail.alt02 cyrYerucyrbreve cyrGebar.alt];
+@ACCENT_ccmp=[Accent accent];
+@LOWER_ccmp=[b d f h k l t germandbls eth lslash afii10066 afii10086 afii10099 afii10108 afii10071];
+@fraction=[slash fraction division];
+@onum_l=[zero one two three four five six seven eight nine];
+@onum_r=[zerooldstyle oneoldstyle twooldstyle threeoldstyle fouroldstyle fiveoldstyle sixoldstyle sevenoldstyle eightoldstyle nineoldstyle];
+@lnum_l=[zerooldstyle oneoldstyle twooldstyle threeoldstyle fouroldstyle fiveoldstyle sixoldstyle sevenoldstyle eightoldstyle nineoldstyle];
+@lnum_r=[zero one two three four five six seven eight nine];
+@ordn_figures=[zero one two three four five six seven eight nine zerooldstyle oneoldstyle twooldstyle threeoldstyle fouroldstyle fiveoldstyle sixoldstyle sevenoldstyle eightoldstyle nineoldstyle];
+@figures_tab=[zero.tab one.tab two.tab three.tab four.tab five.tab six.tab seven.tab eight.tab nine.tab];
+@onum_tab=[zerooldstyle.tab oneoldstyle.tab twooldstyle.tab threeoldstyle.tab fouroldstyle.tab fiveoldstyle.tab sixoldstyle.tab sevenoldstyle.tab eightoldstyle.tab nineoldstyle.tab];
+@other_tab=[numbersign.tab dollar.tab plus.tab less.tab equal.tab greater.tab asciitilde.tab cent.tab currency.tab yen.tab logicalnot.tab plusminus.tab multiply.tab divide.tab Euro.tab uni20B4.tab uni20B8.tab uni20BD.tab Delta.tab minus.tab division.tab radical.tab approxequal.tab lessequal.tab greaterequal.tab];
+@other_prop=[numbersign dollar plus less equal greater asciitilde cent currency yen logicalnot plusminus multiply divide Euro uni20B4 uni20B8 uni20BD Delta minus division radical approxequal lessequal greaterequal];
+### ATTENTION! Correct features 'liga' and 'smcp' for support of compatibility with FDK 2.5
+### OpenType Creator version 1.4.9 / 2019.04.04
+### Features created 17:16:44 / 2019.09.13
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem cyrl dflt;;
+
+feature aalt {
+feature onum;
+feature case;
+feature sups;
+feature tnum;
+feature pnum;
+feature onum;
+feature lnum;
+} aalt;
+
+feature cpsp {
+lookup cpsp1 {
+  pos @cpsp_1 <5 0 10 0>;
+} cpsp1;
+} cpsp;
+
+feature ccmp {
+lookup ccmp2 {
+  sub @cpsp_1 accent' by Accent;
+  sub @LOWER_ccmp accent' by Accent;
+} ccmp2;
+} ccmp;
+
+feature frac {
+lookup frac1 {
+  sub zero @fraction zero zero by perthousand;
+  sub zero @fraction zero by percent;
+  sub one @fraction two by onehalf;
+  sub one @fraction four by onequarter;
+  sub three @fraction four by threequarters;
+} frac1;
+} frac;
+
+feature onum {
+lookup onum1 {
+  sub @onum_l by @onum_r;
+} onum1;
+} onum;
+
+feature lnum {
+lookup lnum1 {
+  sub @lnum_l by @lnum_r;
+} lnum1;
+} lnum;
+
+feature tnum {
+  sub @onum_l by @figures_tab;
+  sub @lnum_l by @onum_tab;
+  sub @other_prop by @other_tab;  
+} tnum;
+feature pnum {
+  sub @figures_tab by @onum_l;
+  sub @onum_tab by @lnum_l;
+  sub @other_tab by @other_prop;
+} pnum;
+feature case {
+lookup case_1 {
+  sub endash by uniF6BB;
+  sub emdash by uniF6BC;
+  sub hyphen by uniF6BA;
+  sub [ parenleft parenright bracketleft bracketright braceleft braceright ] by [ parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case ];
+} case_1;
+  lookup lnum1;
+} case;
+
+feature ordn {
+lookup ordn1 {
+  sub @ordn_figures a' by ordfeminine;
+  sub @ordn_figures o' by ordmasculine;
+  sub @ordn_figures period a' by ordfeminine;
+  sub @ordn_figures period o' by ordmasculine;
+} ordn1;
+lookup ordn2 {
+  sub N o by afii61352;
+} ordn2;
+} ordn;
+
+feature sups {
+lookup sups_num {
+  sub one by onesuperior;
+  sub two by twosuperior;
+  sub three by threesuperior;
+  sub four by foursuperior;
+} sups_num;
+lookup sups_lf {
+  sub oneoldstyle by onesuperior;
+  sub twooldstyle by twosuperior;
+  sub threeoldstyle by threesuperior;
+  sub fouroldstyle by foursuperior;
+} sups_lf;
+} sups;
+
+
+feature calt {
+lookup arrows {
+  sub [hyphen endash emdash] greater by arrowright;
+  sub less [hyphen endash emdash] by arrowleft;
+} arrows;
+lookup guillemot {
+    sub less less by guillemotleft;
+    sub greater greater by guillemotright;
+} guillemot;
+} calt;
+

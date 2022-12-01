@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Apostrophe" format="2">
+  <advance width="285"/>
+  <unicode hex="F40A"/>
+  <outline>
+    <component base="comma" yOffset="574"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>rsb</string>
+      <key>zone</key>
+      <string>uc</string>
+    </dict>
+  </array>
+  </dict>
+  </lib>
+</glyph>

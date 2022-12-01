@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cyrUmacron" format="2">
+  <advance width="670"/>
+  <unicode hex="04EE"/>
+  <outline>
+    <component base="afii10037"/>
+    <component base="macron" xOffset="185" yOffset="170"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>rsb</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>rsb</string>
+      <key>point2</key>
+      <string>rsb</string>
+      <key>round</key>
+      <string>true</string>
+      <key>align</key>
+      <string>left</string>
+    </dict>
+  </array>
+  </dict>
+  </lib>
+</glyph>

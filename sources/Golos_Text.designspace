@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis default="400" tag="wght" name="weight" maximum="900" minimum="400">
+   <labelname xml:lang="en">Weight</labelname>
+  </axis>
+ </axes>
+ <sources>
+  <source familyname="Golos Text VF" stylename="Text Black" name="TextBlack" filename="masters/GolosTextVF-TextBlack.ufo">
+   <location>
+    <dimension xvalue="900" name="weight"/>
+   </location>
+  </source>
+  <source familyname="Golos Text VF" stylename="Text Bold" name="TextBold" filename="masters/GolosTextVF-TextBold.ufo">
+   <location>
+    <dimension xvalue="700" name="weight"/>
+   </location>
+  </source>
+  <source familyname="Golos Text VF" stylename="Text DemiBold" name="TextDemiBold" filename="masters/GolosTextVF-TextDemiBold.ufo">
+   <location>
+    <dimension xvalue="600" name="weight"/>
+   </location>
+  </source>
+  <source familyname="Golos Text VF" stylename="Text Medium" name="TextMedium" filename="masters/GolosTextVF-TextMedium.ufo">
+   <location>
+    <dimension xvalue="500" name="weight"/>
+   </location>
+  </source>
+  <source familyname="Golos Text VF" stylename="Regular" name="TextRegular" filename="masters/GolosTextVF-TextRegular.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension xvalue="400" name="weight"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance familyname="Golos Text VF" stylename="Regular" name="Regular" filename="instances/GolosTextVF-Regular.ufo">
+   <location>
+    <dimension xvalue="400" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Golos Text VF" stylename="Medium" name="Medium" filename="instances/GolosTextVF-Medium.ufo">
+   <location>
+    <dimension xvalue="500" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Golos Text VF" stylename="DemiBold" name="DemiBold" filename="instances/GolosTextVF-DemiBold.ufo">
+   <location>
+    <dimension xvalue="600" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Golos Text VF" stylename="Bold" name="Bold" filename="instances/GolosTextVF-Bold.ufo">
+   <location>
+    <dimension xvalue="700" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Golos Text VF" stylename="Black" name="Black" filename="instances/GolosTextVF-Black.ufo">
+   <location>
+    <dimension xvalue="900" name="weight"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

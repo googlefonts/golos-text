@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cyryerudieresis" format="2">
+  <advance width="730"/>
+  <unicode hex="04F9"/>
+  <anchor x="368" y="530" name="top"/>
+  <outline>
+    <component base="afii10093"/>
+    <component base="dieresis" xOffset="178"/>
+  </outline>
+</glyph>

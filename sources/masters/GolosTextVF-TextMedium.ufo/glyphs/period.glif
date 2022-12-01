@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period" format="2">
+  <advance width="310"/>
+  <unicode hex="002E"/>
+  <outline>
+    <contour>
+      <point x="155" y="-11" type="curve" smooth="yes"/>
+      <point x="200" y="-11"/>
+      <point x="235" y="24" name="sv01"/>
+      <point x="235" y="69" type="curve" smooth="yes"/>
+      <point x="235" y="116" name="ih01"/>
+      <point x="200" y="149" name="ih02"/>
+      <point x="155" y="149" type="curve" smooth="yes" name="ih03"/>
+      <point x="110" y="149"/>
+      <point x="75" y="116"/>
+      <point x="75" y="69" type="curve" smooth="yes"/>
+      <point x="75" y="24"/>
+      <point x="110" y="-11"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ih01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>ih01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>stem</key>
+      <string>period: 160</string>
+      <key>align</key>
+      <string>right</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolateh</string>
+      <key>point</key>
+      <string>ih01</string>
+      <key>point1</key>
+      <string>ih02</string>
+      <key>point2</key>
+      <string>ih03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w310m155,-11c200,-11 235,24 235,69c235,116 200,149 155,149c110,149 75,116 75,69c75,24 110,-11 155,-11</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 160</string>
+          <string>vstem 75 160</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

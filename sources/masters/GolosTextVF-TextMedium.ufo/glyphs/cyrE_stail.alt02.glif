@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cyrEstail.alt02" format="2">
+  <advance width="690"/>
+  <unicode hex="F50C"/>
+  <outline>
+    <component base="C"/>
+    <component base="Cedilla" xOffset="245"/>
+  </outline>
+</glyph>

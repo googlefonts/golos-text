@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cyracyrbreve" format="2">
+  <advance width="565"/>
+  <unicode hex="04D1"/>
+  <outline>
+    <component base="a"/>
+    <component base="cyrbreve" xOffset="115" yOffset="1"/>
+  </outline>
+</glyph>

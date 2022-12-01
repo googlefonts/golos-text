@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dieresis" format="2">
+  <advance width="410"/>
+  <unicode hex="F6CB"/>
+  <outline>
+    <contour>
+      <point x="90" y="755" type="curve" smooth="yes"/>
+      <point x="131" y="755"/>
+      <point x="160" y="784"/>
+      <point x="160" y="825" type="curve" smooth="yes"/>
+      <point x="160" y="866"/>
+      <point x="131" y="895"/>
+      <point x="90" y="895" type="curve" smooth="yes"/>
+      <point x="49" y="895"/>
+      <point x="20" y="866"/>
+      <point x="20" y="825" type="curve" smooth="yes"/>
+      <point x="20" y="784"/>
+      <point x="49" y="755"/>
+    </contour>
+    <contour>
+      <point x="320" y="755" type="curve" smooth="yes"/>
+      <point x="361" y="755"/>
+      <point x="390" y="784"/>
+      <point x="390" y="825" type="curve" smooth="yes"/>
+      <point x="390" y="866"/>
+      <point x="361" y="895"/>
+      <point x="320" y="895" type="curve" smooth="yes"/>
+      <point x="279" y="895"/>
+      <point x="250" y="866"/>
+      <point x="250" y="825" type="curve" smooth="yes"/>
+      <point x="250" y="784"/>
+      <point x="279" y="755"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>220550bd5b16efc79c667323d40ca20f9abb4c56780274ddc6dd4b398f681d94113a432b697590933a4ae825933ccda7e36df3ce1267413fe8339a3f59a31ee2</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 755 140</string>
+          <string>vstem 20 140</string>
+          <string>vstem 250 140</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

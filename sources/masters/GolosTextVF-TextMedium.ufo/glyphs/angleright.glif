@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="angleright" format="2">
+  <advance width="380"/>
+  <unicode hex="232A"/>
+  <outline>
+    <contour>
+      <point x="128" y="700" type="line"/>
+      <point x="10" y="700" type="line" name="ab01"/>
+      <point x="214" y="250" type="line" name="ih01"/>
+      <point x="10" y="-200" type="line"/>
+      <point x="126" y="-200" type="line" name="at01"/>
+      <point x="330" y="250" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>uc</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>dsc</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w380m128,700l10,700l214,250l10,-200l126,-200l330,250</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -200 -20</string>
+          <string>hstem 679 -21</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

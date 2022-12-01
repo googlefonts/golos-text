@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ring" format="2">
+  <advance width="340"/>
+  <unicode hex="F40C"/>
+  <outline>
+    <contour>
+      <point x="170" y="730" type="curve" smooth="yes"/>
+      <point x="266" y="730"/>
+      <point x="320" y="773" name="sv01"/>
+      <point x="320" y="845" type="curve" smooth="yes"/>
+      <point x="320" y="917" name="ih01"/>
+      <point x="266" y="960"/>
+      <point x="170" y="960" type="curve" smooth="yes"/>
+      <point x="74" y="960" name="iv01"/>
+      <point x="20" y="917"/>
+      <point x="20" y="845" type="curve" smooth="yes" name="sh01"/>
+      <point x="20" y="773" name="ih02"/>
+      <point x="74" y="730" name="ih03"/>
+    </contour>
+    <contour>
+      <point x="170" y="820" type="curve" smooth="yes"/>
+      <point x="141" y="820"/>
+      <point x="130" y="829"/>
+      <point x="130" y="845" type="curve" smooth="yes"/>
+      <point x="130" y="861"/>
+      <point x="141" y="870"/>
+      <point x="170" y="870" type="curve" smooth="yes"/>
+      <point x="199" y="870"/>
+      <point x="210" y="861"/>
+      <point x="210" y="845" type="curve" smooth="yes"/>
+      <point x="210" y="829"/>
+      <point x="199" y="820"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ih01</string>
+      <key>zone</key>
+      <string>Accent</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>ih01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>stem</key>
+      <string>ring_Ring: 230</string>
+      <key>align</key>
+      <string>right</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolatev</string>
+      <key>point</key>
+      <string>iv01</string>
+      <key>point1</key>
+      <string>sv01</string>
+      <key>point2</key>
+      <string>ih01</string>
+      <key>align</key>
+      <string>right</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>iv01</string>
+      <key>delta</key>
+      <integer>1</integer>
+      <key>ppm1</key>
+      <integer>16</integer>
+      <key>ppm2</key>
+      <integer>19</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolatev</string>
+      <key>point</key>
+      <string>sh01</string>
+      <key>point1</key>
+      <string>ih01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>align</key>
+      <string>double</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>sh01</string>
+      <key>delta</key>
+      <integer>-1</integer>
+      <key>ppm1</key>
+      <integer>16</integer>
+      <key>ppm2</key>
+      <integer>19</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolateh</string>
+      <key>point</key>
+      <string>ih01</string>
+      <key>point1</key>
+      <string>ih02</string>
+      <key>point2</key>
+      <string>ih03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singleh</string>
+      <key>point1</key>
+      <string>ih01</string>
+      <key>point2</key>
+      <string>sh01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>367e595cd5d746e548c6e93989ab7dce27e978849ec84f660915b595073ba9167b80123b773ac4061aedd0f62bdfe456d92b0ae2621eaec0569659327a0a0d77</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 730 90</string>
+          <string>hstem 870 90</string>
+          <string>vstem 20 110</string>
+          <string>vstem 210 110</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

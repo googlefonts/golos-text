@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth" format="2">
+  <advance width="725"/>
+  <unicode hex="00D0"/>
+  <outline>
+    <contour>
+      <point x="110" y="0" type="line"/>
+      <point x="325" y="0" type="line" smooth="yes"/>
+      <point x="541" y="0"/>
+      <point x="670" y="121"/>
+      <point x="670" y="345" type="curve" smooth="yes"/>
+      <point x="670" y="365" type="line" smooth="yes"/>
+      <point x="670" y="586"/>
+      <point x="547" y="700"/>
+      <point x="335" y="700" type="curve" smooth="yes"/>
+      <point x="110" y="700" type="line"/>
+      <point x="110" y="402" type="line"/>
+      <point x="30" y="402" type="line"/>
+      <point x="30" y="308" type="line"/>
+      <point x="110" y="308" type="line"/>
+    </contour>
+    <contour>
+      <point x="230" y="104" type="line"/>
+      <point x="230" y="308" type="line"/>
+      <point x="390" y="308" type="line"/>
+      <point x="390" y="402" type="line"/>
+      <point x="230" y="402" type="line"/>
+      <point x="230" y="596" type="line"/>
+      <point x="325" y="596" type="line" smooth="yes"/>
+      <point x="449" y="596"/>
+      <point x="544" y="529"/>
+      <point x="544" y="365" type="curve" smooth="yes"/>
+      <point x="544" y="345" type="line" smooth="yes"/>
+      <point x="544" y="169"/>
+      <point x="452" y="104"/>
+      <point x="315" y="104" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>585cc4729ca7fd61d19986611efdb35ea19b9b375ca8b9edcdc8df62f5ef4169ebd148c69bd8eecc002b8efaee3213430dde72a001c92c0d5ec9b48de2bc9c59</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 104</string>
+          <string>hstem 308 94</string>
+          <string>hstem 596 104</string>
+          <string>vstem 110 120</string>
+          <string>vstem 544 126</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

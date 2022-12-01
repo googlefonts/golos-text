@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ccedilla" format="2">
+  <advance width="725"/>
+  <unicode hex="00C7"/>
+  <outline>
+    <component base="C"/>
+    <component base="Cedilla" xOffset="240"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w725</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -215 97</string>
+          <string>hstem -13 -20</string>
+          <string>hstem -8 -20</string>
+          <string>hstem 280 -20</string>
+          <string>hstem 420 -20</string>
+          <string>hstem 501 214</string>
+          <string>vstem 260 230</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

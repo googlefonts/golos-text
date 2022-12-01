@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cyrumacron" format="2">
+  <advance width="587"/>
+  <unicode hex="04EF"/>
+  <anchor x="290" y="530" name="top"/>
+  <outline>
+    <component base="y"/>
+    <component base="macron" xOffset="123"/>
+  </outline>
+</glyph>

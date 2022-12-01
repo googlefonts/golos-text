@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Accent" format="2">
+  <unicode hex="F401"/>
+  <outline>
+    <component base="Acute" xOffset="-1014"/>
+  </outline>
+</glyph>

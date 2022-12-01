@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cyrchedescleft" format="2">
+  <advance width="568"/>
+  <unicode hex="04CC"/>
+  <outline>
+    <contour>
+      <point x="305" y="-125" type="line"/>
+      <point x="420" y="-125" type="line"/>
+      <point x="420" y="0" type="line" name="hr01"/>
+      <point x="502" y="0" type="line" name="hr02"/>
+      <point x="502" y="530" type="line"/>
+      <point x="370" y="530" type="line"/>
+      <point x="370" y="310" type="line"/>
+      <point x="357" y="299"/>
+      <point x="323" y="284"/>
+      <point x="272" y="284" type="curve" smooth="yes" name="hr02"/>
+      <point x="200" y="284"/>
+      <point x="174" y="309"/>
+      <point x="174" y="378" type="curve" smooth="yes"/>
+      <point x="174" y="530" type="line"/>
+      <point x="42" y="530" type="line"/>
+      <point x="42" y="363" type="line" smooth="yes"/>
+      <point x="42" y="230"/>
+      <point x="104" y="172"/>
+      <point x="237" y="172" type="curve" smooth="yes"/>
+      <point x="301" y="172"/>
+      <point x="339" y="189"/>
+      <point x="370" y="208" type="curve" name="hr01"/>
+      <point x="370" y="100" type="line" name="hr03"/>
+      <point x="305" y="100" type="line" name="hr04"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="232"/>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>ecb0f0d5113fc03fc413abd8d46d39d2c40e14c37ccd201d08ca374db94accfa5d9ef29188b8dc5e49b65b18d382c5b4f1114a1a43cb3fd84d6b2014208700c0</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -125 225</string>
+          <string>vstem 305 115</string>
+          <string>hstem 172 112</string>
+          <string>hstem 530 -20</string>
+          <string>vstem 42 132</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>vstem 305 115</string>
+          <string>hstem 172 112</string>
+          <string>hstem 530 -20</string>
+          <string>vstem 42 132</string>
+        </array>
+        <key>pointTag</key>
+        <string>hr01</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>vstem 370 132</string>
+          <string>hstem 530 -20</string>
+          <string>hstem 172 112</string>
+          <string>vstem 42 132</string>
+        </array>
+        <key>pointTag</key>
+        <string>hr02</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -125 225</string>
+          <string>vstem 370 132</string>
+          <string>hstem 172 112</string>
+          <string>hstem 530 -20</string>
+          <string>vstem 42 132</string>
+        </array>
+        <key>pointTag</key>
+        <string>hr03</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -125 225</string>
+          <string>vstem 305 115</string>
+          <string>hstem 172 112</string>
+          <string>hstem 530 -20</string>
+          <string>vstem 42 132</string>
+        </array>
+        <key>pointTag</key>
+        <string>hr04</string>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

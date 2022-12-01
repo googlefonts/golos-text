@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="braceright" format="2">
+  <advance width="380"/>
+  <unicode hex="007D"/>
+  <outline>
+    <contour>
+      <point x="20" y="700" type="line"/>
+      <point x="20" y="564" type="line"/>
+      <point x="60" y="564" type="line" smooth="yes"/>
+      <point x="100" y="564"/>
+      <point x="120" y="544"/>
+      <point x="120" y="504" type="curve" smooth="yes"/>
+      <point x="120" y="320" type="line" smooth="yes"/>
+      <point x="120" y="280"/>
+      <point x="139" y="261"/>
+      <point x="170" y="250" type="curve"/>
+      <point x="139" y="239"/>
+      <point x="120" y="220"/>
+      <point x="120" y="180" type="curve" smooth="yes"/>
+      <point x="120" y="-4" type="line" smooth="yes"/>
+      <point x="120" y="-44"/>
+      <point x="100" y="-64"/>
+      <point x="60" y="-64" type="curve" smooth="yes"/>
+      <point x="20" y="-64" type="line"/>
+      <point x="20" y="-200" type="line"/>
+      <point x="110" y="-200" type="line" smooth="yes"/>
+      <point x="231" y="-200"/>
+      <point x="300" y="-131"/>
+      <point x="300" y="-10" type="curve" smooth="yes" name="hr01"/>
+      <point x="300" y="132" type="line" smooth="yes"/>
+      <point x="300" y="163"/>
+      <point x="319" y="182"/>
+      <point x="350" y="182" type="curve" name="hr02"/>
+      <point x="350" y="318" type="line"/>
+      <point x="319" y="318"/>
+      <point x="300" y="337" name="hr02"/>
+      <point x="300" y="368" type="curve" smooth="yes" name="hr03"/>
+      <point x="300" y="510" type="line" smooth="yes"/>
+      <point x="300" y="631"/>
+      <point x="231" y="700"/>
+      <point x="110" y="700" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>c4f3aab44ddaa016bcae66abe4f1367eee6e222760e539cb585efddbd6f54c8e3a5b6f5b77f71d72dbc6a4c0d9ce9338fd4b7ff35068ce80bb54cfdb61332c23</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 700 136</string>
+          <string>hstem -64 136</string>
+          <string>vstem 300 180</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 350 230</string>
+          <string>hstem 700 136</string>
+          <string>hstem -64 136</string>
+        </array>
+        <key>pointTag</key>
+        <string>hr02</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 300 180</string>
+          <string>hstem 700 136</string>
+          <string>hstem -64 136</string>
+        </array>
+        <key>pointTag</key>
+        <string>hr02</string>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

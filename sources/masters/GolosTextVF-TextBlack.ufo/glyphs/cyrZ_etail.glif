@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cyrZetail" format="2">
+  <advance width="720"/>
+  <unicode hex="0498"/>
+  <outline>
+    <contour>
+      <point x="482" y="-130" type="line"/>
+      <point x="482" y="-5" type="line" name="sv02"/>
+      <point x="535" y="4"/>
+      <point x="578" y="19"/>
+      <point x="612" y="42" type="curve" smooth="yes" name="iv05"/>
+      <point x="671" y="80"/>
+      <point x="700" y="132" name="at01"/>
+      <point x="700" y="198" type="curve" smooth="yes" name="iv04"/>
+      <point x="700" y="289"/>
+      <point x="657" y="345" name="sv01"/>
+      <point x="571" y="365" type="curve"/>
+      <point x="639" y="388" name="iv02"/>
+      <point x="680" y="441"/>
+      <point x="680" y="513" type="curve" smooth="yes"/>
+      <point x="680" y="652" name="iv03"/>
+      <point x="559" y="715"/>
+      <point x="355" y="715" type="curve" smooth="yes" name="ih01"/>
+      <point x="142" y="715"/>
+      <point x="25" y="622" name="iv01"/>
+      <point x="25" y="425" type="curve"/>
+      <point x="265" y="425" type="line" name="ab01"/>
+      <point x="265" y="478" name="av01"/>
+      <point x="274" y="531" name="ih02"/>
+      <point x="355" y="531" type="curve" smooth="yes" name="ih03"/>
+      <point x="392" y="531"/>
+      <point x="410" y="516"/>
+      <point x="410" y="485" type="curve" smooth="yes"/>
+      <point x="410" y="450"/>
+      <point x="390" y="436" name="hr02"/>
+      <point x="335" y="436" type="curve" smooth="yes"/>
+      <point x="295" y="436" type="line"/>
+      <point x="295" y="274" type="line"/>
+      <point x="335" y="274" type="line" smooth="yes"/>
+      <point x="412" y="274"/>
+      <point x="430" y="261"/>
+      <point x="430" y="223" type="curve" smooth="yes"/>
+      <point x="430" y="184"/>
+      <point x="403" y="169"/>
+      <point x="360" y="169" type="curve" smooth="yes"/>
+      <point x="263" y="169"/>
+      <point x="260" y="237"/>
+      <point x="260" y="290" type="curve" name="hr03"/>
+      <point x="20" y="290" type="line" name="hr01"/>
+      <point x="20" y="153"/>
+      <point x="75" y="53"/>
+      <point x="203" y="7" type="curve"/>
+      <point x="220" y="2"/>
+      <point x="238" y="-3"/>
+      <point x="258" y="-6" type="curve" name="hr04"/>
+      <point x="258" y="-130" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttcommands</key>
+  <array>
+    <dict>
+      <key>code</key>
+      <string>alignv</string>
+      <key>point</key>
+      <string>av01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignt</string>
+      <key>point</key>
+      <string>at01</string>
+      <key>zone</key>
+      <string>uc</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>alignb</string>
+      <key>point</key>
+      <string>ab01</string>
+      <key>zone</key>
+      <string>b: 0</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>ab01</string>
+      <key>point2</key>
+      <string>sv02</string>
+      <key>align</key>
+      <string>left</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolatev</string>
+      <key>point</key>
+      <string>iv02</string>
+      <key>point1</key>
+      <string>at01</string>
+      <key>point2</key>
+      <string>ab01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>mdeltav</string>
+      <key>point</key>
+      <string>iv02</string>
+      <key>delta</key>
+      <integer>8</integer>
+      <key>ppm1</key>
+      <integer>17</integer>
+      <key>ppm2</key>
+      <integer>17</integer>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolatev</string>
+      <key>point</key>
+      <string>iv03</string>
+      <key>point1</key>
+      <string>iv02</string>
+      <key>point2</key>
+      <string>ab01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolatev</string>
+      <key>point</key>
+      <string>iv05</string>
+      <key>point1</key>
+      <string>iv02</string>
+      <key>point2</key>
+      <string>iv03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolatev</string>
+      <key>point</key>
+      <string>iv04</string>
+      <key>point1</key>
+      <string>at01</string>
+      <key>point2</key>
+      <string>ab01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>at01</string>
+      <key>point2</key>
+      <string>sv01</string>
+      <key>stem</key>
+      <string>cyr10025: 184</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>singlev</string>
+      <key>point1</key>
+      <string>ab01</string>
+      <key>point2</key>
+      <string>ih01</string>
+      <key>stem</key>
+      <string>ond: 178</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolatev</string>
+      <key>point</key>
+      <string>iv01</string>
+      <key>point1</key>
+      <string>ab01</string>
+      <key>point2</key>
+      <string>at01</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+    <dict>
+      <key>code</key>
+      <string>interpolateh</string>
+      <key>point</key>
+      <string>ih01</string>
+      <key>point1</key>
+      <string>ih02</string>
+      <key>point2</key>
+      <string>ih03</string>
+      <key>align</key>
+      <string>round</string>
+    </dict>
+  </array>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>009aa93e22ca379b4d382ce3c2683b9a13991891c4c7c8ba4781798c94b6dda71723a1b297f27ad71474fcbc44ee19cfcbc36aaa1be8981bb009f223b29e5759</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -109 -21</string>
+          <string>hstem 8 -20</string>
+          <string>vstem 258 224</string>
+          <string>hstem 531 184</string>
+          <string>hstem 274 162</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 8 -20</string>
+          <string>vstem 25 235</string>
+          <string>hstem 425 -20</string>
+          <string>hstem 531 184</string>
+          <string>hstem -109 -21</string>
+          <string>hstem 290 -20</string>
+        </array>
+        <key>pointTag</key>
+        <string>iv01</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 274 162</string>
+          <string>hstem 8 -20</string>
+          <string>vstem 25 235</string>
+          <string>hstem 531 184</string>
+          <string>hstem -109 -21</string>
+        </array>
+        <key>pointTag</key>
+        <string>hr02</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 290 -20</string>
+          <string>hstem 8 -20</string>
+          <string>vstem 25 235</string>
+          <string>hstem 531 184</string>
+          <string>hstem -109 -21</string>
+          <string>hstem 425 -20</string>
+        </array>
+        <key>pointTag</key>
+        <string>hr03</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 8 -20</string>
+          <string>vstem 258 224</string>
+          <string>hstem -109 -21</string>
+          <string>hstem 274 162</string>
+          <string>hstem 531 184</string>
+        </array>
+        <key>pointTag</key>
+        <string>hr04</string>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>
