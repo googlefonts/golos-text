@@ -1,7 +1,24 @@
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
+  - GolosText.glyphs
+familyName: "Golos Text"
+buildOTF: true
 axisOrder:
   - wght
-  - ital
-familyName: Rubik
+stat:
+  - name: Weight
+    tag: wght
+    values:
+    - name: Regular
+      value: 400
+      linkedValue: 700
+      flags: 2
+    - name: Medium
+      value: 500
+    - name: SemiBold
+      value: 600
+    - name: Bold
+      value: 700
+    - name: ExtraBold
+      value: 800
+    - name: Black
+      value: 900
