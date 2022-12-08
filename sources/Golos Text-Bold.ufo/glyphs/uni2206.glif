@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2206" format="2">
+	<advance width="700" height="0"/>
+	<unicode hex="2206"/>
+	<outline>
+		<contour>
+			<point x="10" y="0" type="line"/>
+			<point x="690" y="0" type="line" name="ab01"/>
+			<point x="447" y="700" type="line"/>
+			<point x="253" y="700" type="line" name="sh01"/>
+		</contour>
+		<contour>
+			<point x="340" y="490" type="line" name="ih01"/>
+			<point x="456" y="148" type="line"/>
+			<point x="225" y="148" type="line" name="sv01"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttcommands</key>
+			<array>
+				<dict>
+					<key>code</key>
+					<string>alignt</string>
+					<key>point</key>
+					<string>sh01</string>
+					<key>zone</key>
+					<string>uc</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<string>alignb</string>
+					<key>point</key>
+					<string>ab01</string>
+					<key>zone</key>
+					<string>b: 0</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>center</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>point1</key>
+					<string>sh01</string>
+					<key>point2</key>
+					<string>ab01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>ab01</string>
+					<key>point2</key>
+					<string>sv01</string>
+					<key>stem</key>
+					<string>OH: 148</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolateh</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>point1</key>
+					<string>lsb</string>
+					<key>point2</key>
+					<string>rsb</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>center</string>
+					<key>code</key>
+					<string>singleh</string>
+					<key>point1</key>
+					<string>ih01</string>
+					<key>point2</key>
+					<string>sh01</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

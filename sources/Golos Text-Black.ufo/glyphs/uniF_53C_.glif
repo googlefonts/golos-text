@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniF53C" format="2">
+	<advance width="580"/>
+	<unicode hex="F53C"/>
+	<outline>
+		<component base="F"/>
+	</outline>
+</glyph>

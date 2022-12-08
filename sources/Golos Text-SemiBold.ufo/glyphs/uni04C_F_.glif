@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04CF" format="2">
+	<advance width="262" height="0"/>
+	<unicode hex="04CF"/>
+	<outline>
+		<contour>
+			<point x="197" y="0" type="line"/>
+			<point x="197" y="700" type="line"/>
+			<point x="65" y="700" type="line" name="at01"/>
+			<point x="65" y="0" type="line" name="ih01"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttcommands</key>
+			<array>
+				<dict>
+					<key>code</key>
+					<string>alignt</string>
+					<key>point</key>
+					<string>at01</string>
+					<key>zone</key>
+					<string>uc</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<string>alignb</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>zone</key>
+					<string>b: 0</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>double</string>
+					<key>code</key>
+					<string>interpolateh</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>point1</key>
+					<string>lsb</string>
+					<key>point2</key>
+					<string>rsb</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

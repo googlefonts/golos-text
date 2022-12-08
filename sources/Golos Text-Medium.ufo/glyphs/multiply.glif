@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="multiply" format="2">
+	<advance width="560" height="0"/>
+	<unicode hex="00D7"/>
+	<outline>
+		<contour>
+			<point x="135" y="145" type="line" name="sv01"/>
+			<point x="280" y="290" type="line" name="iv02"/>
+			<point x="425" y="145" type="line" name="iv01"/>
+			<point x="495" y="215" type="line"/>
+			<point x="350" y="360" type="line" name="sv03"/>
+			<point x="495" y="505" type="line"/>
+			<point x="425" y="575" type="line" name="sv02"/>
+			<point x="280" y="430" type="line" name="ih01"/>
+			<point x="135" y="575" type="line" name="av01"/>
+			<point x="65" y="505" type="line"/>
+			<point x="210" y="360" type="line" name="iv03"/>
+			<point x="65" y="215" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttcommands</key>
+			<array>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>alignv</string>
+					<key>point</key>
+					<string>av01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>iv01</string>
+					<key>point1</key>
+					<string>lsb</string>
+					<key>point2</key>
+					<string>av01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>iv01</string>
+					<key>point2</key>
+					<string>sv01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>iv02</string>
+					<key>point1</key>
+					<string>sv01</string>
+					<key>point2</key>
+					<string>av01</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<string>mdeltav</string>
+					<key>delta</key>
+					<integer>2</integer>
+					<key>point</key>
+					<string>iv02</string>
+					<key>ppm1</key>
+					<integer>22</integer>
+					<key>ppm2</key>
+					<integer>25</integer>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>point1</key>
+					<string>av01</string>
+					<key>point2</key>
+					<string>sv01</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<string>mdeltav</string>
+					<key>delta</key>
+					<integer>-2</integer>
+					<key>point</key>
+					<string>ih01</string>
+					<key>ppm1</key>
+					<integer>22</integer>
+					<key>ppm2</key>
+					<integer>25</integer>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>iv03</string>
+					<key>point1</key>
+					<string>ih01</string>
+					<key>point2</key>
+					<string>iv02</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>double</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>iv03</string>
+					<key>point2</key>
+					<string>sv03</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>av01</string>
+					<key>point2</key>
+					<string>sv02</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolateh</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>point1</key>
+					<string>lsb</string>
+					<key>point2</key>
+					<string>rsb</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

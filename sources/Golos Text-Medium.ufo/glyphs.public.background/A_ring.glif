@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aring" format="2">
+	<advance width="680"/>
+	<outline>
+		<contour>
+			<point x="537" y="0" type="line"/>
+			<point x="665" y="0" type="line" name="ab02"/>
+			<point x="400" y="700" type="line"/>
+			<point x="280" y="700" type="line" name="sh01"/>
+			<point x="15" y="0" type="line"/>
+			<point x="135" y="0" type="line" name="ab01"/>
+			<point x="194" y="158" type="line"/>
+			<point x="478" y="158" type="line" name="sv01"/>
+		</contour>
+		<contour>
+			<point x="337" y="550" type="line" name="ih01"/>
+			<point x="439" y="262" type="line" name="iv01"/>
+			<point x="233" y="262" type="line"/>
+		</contour>
+		<contour>
+			<point x="340" y="730" type="curve" smooth="yes"/>
+			<point x="410" y="730"/>
+			<point x="465" y="781" name="sv01"/>
+			<point x="465" y="845" type="curve" smooth="yes"/>
+			<point x="465" y="909" name="ih01"/>
+			<point x="410" y="960"/>
+			<point x="340" y="960" type="curve" smooth="yes"/>
+			<point x="270" y="960" name="iv01"/>
+			<point x="215" y="909"/>
+			<point x="215" y="845" type="curve" smooth="yes" name="sh01"/>
+			<point x="215" y="781" name="ih02"/>
+			<point x="270" y="730" name="ih03"/>
+		</contour>
+		<contour>
+			<point x="340" y="800" type="curve" smooth="yes"/>
+			<point x="313" y="800"/>
+			<point x="295" y="818"/>
+			<point x="295" y="845" type="curve" smooth="yes"/>
+			<point x="295" y="872"/>
+			<point x="313" y="890"/>
+			<point x="340" y="890" type="curve" smooth="yes"/>
+			<point x="367" y="890"/>
+			<point x="385" y="872"/>
+			<point x="385" y="845" type="curve" smooth="yes"/>
+			<point x="385" y="818"/>
+			<point x="367" y="800"/>
+		</contour>
+	</outline>
+</glyph>

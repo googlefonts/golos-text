@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2199" format="2">
+	<advance width="750" height="0"/>
+	<unicode hex="2199"/>
+	<outline>
+		<contour>
+			<point x="75" y="50" type="line"/>
+			<point x="493" y="50" type="line" name="ih01"/>
+			<point x="595" y="154" type="line" name="sv01"/>
+			<point x="253" y="154" type="line"/>
+			<point x="675" y="576" type="line"/>
+			<point x="601" y="650" type="line" name="av01"/>
+			<point x="179" y="228" type="line" name="iv02"/>
+			<point x="179" y="572" type="line" name="iv01"/>
+			<point x="75" y="468" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttcommands</key>
+			<array>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>alignv</string>
+					<key>point</key>
+					<string>av01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>point1</key>
+					<string>av01</string>
+					<key>point2</key>
+					<string>rsb</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>right</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>ih01</string>
+					<key>point2</key>
+					<string>sv01</string>
+					<key>stem</key>
+					<string>OH: 104</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>right</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>iv02</string>
+					<key>point1</key>
+					<string>sv01</string>
+					<key>point2</key>
+					<string>av01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>left</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>iv01</string>
+					<key>point1</key>
+					<string>ih01</string>
+					<key>point2</key>
+					<string>av01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolateh</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>point1</key>
+					<string>lsb</string>
+					<key>point2</key>
+					<string>rsb</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

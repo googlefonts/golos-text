@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="currency" format="2">
+	<advance width="580" height="0"/>
+	<unicode hex="00A4"/>
+	<outline>
+		<contour>
+			<point x="124" y="105" type="line" name="sv05"/>
+			<point x="186" y="167" type="line"/>
+			<point x="217" y="150" name="av01"/>
+			<point x="251" y="140"/>
+			<point x="290" y="140" type="curve" smooth="yes" name="sv06"/>
+			<point x="327" y="140"/>
+			<point x="363" y="150" name="sv04"/>
+			<point x="394" y="167" type="curve"/>
+			<point x="456" y="105" type="line" name="sv03"/>
+			<point x="545" y="194" type="line"/>
+			<point x="483" y="256" type="line" name="sv02"/>
+			<point x="500" y="287"/>
+			<point x="510" y="321" name="ih01"/>
+			<point x="510" y="360" type="curve" smooth="yes"/>
+			<point x="510" y="397" name="sv01"/>
+			<point x="500" y="433"/>
+			<point x="483" y="464" type="curve" name="iv02"/>
+			<point x="545" y="526" type="line"/>
+			<point x="456" y="615" type="line" name="iv01"/>
+			<point x="394" y="553" type="line"/>
+			<point x="363" y="570"/>
+			<point x="327" y="580"/>
+			<point x="290" y="580" type="curve" smooth="yes" name="sv07"/>
+			<point x="251" y="580"/>
+			<point x="217" y="570" name="sh01"/>
+			<point x="186" y="553" type="curve" name="ih02"/>
+			<point x="124" y="615" type="line" name="ih03"/>
+			<point x="35" y="526" type="line"/>
+			<point x="97" y="464" type="line"/>
+			<point x="80" y="433"/>
+			<point x="70" y="397"/>
+			<point x="70" y="360" type="curve" smooth="yes"/>
+			<point x="70" y="321"/>
+			<point x="80" y="287"/>
+			<point x="97" y="256" type="curve"/>
+			<point x="35" y="194" type="line"/>
+		</contour>
+		<contour>
+			<point x="290" y="282" type="curve" smooth="yes"/>
+			<point x="246" y="282"/>
+			<point x="214" y="313"/>
+			<point x="214" y="360" type="curve" smooth="yes"/>
+			<point x="214" y="407"/>
+			<point x="246" y="438"/>
+			<point x="290" y="438" type="curve" smooth="yes"/>
+			<point x="334" y="438"/>
+			<point x="366" y="407"/>
+			<point x="366" y="360" type="curve" smooth="yes"/>
+			<point x="366" y="313"/>
+			<point x="334" y="282"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttcommands</key>
+			<array>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>alignv</string>
+					<key>point</key>
+					<string>av01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>av01</string>
+					<key>point2</key>
+					<string>sv05</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>double</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>sv05</string>
+					<key>point2</key>
+					<string>sv06</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>av01</string>
+					<key>point2</key>
+					<string>ih01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>right</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>iv01</string>
+					<key>point1</key>
+					<string>av01</string>
+					<key>point2</key>
+					<string>ih01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>iv01</string>
+					<key>point2</key>
+					<string>sv04</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>iv02</string>
+					<key>point1</key>
+					<string>ih01</string>
+					<key>point2</key>
+					<string>av01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>iv02</string>
+					<key>point2</key>
+					<string>sv03</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>ih01</string>
+					<key>point2</key>
+					<string>sv01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>sv01</string>
+					<key>point2</key>
+					<string>sv02</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>ih01</string>
+					<key>point2</key>
+					<string>sv07</string>
+					<key>stem</key>
+					<string>BES: 138</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>av01</string>
+					<key>point2</key>
+					<string>sh01</string>
+					<key>stem</key>
+					<string>BES: 138</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolateh</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>point1</key>
+					<string>ih02</string>
+					<key>point2</key>
+					<string>ih03</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singleh</string>
+					<key>point1</key>
+					<string>ih01</string>
+					<key>point2</key>
+					<string>sh01</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

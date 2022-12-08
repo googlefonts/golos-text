@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="umacron" format="2">
+	<advance width="605"/>
+	<outline>
+		<contour>
+			<point x="267" y="-10" type="curve" smooth="yes" name="ih01"/>
+			<point x="358" y="-10" name="iv01"/>
+			<point x="419" y="41"/>
+			<point x="443" y="100" type="curve" name="ab02"/>
+			<point x="443" y="0" type="line" name="hr01"/>
+			<point x="525" y="0" type="line" name="at02"/>
+			<point x="525" y="530" type="line"/>
+			<point x="437" y="530" type="line" name="sv01"/>
+			<point x="437" y="220" type="line" smooth="yes"/>
+			<point x="437" y="145"/>
+			<point x="393" y="70" name="at01"/>
+			<point x="293" y="70" type="curve" smooth="yes" name="hr01"/>
+			<point x="201" y="70" name="ab01"/>
+			<point x="163" y="121" name="ih02"/>
+			<point x="163" y="220" type="curve" smooth="yes" name="ih03"/>
+			<point x="163" y="530" type="line"/>
+			<point x="75" y="530" type="line"/>
+			<point x="75" y="215" type="line" smooth="yes"/>
+			<point x="75" y="62"/>
+			<point x="139" y="-10"/>
+		</contour>
+		<contour>
+			<point x="20" y="626" type="line"/>
+			<point x="280" y="626" type="line" name="av01"/>
+			<point x="280" y="694" type="line" name="sv01"/>
+			<point x="20" y="694" type="line" name="ih01"/>
+		</contour>
+	</outline>
+</glyph>

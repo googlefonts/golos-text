@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="five" format="2">
+	<advance width="590" height="0"/>
+	<unicode hex="0035"/>
+	<outline>
+		<contour>
+			<point x="295" y="-11" type="curve" smooth="yes"/>
+			<point x="444" y="-11"/>
+			<point x="545" y="85" name="iv02"/>
+			<point x="545" y="237" type="curve" smooth="yes" name="iv04"/>
+			<point x="545" y="396"/>
+			<point x="456" y="482" name="sv03"/>
+			<point x="320" y="482" type="curve" smooth="yes"/>
+			<point x="257" y="482" name="at01"/>
+			<point x="219" y="462"/>
+			<point x="188" y="433" type="curve" name="iv03"/>
+			<point x="188" y="596" type="line" name="sv02"/>
+			<point x="505" y="596" type="line"/>
+			<point x="505" y="700" type="line" name="sv01"/>
+			<point x="70" y="700" type="line"/>
+			<point x="70" y="320" type="line" name="iv01"/>
+			<point x="178" y="320" type="line" name="ih01"/>
+			<point x="201" y="355" name="ih02"/>
+			<point x="238" y="376" name="ih03"/>
+			<point x="295" y="376" type="curve" smooth="yes"/>
+			<point x="359" y="376"/>
+			<point x="425" y="339"/>
+			<point x="425" y="236" type="curve" smooth="yes"/>
+			<point x="425" y="144"/>
+			<point x="376" y="95"/>
+			<point x="295" y="95" type="curve" smooth="yes"/>
+			<point x="223" y="95"/>
+			<point x="182" y="132"/>
+			<point x="175" y="180" type="curve" name="hr01"/>
+			<point x="55" y="180" type="line"/>
+			<point x="60" y="83"/>
+			<point x="130" y="-11"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttcommands</key>
+			<array>
+				<dict>
+					<key>code</key>
+					<string>alignt</string>
+					<key>point</key>
+					<string>at01</string>
+					<key>zone</key>
+					<string>uc</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<string>alignb</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>zone</key>
+					<string>b: 0</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>iv02</string>
+					<key>point1</key>
+					<string>at01</string>
+					<key>point2</key>
+					<string>ih01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>iv02</string>
+					<key>point2</key>
+					<string>sv02</string>
+					<key>stem</key>
+					<string>OH: 104</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>right</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>iv04</string>
+					<key>point1</key>
+					<string>iv02</string>
+					<key>point2</key>
+					<string>sv02</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>at01</string>
+					<key>point2</key>
+					<string>sv03</string>
+					<key>stem</key>
+					<string>OH: 104</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>iv03</string>
+					<key>point1</key>
+					<string>sv02</string>
+					<key>point2</key>
+					<string>ih01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>ih01</string>
+					<key>point2</key>
+					<string>sv01</string>
+					<key>stem</key>
+					<string>OH: 104</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>iv01</string>
+					<key>point1</key>
+					<string>ih01</string>
+					<key>point2</key>
+					<string>at01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolateh</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>point1</key>
+					<string>ih02</string>
+					<key>point2</key>
+					<string>ih03</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0446" format="2">
+	<advance width="630" height="0"/>
+	<outline>
+		<contour>
+			<point x="489" y="-125" type="line" name="hr03"/>
+			<point x="605" y="-125" type="line" name="av01"/>
+			<point x="605" y="110" type="line" name="sv02"/>
+			<point x="530" y="110" type="line" name="hr01"/>
+			<point x="530" y="530" type="line"/>
+			<point x="398" y="530" type="line" name="at02"/>
+			<point x="398" y="110" type="line" name="ih01"/>
+			<point x="192" y="110" type="line" name="sv01"/>
+			<point x="192" y="530" type="line"/>
+			<point x="60" y="530" type="line" name="at01"/>
+			<point x="60" y="0" type="line" name="hr02"/>
+			<point x="489" y="0" type="line" name="hr03"/>
+		</contour>
+	</outline>
+</glyph>

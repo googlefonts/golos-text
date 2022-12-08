@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0394.tab" format="2">
+	<advance width="640" height="0"/>
+	<outline>
+		<contour>
+			<point x="632" y="0" type="line"/>
+			<point x="401" y="700" type="line"/>
+			<point x="239" y="700" type="line" name="sh01"/>
+			<point x="8" y="0" type="line" name="ab01"/>
+		</contour>
+		<contour>
+			<point x="313" y="520" type="line" name="ih01"/>
+			<point x="431" y="126" type="line"/>
+			<point x="194" y="126" type="line" name="sv01"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttcommands</key>
+			<array>
+				<dict>
+					<key>code</key>
+					<string>alignt</string>
+					<key>point</key>
+					<string>sh01</string>
+					<key>zone</key>
+					<string>uc</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<string>alignb</string>
+					<key>point</key>
+					<string>ab01</string>
+					<key>zone</key>
+					<string>b: 0</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>right</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>point1</key>
+					<string>sh01</string>
+					<key>point2</key>
+					<string>ab01</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<string>mdeltav</string>
+					<key>delta</key>
+					<integer>6</integer>
+					<key>point</key>
+					<string>ih01</string>
+					<key>ppm1</key>
+					<integer>21</integer>
+					<key>ppm2</key>
+					<integer>21</integer>
+				</dict>
+				<dict>
+					<key>code</key>
+					<string>mdeltav</string>
+					<key>delta</key>
+					<integer>3</integer>
+					<key>point</key>
+					<string>ih01</string>
+					<key>ppm1</key>
+					<integer>15</integer>
+					<key>ppm2</key>
+					<integer>20</integer>
+				</dict>
+				<dict>
+					<key>code</key>
+					<string>mdeltav</string>
+					<key>delta</key>
+					<integer>3</integer>
+					<key>point</key>
+					<string>ih01</string>
+					<key>ppm1</key>
+					<integer>11</integer>
+					<key>ppm2</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>ab01</string>
+					<key>point2</key>
+					<string>sv01</string>
+					<key>stem</key>
+					<string>OH: 124</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolateh</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>point1</key>
+					<string>lsb</string>
+					<key>point2</key>
+					<string>rsb</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>right</string>
+					<key>code</key>
+					<string>singleh</string>
+					<key>point1</key>
+					<string>ih01</string>
+					<key>point2</key>
+					<string>sh01</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

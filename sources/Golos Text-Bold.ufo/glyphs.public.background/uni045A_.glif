@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni045A" format="2">
+	<advance width="890" height="0"/>
+	<outline>
+		<contour>
+			<point x="50" y="0" type="line"/>
+			<point x="204" y="0" type="line" name="ab02"/>
+			<point x="204" y="222" type="line" name="sv01"/>
+			<point x="396" y="222" type="line"/>
+			<point x="396" y="0" type="line"/>
+			<point x="670" y="0" type="line" smooth="yes" name="ab01"/>
+			<point x="811" y="0"/>
+			<point x="870" y="73"/>
+			<point x="870" y="172" type="curve" smooth="yes" name="iv02"/>
+			<point x="870" y="285"/>
+			<point x="799" y="343" name="at02"/>
+			<point x="670" y="343" type="curve" smooth="yes" name="ih01"/>
+			<point x="550" y="343" type="line" name="iv01"/>
+			<point x="550" y="530" type="line"/>
+			<point x="396" y="530" type="line" name="at01"/>
+			<point x="396" y="348" type="line"/>
+			<point x="204" y="348" type="line" name="sh01"/>
+			<point x="204" y="530" type="line"/>
+			<point x="50" y="530" type="line"/>
+		</contour>
+		<contour>
+			<point x="550" y="116" type="line" name="sv02"/>
+			<point x="550" y="227" type="line" name="ih02"/>
+			<point x="650" y="227" type="line" smooth="yes" name="ih03"/>
+			<point x="694" y="227"/>
+			<point x="716" y="209"/>
+			<point x="716" y="172" type="curve" smooth="yes"/>
+			<point x="716" y="137"/>
+			<point x="694" y="116"/>
+			<point x="650" y="116" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+</glyph>

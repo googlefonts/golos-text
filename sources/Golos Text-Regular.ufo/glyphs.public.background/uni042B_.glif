@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni042B" format="2">
+	<advance width="890" height="0"/>
+	<outline>
+		<contour>
+			<point x="100" y="0" type="line"/>
+			<point x="320" y="0" type="line" smooth="yes"/>
+			<point x="505" y="0"/>
+			<point x="590" y="85"/>
+			<point x="590" y="210" type="curve" smooth="yes"/>
+			<point x="590" y="335"/>
+			<point x="505" y="420"/>
+			<point x="320" y="420" type="curve" smooth="yes"/>
+			<point x="194" y="420" type="line"/>
+			<point x="194" y="700" type="line"/>
+			<point x="100" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="194" y="82" type="line"/>
+			<point x="194" y="338" type="line"/>
+			<point x="315" y="338" type="line" smooth="yes"/>
+			<point x="448" y="338"/>
+			<point x="496" y="291"/>
+			<point x="496" y="210" type="curve" smooth="yes"/>
+			<point x="496" y="129"/>
+			<point x="448" y="82"/>
+			<point x="315" y="82" type="curve" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="696" y="0" type="line"/>
+			<point x="790" y="0" type="line"/>
+			<point x="790" y="700" type="line"/>
+			<point x="696" y="700" type="line"/>
+		</contour>
+	</outline>
+</glyph>

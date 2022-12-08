@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ygrave" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="155" y="-213" type="curve" smooth="yes"/>
+			<point x="290" y="-213"/>
+			<point x="328" y="-150"/>
+			<point x="387" y="0" type="curve" smooth="yes" name="at02"/>
+			<point x="590" y="530" type="line" name="ih01"/>
+			<point x="437" y="530" type="line"/>
+			<point x="312" y="177" type="line" name="at01"/>
+			<point x="180" y="530" type="line" name="ab02"/>
+			<point x="10" y="530" type="line" name="sv01"/>
+			<point x="234" y="1" type="line"/>
+			<point x="210" y="-62"/>
+			<point x="194" y="-85" name="ab01"/>
+			<point x="155" y="-85" type="curve" smooth="yes" name="ih02"/>
+			<point x="145" y="-85" name="ih03"/>
+			<point x="135" y="-84"/>
+			<point x="125" y="-82" type="curve"/>
+			<point x="125" y="-210" type="line"/>
+			<point x="135" y="-212"/>
+			<point x="145" y="-213"/>
+		</contour>
+		<contour>
+			<point x="170" y="580" type="line" name="ih01"/>
+			<point x="290" y="580" type="line" name="ab01"/>
+			<point x="180" y="740" type="line"/>
+			<point x="20" y="740" type="line" name="sv01"/>
+		</contour>
+	</outline>
+</glyph>

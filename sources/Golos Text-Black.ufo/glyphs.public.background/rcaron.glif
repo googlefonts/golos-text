@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rcaron" format="2">
+	<advance width="405"/>
+	<outline>
+		<contour>
+			<point x="35" y="0" type="line"/>
+			<point x="255" y="0" type="line" name="ab01"/>
+			<point x="255" y="310" type="line" smooth="yes"/>
+			<point x="255" y="346" name="sv01"/>
+			<point x="274" y="367"/>
+			<point x="330" y="367" type="curve" smooth="yes"/>
+			<point x="351" y="367" name="at01"/>
+			<point x="378" y="362" name="iv01"/>
+			<point x="395" y="354" type="curve" name="ih01"/>
+			<point x="395" y="537" type="line" name="at02"/>
+			<point x="380" y="544" name="ih02"/>
+			<point x="361" y="545" name="ih03"/>
+			<point x="345" y="545" type="curve" smooth="yes"/>
+			<point x="290" y="545"/>
+			<point x="252" y="511"/>
+			<point x="239" y="470" type="curve" name="hr01"/>
+			<point x="239" y="530" type="line" name="hr02"/>
+			<point x="35" y="530" type="line"/>
+		</contour>
+		<contour>
+			<point x="130" y="580" type="line"/>
+			<point x="330" y="580" type="line" name="ab01"/>
+			<point x="440" y="740" type="line" name="sv03"/>
+			<point x="290" y="740" type="line" name="sv02"/>
+			<point x="230" y="683" type="line" name="ih01"/>
+			<point x="170" y="740" type="line"/>
+			<point x="20" y="740" type="line" name="sv01"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bullet" format="2">
+	<advance width="400" height="0"/>
+	<unicode hex="2022"/>
+	<outline>
+		<contour>
+			<point x="200" y="145" type="curve" smooth="yes"/>
+			<point x="273" y="145"/>
+			<point x="330" y="202" name="sv01"/>
+			<point x="330" y="275" type="curve" smooth="yes"/>
+			<point x="330" y="348" name="ih01"/>
+			<point x="273" y="405" name="ih02"/>
+			<point x="200" y="405" type="curve" smooth="yes" name="ih03"/>
+			<point x="127" y="405"/>
+			<point x="70" y="348"/>
+			<point x="70" y="275" type="curve" smooth="yes"/>
+			<point x="70" y="202"/>
+			<point x="127" y="145"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttcommands</key>
+			<array>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>alignv</string>
+					<key>point</key>
+					<string>ih01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>right</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>ih01</string>
+					<key>point2</key>
+					<string>sv01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolateh</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>point1</key>
+					<string>ih02</string>
+					<key>point2</key>
+					<string>ih03</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

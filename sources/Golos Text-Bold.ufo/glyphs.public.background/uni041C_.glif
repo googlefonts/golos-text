@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni041C" format="2">
+	<advance width="890"/>
+	<outline>
+		<contour>
+			<point x="70" y="0" type="line"/>
+			<point x="250" y="0" type="line" name="ab02"/>
+			<point x="250" y="401" type="line" name="iv03"/>
+			<point x="395" y="135" type="line"/>
+			<point x="495" y="135" type="line" name="iv01"/>
+			<point x="640" y="401" type="line" name="iv02"/>
+			<point x="640" y="0" type="line"/>
+			<point x="820" y="0" type="line" name="ab01"/>
+			<point x="820" y="700" type="line"/>
+			<point x="640" y="700" type="line" name="at02"/>
+			<point x="448" y="345" type="line" name="ih01"/>
+			<point x="254" y="700" type="line"/>
+			<point x="70" y="700" type="line" name="at01"/>
+		</contour>
+	</outline>
+</glyph>

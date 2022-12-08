@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Sacute" format="2">
+	<advance width="660"/>
+	<outline>
+		<contour>
+			<point x="330" y="-12" type="curve" smooth="yes"/>
+			<point x="511" y="-12"/>
+			<point x="615" y="71" name="iv03"/>
+			<point x="615" y="200" type="curve" smooth="yes"/>
+			<point x="615" y="337" name="sv02"/>
+			<point x="526" y="388" name="iv04"/>
+			<point x="375" y="417" type="curve" smooth="yes"/>
+			<point x="264" y="438" name="at01"/>
+			<point x="215" y="465"/>
+			<point x="215" y="516" type="curve" smooth="yes" name="iv01"/>
+			<point x="215" y="559"/>
+			<point x="251" y="586" name="sv01"/>
+			<point x="330" y="586" type="curve" smooth="yes" name="iv02"/>
+			<point x="407" y="586"/>
+			<point x="436" y="563" name="ih01"/>
+			<point x="445" y="515" type="curve" name="ih02"/>
+			<point x="595" y="515" type="line" name="ih03"/>
+			<point x="584" y="634"/>
+			<point x="506" y="712"/>
+			<point x="330" y="712" type="curve" smooth="yes"/>
+			<point x="167" y="712"/>
+			<point x="65" y="633"/>
+			<point x="65" y="512" type="curve" smooth="yes"/>
+			<point x="65" y="380"/>
+			<point x="147" y="323"/>
+			<point x="291" y="296" type="curve" smooth="yes"/>
+			<point x="412" y="272"/>
+			<point x="465" y="248"/>
+			<point x="465" y="189" type="curve" smooth="yes"/>
+			<point x="465" y="141"/>
+			<point x="426" y="114"/>
+			<point x="330" y="114" type="curve" smooth="yes"/>
+			<point x="236" y="114"/>
+			<point x="205" y="143"/>
+			<point x="195" y="195" type="curve" name="hr01"/>
+			<point x="45" y="195" type="line"/>
+			<point x="50" y="71"/>
+			<point x="145" y="-12"/>
+		</contour>
+		<contour>
+			<point x="20" y="580" type="line"/>
+			<point x="130" y="580" type="line" name="ab01"/>
+			<point x="280" y="740" type="line"/>
+			<point x="130" y="740" type="line" name="ih01"/>
+		</contour>
+	</outline>
+</glyph>

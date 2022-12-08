@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04AE" format="2">
+	<advance width="640" height="0"/>
+	<outline>
+		<contour>
+			<point x="377" y="0" type="line"/>
+			<point x="377" y="277" type="line"/>
+			<point x="630" y="700" type="line"/>
+			<point x="526" y="700" type="line" name="at02"/>
+			<point x="329" y="374" type="line" name="ih01"/>
+			<point x="118" y="700" type="line"/>
+			<point x="10" y="700" type="line" name="at01"/>
+			<point x="283" y="277" type="line"/>
+			<point x="283" y="0" type="line" name="ab01"/>
+		</contour>
+	</outline>
+</glyph>

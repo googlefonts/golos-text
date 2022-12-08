@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04F2" format="2">
+	<advance width="710"/>
+	<outline>
+		<contour>
+			<point x="210" y="-13" type="curve" smooth="yes"/>
+			<point x="355" y="-13"/>
+			<point x="405" y="35"/>
+			<point x="466" y="170" type="curve" smooth="yes"/>
+			<point x="700" y="700" type="line"/>
+			<point x="524" y="700" type="line"/>
+			<point x="378" y="345" type="line"/>
+			<point x="192" y="700" type="line"/>
+			<point x="10" y="700" type="line"/>
+			<point x="290" y="189" type="line"/>
+			<point x="277" y="149"/>
+			<point x="263" y="137"/>
+			<point x="205" y="137" type="curve" smooth="yes"/>
+			<point x="190" y="137"/>
+			<point x="181" y="139"/>
+			<point x="170" y="140" type="curve"/>
+			<point x="170" y="-9" type="line"/>
+			<point x="181" y="-12"/>
+			<point x="195" y="-13"/>
+		</contour>
+		<contour>
+			<point x="220" y="750" type="line"/>
+			<point x="331" y="750" type="line" name="ab02"/>
+			<point x="462" y="900" type="line" name="ih01"/>
+			<point x="326" y="900" type="line" name="sv01"/>
+		</contour>
+		<contour>
+			<point x="396" y="750" type="line" name="sh01"/>
+			<point x="507" y="750" type="line" name="ab01"/>
+			<point x="668" y="900" type="line" name="sv03"/>
+			<point x="527" y="900" type="line" name="sv02"/>
+		</contour>
+	</outline>
+</glyph>

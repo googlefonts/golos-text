@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omacron" format="2">
+	<advance width="760"/>
+	<outline>
+		<contour>
+			<point x="380" y="-15" type="curve" smooth="yes"/>
+			<point x="577" y="-15"/>
+			<point x="740" y="96"/>
+			<point x="740" y="345" type="curve" smooth="yes" name="at01"/>
+			<point x="740" y="365" type="line" smooth="yes"/>
+			<point x="740" y="604"/>
+			<point x="577" y="715" name="ih01"/>
+			<point x="380" y="715" type="curve" smooth="yes"/>
+			<point x="183" y="715"/>
+			<point x="20" y="604"/>
+			<point x="20" y="365" type="curve" smooth="yes" name="sv01"/>
+			<point x="20" y="345" type="line" smooth="yes"/>
+			<point x="20" y="93"/>
+			<point x="183" y="-15" name="sh01"/>
+		</contour>
+		<contour>
+			<point x="380" y="199" type="curve" smooth="yes" name="ih03"/>
+			<point x="324" y="199"/>
+			<point x="290" y="240"/>
+			<point x="290" y="345" type="curve" smooth="yes"/>
+			<point x="290" y="365" type="line" smooth="yes"/>
+			<point x="290" y="461"/>
+			<point x="324" y="501"/>
+			<point x="380" y="501" type="curve" smooth="yes"/>
+			<point x="436" y="501"/>
+			<point x="470" y="461"/>
+			<point x="470" y="365" type="curve" smooth="yes"/>
+			<point x="470" y="345" type="line" smooth="yes"/>
+			<point x="470" y="240"/>
+			<point x="436" y="199"/>
+		</contour>
+		<contour>
+			<point x="20" y="597" type="line"/>
+			<point x="360" y="597" type="line" name="av01"/>
+			<point x="360" y="723" type="line" name="sv01"/>
+			<point x="20" y="723" type="line" name="ih01"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni044A" format="2">
+	<advance width="625" height="0"/>
+	<outline>
+		<contour>
+			<point x="100" y="0" type="line"/>
+			<point x="385" y="0" type="line" smooth="yes" name="ab01"/>
+			<point x="553" y="0"/>
+			<point x="610" y="85" name="iv01"/>
+			<point x="610" y="189" type="curve" smooth="yes"/>
+			<point x="610" y="320" name="ih01"/>
+			<point x="526" y="368" name="at01"/>
+			<point x="385" y="368" type="curve" smooth="yes"/>
+			<point x="320" y="368" type="line" name="sv01"/>
+			<point x="320" y="530" type="line" name="hr01"/>
+			<point x="10" y="530" type="line" name="sh01"/>
+			<point x="10" y="354" type="line"/>
+			<point x="100" y="354" type="line"/>
+		</contour>
+		<contour>
+			<point x="320" y="156" type="line" name="sv02"/>
+			<point x="320" y="222" type="line" name="ih02"/>
+			<point x="348" y="222" type="line" smooth="yes" name="ih03"/>
+			<point x="375" y="222"/>
+			<point x="390" y="213"/>
+			<point x="390" y="189" type="curve" smooth="yes"/>
+			<point x="390" y="167"/>
+			<point x="376" y="156"/>
+			<point x="349" y="156" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+</glyph>

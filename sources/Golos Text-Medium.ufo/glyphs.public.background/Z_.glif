@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Z" format="2">
+	<advance width="610" height="0"/>
+	<outline>
+		<contour>
+			<point x="40" y="0" type="line"/>
+			<point x="570" y="0" type="line" name="ab01"/>
+			<point x="570" y="104" type="line"/>
+			<point x="184" y="104" type="line" name="sv01"/>
+			<point x="560" y="606" type="line" name="sv03"/>
+			<point x="560" y="700" type="line"/>
+			<point x="50" y="700" type="line" name="at01"/>
+			<point x="50" y="596" type="line"/>
+			<point x="416" y="596" type="line" name="ih01"/>
+			<point x="40" y="94" type="line" name="sv02"/>
+		</contour>
+	</outline>
+</glyph>

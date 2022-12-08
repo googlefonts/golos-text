@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E9E" format="2">
+	<advance width="705" height="0"/>
+	<unicode hex="1E9E"/>
+	<anchor x="353" y="0" name="bottom"/>
+	<anchor x="353" y="700" name="top"/>
+	<outline>
+		<contour>
+			<point x="355" y="713" type="curve" smooth="yes"/>
+			<point x="176" y="713"/>
+			<point x="60" y="615"/>
+			<point x="60" y="420" type="curve" smooth="yes" name="ab02"/>
+			<point x="60" y="0" type="line"/>
+			<point x="240" y="0" type="line" name="sv03"/>
+			<point x="240" y="400" type="line" smooth="yes"/>
+			<point x="240" y="508" name="iv02"/>
+			<point x="281" y="563"/>
+			<point x="374" y="563" type="curve" smooth="yes" name="sv02"/>
+			<point x="430" y="563"/>
+			<point x="459" y="542"/>
+			<point x="474" y="503" type="curve" name="sv01"/>
+			<point x="358" y="377" type="line"/>
+			<point x="358" y="295" type="line" name="ab01"/>
+			<point x="400" y="295" type="line" smooth="yes"/>
+			<point x="455" y="295" name="iv01"/>
+			<point x="490" y="277"/>
+			<point x="490" y="221" type="curve" smooth="yes" name="ih01"/>
+			<point x="490" y="174" name="ih02"/>
+			<point x="466" y="140" name="ih03"/>
+			<point x="415" y="140" type="curve" smooth="yes"/>
+			<point x="363" y="140" type="line"/>
+			<point x="363" y="0" type="line"/>
+			<point x="444" y="0" type="line" smooth="yes"/>
+			<point x="579" y="0"/>
+			<point x="670" y="72"/>
+			<point x="670" y="216" type="curve" smooth="yes"/>
+			<point x="670" y="321"/>
+			<point x="617" y="373"/>
+			<point x="545" y="388" type="curve"/>
+			<point x="652" y="503" type="line"/>
+			<point x="620" y="635"/>
+			<point x="516" y="713"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttcommands</key>
+			<array>
+				<dict>
+					<key>code</key>
+					<string>alignt</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>zone</key>
+					<string>uc</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<string>alignb</string>
+					<key>point</key>
+					<string>ab01</string>
+					<key>zone</key>
+					<string>b: 0</string>
+				</dict>
+				<dict>
+					<key>code</key>
+					<string>alignb</string>
+					<key>point</key>
+					<string>ab02</string>
+					<key>zone</key>
+					<string>b: 0</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>ih01</string>
+					<key>point2</key>
+					<string>sv03</string>
+					<key>stem</key>
+					<string>OH: 148</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>iv01</string>
+					<key>point1</key>
+					<string>ih01</string>
+					<key>point2</key>
+					<string>ab01</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>iv01</string>
+					<key>point2</key>
+					<string>sv02</string>
+					<key>round</key>
+					<string>true</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolatev</string>
+					<key>point</key>
+					<string>iv02</string>
+					<key>point1</key>
+					<string>iv01</string>
+					<key>point2</key>
+					<string>sv02</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>singlev</string>
+					<key>point1</key>
+					<string>ab01</string>
+					<key>point2</key>
+					<string>sv01</string>
+					<key>stem</key>
+					<string>BES: 138</string>
+				</dict>
+				<dict>
+					<key>align</key>
+					<string>round</string>
+					<key>code</key>
+					<string>interpolateh</string>
+					<key>point</key>
+					<string>ih01</string>
+					<key>point1</key>
+					<string>ih02</string>
+					<key>point2</key>
+					<string>ih03</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

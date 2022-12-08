@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ygrave" format="2">
+	<advance width="680"/>
+	<outline>
+		<contour>
+			<point x="275" y="0" type="line"/>
+			<point x="425" y="0" type="line" name="ab01"/>
+			<point x="425" y="267" type="line"/>
+			<point x="670" y="700" type="line"/>
+			<point x="510" y="700" type="line" name="at02"/>
+			<point x="353" y="419" type="line" name="ih01"/>
+			<point x="186" y="700" type="line"/>
+			<point x="10" y="700" type="line" name="at01"/>
+			<point x="275" y="267" type="line"/>
+		</contour>
+		<contour>
+			<point x="170" y="580" type="line"/>
+			<point x="280" y="580" type="line" name="ab01"/>
+			<point x="170" y="740" type="line" name="ih01"/>
+			<point x="20" y="740" type="line" name="sv01"/>
+		</contour>
+	</outline>
+</glyph>

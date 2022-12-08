@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Edieresis" format="2">
+	<advance width="610"/>
+	<outline>
+		<contour>
+			<point x="100" y="0" type="line"/>
+			<point x="550" y="0" type="line" name="ab01"/>
+			<point x="550" y="82" type="line"/>
+			<point x="194" y="82" type="line" name="sv03"/>
+			<point x="194" y="319" type="line"/>
+			<point x="520" y="319" type="line" name="sv02"/>
+			<point x="520" y="401" type="line" name="iv01"/>
+			<point x="194" y="401" type="line"/>
+			<point x="194" y="618" type="line" name="ih01"/>
+			<point x="550" y="618" type="line" name="sv01"/>
+			<point x="550" y="700" type="line"/>
+			<point x="100" y="700" type="line" name="at01"/>
+		</contour>
+		<contour>
+			<point x="215" y="765" type="curve" smooth="yes"/>
+			<point x="248" y="765"/>
+			<point x="275" y="792"/>
+			<point x="275" y="825" type="curve" smooth="yes"/>
+			<point x="275" y="858"/>
+			<point x="248" y="885"/>
+			<point x="215" y="885" type="curve" smooth="yes"/>
+			<point x="182" y="885"/>
+			<point x="155" y="858"/>
+			<point x="155" y="825" type="curve" smooth="yes"/>
+			<point x="155" y="792"/>
+			<point x="182" y="765"/>
+		</contour>
+		<contour>
+			<point x="435" y="765" type="curve" smooth="yes"/>
+			<point x="468" y="765"/>
+			<point x="495" y="792"/>
+			<point x="495" y="825" type="curve" smooth="yes"/>
+			<point x="495" y="858"/>
+			<point x="468" y="885"/>
+			<point x="435" y="885" type="curve" smooth="yes"/>
+			<point x="402" y="885"/>
+			<point x="375" y="858"/>
+			<point x="375" y="825" type="curve" smooth="yes"/>
+			<point x="375" y="792"/>
+			<point x="402" y="765"/>
+		</contour>
+	</outline>
+</glyph>

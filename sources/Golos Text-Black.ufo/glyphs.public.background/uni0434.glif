@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0434" format="2">
+	<advance width="640" height="0"/>
+	<outline>
+		<contour>
+			<point x="14" y="-125" type="line"/>
+			<point x="194" y="-125" type="line" name="av02"/>
+			<point x="194" y="0" type="line"/>
+			<point x="445" y="0" type="line" name="ab01"/>
+			<point x="445" y="-125" type="line" name="sh01"/>
+			<point x="625" y="-125" type="line" name="av01"/>
+			<point x="625" y="176" type="line" name="sv02"/>
+			<point x="575" y="176" type="line" name="hr01"/>
+			<point x="575" y="530" type="line"/>
+			<point x="100" y="530" type="line" name="at01"/>
+			<point x="100" y="341" type="line" smooth="yes"/>
+			<point x="100" y="285"/>
+			<point x="91" y="219" name="sv01"/>
+			<point x="64" y="176" type="curve" name="sv05"/>
+			<point x="14" y="176" type="line" name="hr02"/>
+		</contour>
+		<contour>
+			<point x="268" y="176" type="line" name="ih01"/>
+			<point x="279" y="200" name="sv04"/>
+			<point x="290" y="245" name="sv03"/>
+			<point x="290" y="320" type="curve" smooth="yes" name="ih02"/>
+			<point x="290" y="354" type="line" name="ih03"/>
+			<point x="355" y="354" type="line"/>
+			<point x="355" y="176" type="line"/>
+		</contour>
+	</outline>
+</glyph>

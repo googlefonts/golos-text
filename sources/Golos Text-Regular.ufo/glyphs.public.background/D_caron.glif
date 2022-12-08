@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dcaron" format="2">
+	<advance width="700"/>
+	<outline>
+		<contour>
+			<point x="100" y="0" type="line"/>
+			<point x="295" y="0" type="line" smooth="yes"/>
+			<point x="511" y="0"/>
+			<point x="640" y="121"/>
+			<point x="640" y="345" type="curve" smooth="yes"/>
+			<point x="640" y="365" type="line" smooth="yes"/>
+			<point x="640" y="585"/>
+			<point x="515" y="700"/>
+			<point x="305" y="700" type="curve" smooth="yes"/>
+			<point x="100" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="194" y="82" type="line"/>
+			<point x="194" y="618" type="line"/>
+			<point x="295" y="618" type="line" smooth="yes"/>
+			<point x="445" y="618"/>
+			<point x="540" y="544"/>
+			<point x="540" y="365" type="curve" smooth="yes"/>
+			<point x="540" y="345" type="line" smooth="yes"/>
+			<point x="540" y="158"/>
+			<point x="443" y="82"/>
+			<point x="285" y="82" type="curve" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="130" y="580" type="line"/>
+			<point x="220" y="580" type="line" name="ab01"/>
+			<point x="330" y="740" type="line" name="sv03"/>
+			<point x="260" y="740" type="line" name="sv02"/>
+			<point x="175" y="649" type="line" name="ih01"/>
+			<point x="90" y="740" type="line"/>
+			<point x="20" y="740" type="line" name="sv01"/>
+		</contour>
+	</outline>
+</glyph>

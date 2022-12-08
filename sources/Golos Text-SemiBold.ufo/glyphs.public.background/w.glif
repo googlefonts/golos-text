@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="w" format="2">
+	<advance width="830" height="0"/>
+	<outline>
+		<contour>
+			<point x="168" y="0" type="line"/>
+			<point x="300" y="0" type="line" name="ab02"/>
+			<point x="413" y="370" type="line" name="ih01"/>
+			<point x="530" y="0" type="line"/>
+			<point x="662" y="0" type="line" name="ab01"/>
+			<point x="810" y="530" type="line"/>
+			<point x="680" y="530" type="line" name="at03"/>
+			<point x="589" y="180" type="line" name="iv02"/>
+			<point x="477" y="530" type="line"/>
+			<point x="355" y="530" type="line" name="at02"/>
+			<point x="248" y="180" type="line" name="iv01"/>
+			<point x="162" y="530" type="line"/>
+			<point x="20" y="530" type="line" name="at01"/>
+		</contour>
+	</outline>
+</glyph>

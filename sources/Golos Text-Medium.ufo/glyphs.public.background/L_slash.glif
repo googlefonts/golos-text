@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lslash" format="2">
+	<advance width="600" height="0"/>
+	<outline>
+		<contour>
+			<point x="120" y="0" type="line"/>
+			<point x="580" y="0" type="line" name="ab01"/>
+			<point x="580" y="104" type="line"/>
+			<point x="240" y="104" type="line" name="sv01"/>
+			<point x="240" y="318" type="line" name="iv05"/>
+			<point x="410" y="416" type="line"/>
+			<point x="410" y="520" type="line" name="iv01"/>
+			<point x="240" y="422" type="line" name="iv04"/>
+			<point x="240" y="700" type="line" name="ih01"/>
+			<point x="120" y="700" type="line" name="hr01"/>
+			<point x="120" y="353" type="line" name="iv03"/>
+			<point x="20" y="295" type="line" name="hr02"/>
+			<point x="20" y="191" type="line" name="iv02"/>
+			<point x="120" y="249" type="line" name="hr03"/>
+		</contour>
+	</outline>
+</glyph>

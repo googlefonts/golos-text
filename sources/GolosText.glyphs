@@ -1,6 +1,9 @@
 {
 .appVersion = "3148";
 .formatVersion = 3;
+DisplayStrings = (
+"җҙқҝҡңҥҫүұҳҷҹһӏӄӈӌӑӓӕӗәӛӝӟӣӥӧөӫӯӱӳӵӹԓ"
+);
 axes = (
 {
 name = Weight;
@@ -49,7 +52,7 @@ value = 1;
 }
 );
 date = "2020-12-15 19:55:51 +0000";
-familyName = "Golos Text VF";
+familyName = "Golos Text";
 featurePrefixes = (
 {
 automatic = 1;
@@ -70,8 +73,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature kern;
-feature locl;
+code = "feature locl;
 feature subs;
 feature sinf;
 feature sups;
@@ -84,1253 +86,6 @@ feature onum;
 feature case;
 ";
 tag = aalt;
-},
-{
-code = "@_A_left = [A Agrave Aacute Acircumflex Atilde Adieresis Aring];
-@_A_right = [A Agrave Aacute Acircumflex Atilde Adieresis Aring];
-@_B_left = [B Germandbls];
-@_E_left = [E AE Egrave Eacute Ecircumflex Edieresis OE];
-@_L_left = [L Lslash];
-@_H_left = [H I M N Igrave Ntilde];
-@_H_right = [H B D E F I K L M N P R Egrave Eacute Ecircumflex Edieresis Iacute Ntilde Thorn];
-@_O_left = [O D G Eth Ograve Oacute Ocircumflex Otilde Odieresis C Ccedilla];
-@_O_right = [O C G Q Ccedilla Ograve Oacute Ocircumflex Otilde Odieresis OE];
-@_S_left = [S Scaron];
-@_S_right = [S Scaron];
-@_U_left = [U J Ugrave Uacute Ucircumflex Udieresis];
-@_U_right = [U Ugrave Uacute Ucircumflex Udieresis];
-@_X_left = [X K];
-@_Y_left = [Y Yacute Ydieresis];
-@_Y_right = [Y Yacute Ydieresis];
-@_Z_left = [Z Zcaron];
-@_Z_right = [Z Zcaron];
-@_I_accented_left = [Idieresis Iacute Icircumflex];
-@_I_accented_right = [Idieresis Igrave Icircumflex];
-@_u_left = [u g q ugrave uacute ucircumflex udieresis idotless jdotless];
-@_n_right = [n m p r idotless jdotless];
-@_o_left = [o b e p ae egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis thorn oe];
-@_o_right = [o c d e g q ccedilla eacute oacute oe];
-@_a_right = [a aacute ae];
-@_c_left = [c ccedilla];
-@_d_left = [d i j igrave];
-@_h_right = [h b k thorn germandbls i j iacute];
-@_n_left = [n a h m agrave aacute acircumflex atilde adieresis aring ntilde];
-@_s_left = [s scaron];
-@_u_right = [u uacute];
-@_x_left = [x k];
-@_y_left = [y v yacute ydieresis];
-@_y_right = [y v yacute];
-@_z_left = [z zcaron];
-@_a_accented_right = [adieresis agrave acircumflex atilde aring];
-@_i_accented_left = [idieresis iacute icircumflex];
-@_i_accented_right = [idieresis igrave icircumflex];
-@_o_accented_right = [odieresis egrave ecircumflex edieresis eth ograve ocircumflex otilde];
-@_u_accented_right = [udieresis ugrave ucircumflex];
-@_cyrA_left = [ cyrAdieresis];
-@_cyrA_right = [cyrAcyrbreve cyrAdieresis cyrAE];
-@_cyr_En_left = [ cyrIdieresis cyrEnhook cyrChedescleft cyrChedieresis cyrYerudieresis cyrChevertbar cyrImacron cyrYerucyrbreve uni0512 cyrI];
-@_cyr_En_right = [afii10031 afii10018 afii10019 afii10020 afii10022 afii10026 afii10027 afii10028 afii10030 afii10033 afii10034 afii10040 afii10042 afii10043 afii10045 afii10046 afii10048 afii10023 afii10052 afii10059 afii10061 afii10145 afii10050 afii10055 uni04A2 uni04BA cyrGehook cyrIecyrbreve cyrIdieresis cyrKahook cyrEnGe cyrEnhook cyrYerudieresis cyrI cyrKadesc cyrKavertbar cyrImacron cyrYerucyrbreve];
-@_cyr_O_left = [afii10032 afii10038 afii10047 afii10048 afii10035 afii10053 uni04D8 uni04E8 cyrOdieresis cyrObardieresis cyrinvEdieresis cyrEstail cyrEstail.alt02];
-@_cyr_O_right = [afii10032 afii10035 afii10038 afii10053 afii10025 afii10047 uni04D8 uni04E8 cyrOdieresis cyrObardieresis cyrEstail cyrinvEdieresis cyrEstail.alt02];
-@_cyr_Ve_left = [afii10019 afii10025 cyrZetail cyrZedieresis];
-@_cyr_Ge_left = [afii10020 afii10052 afii10050 cyrGebar cyrEnGe];
-@_cyr_De_left = [afii10021 afii10040 afii10043 uni04A2 cyrChedesc];
-@_cyr_Ie_left = [afii10022 afii10023 cyrAE cyrIecyrbreve];
-@_cyr_El_right = [afii10029 afii10058 uni0512];
-@_cyr_Te_right = [afii10036 afii10044 afii10051 afii10060 cyrKaback];
-@_cyr_U_left = [afii10037 afii10062 uni04AE cyrUdieresis cyrUdblacute cyrUmacron cyrstraightUbar];
-@_cyr_U_right = [afii10037 afii10062 cyrUdieresis cyrUdblacute cyrUmacron];
-@_uni04AE_right = [uni04AE cyrstraightUbar];
-@_cyr_TverdiyZnak_left = [afii10044 afii10046 afii10051 afii10058 afii10059 uni04BA];
-@_cyr_Ha_left = [afii10039 afii10024 afii10028 afii10061 uni0496 cyrKadesc cyrHadesc cyrKavertbar cyrKaback cyrZhedieresis];
-@_cyr_Ha_right = [afii10039 afii10024 uni0496 cyrZhedieresis cyrHadesc];
-@_cyrChe_right = [afii10041 cyrChedescleft cyrChedieresis cyrChedesc cyrChevertbar];
-@_cyr_en_left = [afii10079 afii10074 afii10075 afii10077 afii10078 afii10081 afii10089 afii10090 afii10093 afii10097 afii10193 cyridieresis uni0513 cyrenhook cyrchedescleft cyrchedieresis cyryerudieresis cyrchevertbar cyrimacron cyryerucyrbreve];
-@_cyr_en_right = [afii10079 afii10067 afii10068 afii10074 afii10076 afii10078 afii10081 afii10082 afii10088 afii10090 afii10091 afii10093 afii10094 afii10096 afii10100 afii10107 afii10109 afii10193 afii10098 uni04A3 cyrgehook cyridieresis cyrkahook cyrenge cyrenhook cyryerudieresis cyrgebar.alt cyrkadesc cyrkavertbar cyrimacron cyryerucyrbreve];
-@_cyr_o_left = [afii10080 afii10066 afii10070 afii10082 afii10086 afii10095 afii10096 afii10071 uni04D9 uni04E9 cyrodieresis cyrobardieresis cyrinvedieresis];
-@_cyr_o_right = [afii10080 afii10070 afii10083 afii10086 afii10101 afii10073 afii10095 uni04D9 uni04E9 cyriecyrbreve cyrzetail cyrzedieresis cyrodieresis cyrobardieresis cyrestail cyrinvedieresis cyrestail.alt02];
-@_cyr_a_right = [afii10065 cyracyrbreve cyradieresis cyrae];
-@_cyr_a_left = [afii10065 afii10108 afii10099 cyracyrbreve cyradieresis];
-@_cyr_ve_left = [afii10067 afii10073 cyrzetail cyrzedieresis];
-@_cyr_de_left = [afii10069 afii10088 afii10091 uni04A3 cyrchedesc];
-@_cyr_el_right = [afii10077 afii10106 uni0513];
-@_cyr_es_left = [afii10083 afii10101 cyrestail cyrestail.alt02];
-@_cyr_te_left = [afii10084 afii10068 afii10100 afii10098 cyrgebar cyrgebar.alt];
-@_cyr_te_right = [afii10084 afii10092 cyrkaback];
-@_cyr_u_left = [afii10085 afii10110 uni04AF cyrstraightubar];
-@_cyr_ha_left = [afii10087 afii10072 afii10076 afii10109 uni0497 cyrzhedieresis cyrkaback cyrkadesc cyrkavertbar cyrhadesc];
-@_cyr_ha_right = [afii10087 afii10072 uni0497 cyrzhedieresis];
-@_cyr_tverdiyznak_left = [afii10092 afii10094 afii10106 afii10107];
-@_cyr_tshe_right = [afii10108 afii10099];
-@_cyr_che_right = [afii10089 cyrchedescleft cyrchedieresis cyrchedesc cyrchevertbar];
-@_cyr_i_left = [afii10103 afii10105];
-@_cyr_i_right = [afii10103 afii10105];
-@_dots_left = [period comma ellipsis];
-@_dots_right = [period comma ellipsis];
-@_dashes_left = [hyphen endash emdash];
-@_dashes_right = [hyphen endash emdash];
-@_quotes_base_left = [quotesinglbase quotedblbase];
-@_quotes_top_left = [quoteleft quotedblleft quoteright quotedblright];
-@_quotes_top_right = [quoteleft quotedblleft quoteright quotedblright];
-@_quotes_straight_top_left = [quotesingle quotedbl];
-@_quotes_straight_top_right = [quotesingle quotedbl];
-@_guill_left = [guilsinglleft guillemotleft];
-@_guill_right = [guilsinglright guillemotright];
-@_colon_left = [colon semicolon];
-@_colon_right = [colon semicolon];
-@_parenleft_left = [parenleft bracketleft braceleft angleleft];
-@_parenright_right = [parenright bracketright braceright angleright];
-   pos plus seven -60;
-   pos one degree -80;
-   pos four degree -50;
-   pos equal seven -60;
-   pos greater seven -60;
-   pos at w -10;
-   pos at x -10;
-   pos at ydieresis -20;
-   pos F J -60;
-   pos F T 20;
-   pos F V 20;
-   pos F W 20;
-   pos F s -10;
-   pos F x -10;
-   pos F z -10;
-   pos F AE -100;
-   pos F Oslash -5;
-   pos F oslash -10;
-   pos F lslash 20;
-   pos F zcaron -10;
-   pos P J -70;
-   pos P T -10;
-   pos P V -5;
-   pos P X -20;
-   pos P f 10;
-   pos P t 10;
-   pos P w 20;
-   pos P x 10;
-   pos P AE -100;
-   pos P oslash -10;
-   pos P ydieresis 20;
-   pos Q x -10;
-   pos Q AE -20;
-   pos Q lslash 10;
-   pos R question -20;
-   pos R J -10;
-   pos R T -10;
-   pos R V -20;
-   pos R l -10;
-   pos R s -5;
-   pos R x 20;
-   pos R z 10;
-   pos R AE 10;
-   pos R Lslash -10;
-   pos R lslash -10;
-   pos R scaron -4;
-   pos R zcaron 10;
-   pos T J -80;
-   pos T T 40;
-   pos T V 30;
-   pos T W 30;
-   pos T f -20;
-   pos T s -60;
-   pos T t -40;
-   pos T w -90;
-   pos T x -80;
-   pos T z -90;
-   pos T AE -120;
-   pos T Eth -10;
-   pos T Oslash -20;
-   pos T ntilde -70;
-   pos T oslash -90;
-   pos T ydieresis -80;
-   pos T Lslash -20;
-   pos T lslash -20;
-   pos T zcaron -40;
-   pos V J -80;
-   pos V T 30;
-   pos V V 20;
-   pos V W 20;
-   pos V X 10;
-   pos V f -20;
-   pos V s -50;
-   pos V t -10;
-   pos V x -20;
-   pos V z -20;
-   pos V AE -120;
-   pos V Eth -10;
-   pos V Oslash -20;
-   pos V ntilde -40;
-   pos V oslash -60;
-   pos V Lslash -20;
-   pos V lslash -20;
-   pos V scaron -40;
-   pos V zcaron -20;
-   pos W J -60;
-   pos W T 30;
-   pos W V 20;
-   pos W W 20;
-   pos W X 10;
-   pos W f -10;
-   pos W s -30;
-   pos W x -20;
-   pos W z -20;
-   pos W AE -80;
-   pos W Eth -10;
-   pos W Oslash -20;
-   pos W ntilde -20;
-   pos W oslash -40;
-   pos W Lslash -10;
-   pos W lslash -20;
-   pos W scaron -30;
-   pos W zcaron -10;
-   pos f f 10;
-   pos f t 10;
-   pos f w 20;
-   pos f oslash -10;
-   pos f ydieresis 20;
-   pos l f -20;
-   pos l t -20;
-   pos l w -10;
-   pos l x 20;
-   pos l z 10;
-   pos l ydieresis -20;
-   pos l lslash -20;
-   pos l zcaron 10;
-   pos r f 20;
-   pos r t 20;
-   pos r w 20;
-   pos r x 10;
-   pos r z 10;
-   pos r oslash -10;
-   pos r ydieresis 30;
-   pos r lslash 20;
-   pos r zcaron 10;
-   pos t t -10;
-   pos t w 10;
-   pos t x 20;
-   pos t z 20;
-   pos t ydieresis 20;
-   pos t lslash -20;
-   pos t zcaron 20;
-   pos w f 20;
-   pos w t 20;
-   pos w w 10;
-   pos w x 10;
-   pos w oslash -10;
-   pos w ydieresis 20;
-   pos degree four -90;
-   pos plusminus seven -60;
-   pos Oslash W 20;
-   pos Oslash X 10;
-   pos Oslash x -10;
-   pos Oslash z -10;
-   pos Oslash AE -50;
-   pos Oslash lslash 10;
-   pos Oslash zcaron -10;
-   pos Thorn question -10;
-   pos Thorn T -60;
-   pos Thorn V -20;
-   pos Thorn W -10;
-   pos Thorn X -50;
-   pos Thorn w 10;
-   pos Thorn x -10;
-   pos Thorn AE -60;
-   pos Thorn Eth 20;
-   pos Thorn ydieresis 10;
-   pos Thorn Lslash 20;
-   pos Thorn lslash 20;
-   pos germandbls f -10;
-   pos germandbls t -10;
-   pos germandbls x -10;
-   pos germandbls ydieresis -10;
-   pos ccedilla w -10;
-   pos divide seven -60;
-   pos oslash w -10;
-   pos oslash ydieresis -10;
-   pos oslash lslash 10;
-   pos lslash f 10;
-   pos lslash t 10;
-   pos lslash w 20;
-   pos lslash x 20;
-   pos lslash z 10;
-   pos lslash ydieresis 20;
-   pos lslash lslash -10;
-   pos lslash zcaron 10;
-   pos afii10054 afii10069 -10;
-   pos afii10056 afii10056 80;
-   pos afii10057 afii10021 -20;
-   pos afii10057 afii10049 -10;
-   pos afii10057 afii10069 -30;
-   pos afii10018 afii10057 10;
-   pos afii10018 afii10069 -10;
-   pos afii10018 afii10097 -10;
-   pos afii10034 afii10057 -70;
-   pos afii10034 afii10021 -60;
-   pos afii10034 afii10069 -50;
-   pos afii10034 afii10071 -10;
-   pos afii10034 afii10104 20;
-   pos afii10036 afii10054 -10;
-   pos afii10036 afii10057 -80;
-   pos afii10036 afii10021 -40;
-   pos afii10036 afii10049 -10;
-   pos afii10036 afii10066 -60;
-   pos afii10036 afii10069 -90;
-   pos afii10036 afii10075 -70;
-   pos afii10036 afii10097 -90;
-   pos afii10036 afii10071 -60;
-   pos afii10036 afii10102 -60;
-   pos afii10036 afii10104 60;
-   pos afii10104 afii10104 100;
-   pos afii10098 afii10104 40;
-   pos approxequal seven -60;
-   pos uni04AF afii10071 -20;
-   pos cyrGebar.alt afii10021 -34;
-   pos cyrGebar.alt afii10069 -30;
-   pos cyrGebar.alt afii10097 -10;
-   pos cyrGebar.alt afii10102 -10;
-   enum pos @_A_left question -80;
-   enum pos @_A_left J 10;
-   enum pos @_A_left T -80;
-   enum pos @_A_left V -90;
-   enum pos @_A_left W -60;
-   enum pos @_A_left X 20;
-   enum pos @_A_left f -20;
-   enum pos @_A_left l -20;
-   enum pos @_A_left s -5;
-   enum pos @_A_left t -40;
-   enum pos @_A_left w -50;
-   enum pos @_A_left x 20;
-   enum pos @_A_left z 10;
-   enum pos @_A_left AE 20;
-   enum pos @_A_left Eth -20;
-   enum pos @_A_left ydieresis -60;
-   enum pos @_A_left lslash -10;
-   enum pos @_A_left scaron -5;
-   enum pos @_A_left zcaron 10;
-   enum pos @_B_left T -20;
-   enum pos @_B_left V -20;
-   enum pos @_B_left W -10;
-   enum pos @_B_left X -20;
-   enum pos @_B_left w -10;
-   enum pos @_B_left x -10;
-   enum pos @_B_left z -10;
-   enum pos @_B_left AE -30;
-   enum pos @_B_left Eth -10;
-   enum pos @_B_left Oslash -5;
-   enum pos @_B_left ydieresis -10;
-   enum pos @_B_left Lslash 20;
-   enum pos @_B_left zcaron -10;
-   enum pos @_E_left T 10;
-   enum pos @_E_left V 10;
-   enum pos @_E_left w -10;
-   enum pos @_E_left Oslash -5;
-   enum pos @_E_left ydieresis -10;
-   enum pos @_L_left question -80;
-   enum pos @_L_left J 10;
-   enum pos @_L_left T -80;
-   enum pos @_L_left V -100;
-   enum pos @_L_left W -60;
-   enum pos @_L_left f -20;
-   enum pos @_L_left l -10;
-   enum pos @_L_left t -30;
-   enum pos @_L_left w -60;
-   enum pos @_L_left x 20;
-   enum pos @_L_left z 10;
-   enum pos @_L_left AE 30;
-   enum pos @_L_left Eth -20;
-   enum pos @_L_left oslash 10;
-   enum pos @_L_left ydieresis -80;
-   enum pos @_L_left Lslash -20;
-   enum pos @_L_left lslash -30;
-   enum pos @_L_left zcaron 10;
-   enum pos @_O_left T -20;
-   enum pos @_O_left V -20;
-   enum pos @_O_left W -10;
-   enum pos @_O_left X -20;
-   enum pos @_O_left x -10;
-   enum pos @_O_left z -10;
-   enum pos @_O_left AE -50;
-   enum pos @_O_left lslash 10;
-   enum pos @_O_left zcaron -10;
-   enum pos @_S_left T -10;
-   enum pos @_S_left V -15;
-   enum pos @_S_left W -10;
-   enum pos @_S_left X -20;
-   enum pos @_S_left f -20;
-   enum pos @_S_left t -20;
-   enum pos @_S_left w -10;
-   enum pos @_S_left x -20;
-   enum pos @_S_left z -10;
-   enum pos @_S_left AE -20;
-   enum pos @_S_left ydieresis -10;
-   enum pos @_S_left Lslash 10;
-   enum pos @_S_left zcaron -10;
-   enum pos @_U_left AE -50;
-   enum pos @_X_left question -30;
-   enum pos @_X_left J -10;
-   enum pos @_X_left V 10;
-   enum pos @_X_left W 10;
-   enum pos @_X_left X 10;
-   enum pos @_X_left f -40;
-   enum pos @_X_left l -10;
-   enum pos @_X_left s -10;
-   enum pos @_X_left t -40;
-   enum pos @_X_left w -30;
-   enum pos @_X_left x 20;
-   enum pos @_X_left AE 20;
-   enum pos @_X_left Eth -10;
-   enum pos @_X_left oslash -10;
-   enum pos @_X_left ydieresis -40;
-   enum pos @_X_left Lslash -20;
-   enum pos @_X_left lslash -20;
-   enum pos @_X_left scaron -10;
-   enum pos @_Y_left J -100;
-   enum pos @_Y_left T 30;
-   enum pos @_Y_left V 20;
-   enum pos @_Y_left W 20;
-   enum pos @_Y_left X 10;
-   enum pos @_Y_left f -30;
-   enum pos @_Y_left s -70;
-   enum pos @_Y_left t -20;
-   enum pos @_Y_left w -20;
-   enum pos @_Y_left x -40;
-   enum pos @_Y_left z -40;
-   enum pos @_Y_left AE -140;
-   enum pos @_Y_left Eth -20;
-   enum pos @_Y_left Oslash -30;
-   enum pos @_Y_left ntilde -60;
-   enum pos @_Y_left oslash -80;
-   enum pos @_Y_left ydieresis -10;
-   enum pos @_Y_left Lslash -20;
-   enum pos @_Y_left lslash -30;
-   enum pos @_Y_left scaron -60;
-   enum pos @_Y_left zcaron -40;
-   enum pos @_Z_left f -20;
-   enum pos @_Z_left t -20;
-   enum pos @_Z_left w -20;
-   enum pos @_Z_left z 10;
-   enum pos @_Z_left Eth -20;
-   enum pos @_Z_left oslash -10;
-   enum pos @_Z_left ydieresis -20;
-   enum pos @_Z_left Lslash -20;
-   enum pos @_Z_left lslash -10;
-   enum pos @_Z_left zcaron 10;
-   enum pos @_o_left f -10;
-   enum pos @_o_left w -10;
-   enum pos @_o_left x -20;
-   enum pos @_o_left ydieresis -20;
-   enum pos @_o_left lslash 10;
-   enum pos @_c_left f -10;
-   enum pos @_c_left x -10;
-   enum pos @_c_left ydieresis -20;
-   enum pos @_c_left lslash 10;
-   enum pos @_n_left T -90;
-   enum pos @_n_left t -10;
-   enum pos @_n_left w -10;
-   enum pos @_n_left ydieresis -20;
-   enum pos @_x_left at -10;
-   enum pos @_x_left t 20;
-   enum pos @_x_left w 10;
-   enum pos @_x_left x 10;
-   enum pos @_x_left ydieresis 10;
-   enum pos @_x_left lslash -20;
-   enum pos @_y_left at -20;
-   enum pos @_y_left f 20;
-   enum pos @_y_left t 30;
-   enum pos @_y_left w 20;
-   enum pos @_y_left x 10;
-   enum pos @_y_left oslash -20;
-   enum pos @_y_left ydieresis 20;
-   enum pos @_z_left f 10;
-   enum pos @_z_left t 20;
-   enum pos @_z_left w 10;
-   enum pos @_z_left z 10;
-   enum pos @_z_left ydieresis 20;
-   enum pos @_z_left lslash -10;
-   enum pos @_z_left zcaron 10;
-   enum pos @_i_accented_left l 20;
-   enum pos @_cyrA_left afii10054 -10;
-   enum pos @_cyrA_left afii10057 10;
-   enum pos @_cyrA_left afii10021 30;
-   enum pos @_cyrA_left afii10066 -10;
-   enum pos @_cyrA_left afii10069 20;
-   enum pos @_cyrA_left afii10097 20;
-   enum pos @_cyrA_left afii10071 -10;
-   enum pos @_cyrA_left afii10102 -5;
-   enum pos @_cyr_O_left afii10021 -30;
-   enum pos @_cyr_O_left afii10069 -30;
-   enum pos @_cyr_Ve_left afii10069 -10;
-   enum pos @_cyr_Ve_left afii10097 -10;
-   enum pos @_cyr_Ge_left afii10054 -10;
-   enum pos @_cyr_Ge_left afii10057 -100;
-   enum pos @_cyr_Ge_left afii10021 -40;
-   enum pos @_cyr_Ge_left afii10049 -10;
-   enum pos @_cyr_Ge_left afii10066 -60;
-   enum pos @_cyr_Ge_left afii10069 -110;
-   enum pos @_cyr_Ge_left afii10075 -70;
-   enum pos @_cyr_Ge_left afii10097 -100;
-   enum pos @_cyr_Ge_left afii10071 -60;
-   enum pos @_cyr_Ge_left afii10102 -110;
-   enum pos @_cyr_Ge_left afii10104 60;
-   enum pos @_cyr_Ge_left afii10110 -60;
-   enum pos @_cyr_De_left afii10054 -10;
-   enum pos @_cyr_De_left afii10057 20;
-   enum pos @_cyr_De_left afii10021 40;
-   enum pos @_cyr_De_left afii10049 10;
-   enum pos @_cyr_De_left afii10066 -10;
-   enum pos @_cyr_De_left afii10069 40;
-   enum pos @_cyr_De_left afii10097 10;
-   enum pos @_cyr_De_left afii10071 -10;
-   enum pos @_cyr_Ie_left afii10066 -10;
-   enum pos @_cyr_Ie_left afii10069 10;
-   enum pos @_cyr_Ie_left afii10071 -10;
-   enum pos @_cyr_Ie_left afii10104 30;
-   enum pos @_cyr_U_left afii10054 -20;
-   enum pos @_cyr_U_left afii10057 -100;
-   enum pos @_cyr_U_left afii10021 -60;
-   enum pos @_cyr_U_left afii10049 -30;
-   enum pos @_cyr_U_left afii10066 -40;
-   enum pos @_cyr_U_left afii10069 -80;
-   enum pos @_cyr_U_left afii10075 -40;
-   enum pos @_cyr_U_left afii10097 -60;
-   enum pos @_cyr_U_left afii10071 -60;
-   enum pos @_cyr_U_left afii10102 -40;
-   enum pos @_cyr_U_left afii10104 40;
-   enum pos @_cyr_TverdiyZnak_left afii10057 20;
-   enum pos @_cyr_TverdiyZnak_left afii10049 -10;
-   enum pos @_cyr_TverdiyZnak_left afii10066 10;
-   enum pos @_cyr_TverdiyZnak_left afii10069 -10;
-   enum pos @_cyr_TverdiyZnak_left afii10071 10;
-   enum pos @_cyr_Ha_left afii10054 -20;
-   enum pos @_cyr_Ha_left afii10057 -10;
-   enum pos @_cyr_Ha_left afii10021 20;
-   enum pos @_cyr_Ha_left afii10066 -20;
-   enum pos @_cyr_Ha_left afii10069 20;
-   enum pos @_cyr_Ha_left afii10097 10;
-   enum pos @_cyr_Ha_left afii10071 -20;
-   enum pos @_cyr_Ha_left afii10102 -10;
-   enum pos @_cyr_Ha_left afii10104 10;
-   enum pos @_cyr_o_left afii10069 -10;
-   enum pos @_cyr_de_left afii10069 30;
-   enum pos @_cyr_de_left afii10097 10;
-   enum pos @_cyr_es_left afii10069 -10;
-   enum pos @_cyr_es_left afii10092 -20;
-   enum pos @_cyr_es_left afii10106 -10;
-   enum pos @_cyr_te_left afii10069 -40;
-   enum pos @_cyr_te_left afii10097 -10;
-   enum pos @_cyr_te_left afii10071 -10;
-   enum pos @_cyr_u_left afii10069 -30;
-   enum pos @_cyr_u_left afii10097 -20;
-   enum pos @_cyr_ha_left afii10066 -10;
-   enum pos @_cyr_ha_left afii10069 10;
-   enum pos @_cyr_ha_left afii10073 -10;
-   enum pos @_cyr_ha_left afii10095 -10;
-   enum pos @_cyr_ha_left afii10097 10;
-   enum pos @_cyr_ha_left afii10071 -20;
-   enum pos @_cyr_tverdiyznak_left afii10071 10;
-   enum pos @_cyr_i_left afii10104 10;
-   enum pos @_dots_left J 20;
-   enum pos @_dots_left T -120;
-   enum pos @_dots_left V -120;
-   enum pos @_dots_left W -60;
-   enum pos @_dots_left f -20;
-   enum pos @_dots_left l -20;
-   enum pos @_dots_left t -50;
-   enum pos @_dots_left w -40;
-   enum pos @_dots_left x 10;
-   enum pos @_dots_left z 20;
-   enum pos @_dots_left AE 10;
-   enum pos @_dots_left Eth -20;
-   enum pos @_dots_left ydieresis -60;
-   enum pos @_dots_left Lslash -20;
-   enum pos @_dots_left lslash -40;
-   enum pos @_dots_left zcaron 20;
-   enum pos @_dots_left afii10054 -10;
-   enum pos @_dots_left afii10057 20;
-   enum pos @_dots_left afii10021 40;
-   enum pos @_dots_left afii10066 -20;
-   enum pos @_dots_left afii10069 40;
-   enum pos @_dots_left afii10071 -20;
-   enum pos @_dashes_left seven -60;
-   enum pos @_dashes_left T -30;
-   enum pos @_dashes_left w -10;
-   enum pos @_dashes_left x -40;
-   enum pos @_dashes_left z -20;
-   enum pos @_dashes_left ydieresis -20;
-   enum pos @_dashes_left lslash 20;
-   enum pos @_dashes_left zcaron -20;
-   enum pos @_dashes_left afii10069 -30;
-   enum pos @_quotes_base_left J 10;
-   enum pos @_quotes_base_left T -100;
-   enum pos @_quotes_base_left V -120;
-   enum pos @_quotes_base_left W -100;
-   enum pos @_quotes_base_left f -20;
-   enum pos @_quotes_base_left t -20;
-   enum pos @_quotes_base_left w -40;
-   enum pos @_quotes_base_left AE 20;
-   enum pos @_quotes_base_left Eth -20;
-   enum pos @_quotes_base_left ydieresis -60;
-   enum pos @_quotes_base_left lslash -20;
-   enum pos @_quotes_base_left afii10057 10;
-   enum pos @_quotes_base_left afii10021 40;
-   enum pos @_quotes_base_left afii10066 -10;
-   enum pos @_quotes_base_left afii10069 20;
-   enum pos @_quotes_base_left afii10071 -10;
-   enum pos @_quotes_straight_top_left J -80;
-   enum pos @_quotes_straight_top_left T 30;
-   enum pos @_quotes_straight_top_left V 30;
-   enum pos @_quotes_straight_top_left W 20;
-   enum pos @_quotes_straight_top_left f 20;
-   enum pos @_quotes_straight_top_left t 30;
-   enum pos @_quotes_straight_top_left w 30;
-   enum pos @_quotes_straight_top_left x 20;
-   enum pos @_quotes_straight_top_left z 20;
-   enum pos @_quotes_straight_top_left AE -100;
-   enum pos @_quotes_straight_top_left Eth -20;
-   enum pos @_quotes_straight_top_left oslash -10;
-   enum pos @_quotes_straight_top_left ydieresis 40;
-   enum pos @_quotes_straight_top_left Lslash -20;
-   enum pos @_quotes_straight_top_left zcaron 20;
-   enum pos @_quotes_straight_top_left afii10057 -80;
-   enum pos @_quotes_straight_top_left afii10021 -60;
-   enum pos @_quotes_straight_top_left afii10069 -50;
-   enum pos @_quotes_straight_top_left afii10071 -10;
-   enum pos @_quotes_straight_top_left afii10104 80;
-   enum pos @_colon_left T -20;
-   enum pos @_colon_left V -20;
-   subtable;
-   enum pos question @_dots_right -110;
-   enum pos at @_y_right -20;
-   enum pos F @_quotes_straight_top_right 20;
-   enum pos F @_dots_right -120;
-   enum pos F @_A_right -60;
-   enum pos F @_O_right -5;
-   enum pos F @_S_right -10;
-   enum pos F @_Y_right 20;
-   enum pos F @_a_right -20;
-   enum pos F @_o_right -10;
-   enum pos F @_a_accented_right -20;
-   enum pos F @_i_accented_right 50;
-   enum pos F @_o_accented_right -10;
-   enum pos P @_quotes_straight_top_right 10;
-   enum pos P @_dots_right -140;
-   enum pos P @_A_right -80;
-   enum pos P @_Y_right -10;
-   enum pos P @_Z_right -10;
-   enum pos P @_a_right -10;
-   enum pos P @_o_right -10;
-   enum pos P @_y_right 20;
-   enum pos P @_a_accented_right -10;
-   enum pos P @_i_accented_right 20;
-   enum pos P @_o_accented_right -10;
-   enum pos P @_quotes_top_right 20;
-   enum pos Q @_dots_right -20;
-   enum pos R @_U_right -10;
-   enum pos R @_Y_right -30;
-   enum pos R @_a_right -10;
-   enum pos R @_o_right -10;
-   enum pos R @_u_right -20;
-   enum pos R @_a_accented_right -10;
-   enum pos R @_i_accented_right 20;
-   enum pos R @_o_accented_right -10;
-   enum pos R @_u_accented_right -20;
-   enum pos T @_quotes_straight_top_right 30;
-   enum pos T @_dashes_right -30;
-   enum pos T @_dots_right -120;
-   enum pos T @_colon_right -20;
-   enum pos T @_A_right -80;
-   enum pos T @_O_right -20;
-   enum pos T @_S_right -10;
-   enum pos T @_Y_right 30;
-   enum pos T @_a_right -90;
-   enum pos T @_n_right -90;
-   enum pos T @_o_right -90;
-   enum pos T @_u_right -90;
-   enum pos T @_y_right -80;
-   enum pos T @_a_accented_right -60;
-   enum pos T @_i_accented_right 60;
-   enum pos T @_o_accented_right -60;
-   enum pos T @_u_accented_right -70;
-   enum pos V @_quotes_straight_top_right 30;
-   enum pos V @_dots_right -110;
-   enum pos V @_colon_right -20;
-   enum pos V @_A_right -90;
-   enum pos V @_O_right -20;
-   enum pos V @_S_right -15;
-   enum pos V @_Y_right 20;
-   enum pos V @_a_right -60;
-   enum pos V @_n_right -40;
-   enum pos V @_o_right -60;
-   enum pos V @_u_right -40;
-   enum pos V @_a_accented_right -50;
-   enum pos V @_i_accented_right 60;
-   enum pos V @_o_accented_right -60;
-   enum pos V @_u_accented_right -40;
-   enum pos W @_quotes_straight_top_right 20;
-   enum pos W @_dots_right -60;
-   enum pos W @_A_right -60;
-   enum pos W @_O_right -10;
-   enum pos W @_S_right -10;
-   enum pos W @_Y_right 20;
-   enum pos W @_a_right -40;
-   enum pos W @_n_right -20;
-   enum pos W @_o_right -40;
-   enum pos W @_u_right -20;
-   enum pos W @_a_accented_right -50;
-   enum pos W @_i_accented_right 40;
-   enum pos W @_o_accented_right -40;
-   enum pos W @_u_accented_right -20;
-   enum pos f @_quotes_straight_top_right 50;
-   enum pos f @_dashes_right -10;
-   enum pos f @_dots_right -40;
-   enum pos f @_a_right -20;
-   enum pos f @_o_right -10;
-   enum pos f @_y_right 20;
-   enum pos f @_a_accented_right -20;
-   enum pos f @_i_accented_right 60;
-   enum pos f @_o_accented_right -10;
-   enum pos f @_quotes_top_right 40;
-   enum pos l @_quotes_straight_top_right -40;
-   enum pos l @_dashes_right -40;
-   enum pos l @_dots_right 50;
-   enum pos l @_o_right -10;
-   enum pos l @_y_right -20;
-   enum pos l @_o_accented_right -10;
-   enum pos l @_quotes_top_right -20;
-   enum pos r @_quotes_straight_top_right 40;
-   enum pos r @_dashes_right -60;
-   enum pos r @_dots_right -120;
-   enum pos r @_a_right -10;
-   enum pos r @_o_right -10;
-   enum pos r @_y_right 30;
-   enum pos r @_a_accented_right -10;
-   enum pos r @_o_accented_right -10;
-   enum pos r @_quotes_top_right 20;
-   enum pos t @_quotes_straight_top_right 10;
-   enum pos t @_dashes_right -20;
-   enum pos t @_dots_right 30;
-   enum pos t @_y_right 20;
-   enum pos w @_quotes_straight_top_right 30;
-   enum pos w @_dashes_right -10;
-   enum pos w @_dots_right -40;
-   enum pos w @_a_right -20;
-   enum pos w @_o_right -10;
-   enum pos w @_y_right 20;
-   enum pos w @_a_accented_right -20;
-   enum pos w @_o_accented_right -10;
-   enum pos w @_quotes_top_right 20;
-   enum pos Oslash @_dots_right -20;
-   enum pos Oslash @_A_right -20;
-   enum pos Oslash @_Y_right 10;
-   enum pos Thorn @_dots_right -60;
-   enum pos Thorn @_A_right -40;
-   enum pos Thorn @_Y_right -40;
-   enum pos Thorn @_Z_right -40;
-   enum pos Thorn @_y_right 10;
-   enum pos Thorn @_quotes_top_right 20;
-   enum pos germandbls @_quotes_straight_top_right -10;
-   enum pos germandbls @_dots_right -10;
-   enum pos germandbls @_y_right -10;
-   enum pos oslash @_dots_right -20;
-   enum pos oslash @_y_right -10;
-   enum pos lslash @_quotes_straight_top_right 10;
-   enum pos lslash @_dashes_right -40;
-   enum pos lslash @_dots_right 50;
-   enum pos lslash @_o_right -10;
-   enum pos lslash @_y_right 20;
-   enum pos lslash @_o_accented_right -10;
-   enum pos afii10053 @_cyr_Te_right -29;
-   enum pos afii10054 @_dots_right -10;
-   enum pos afii10054 @_cyrA_right -10;
-   enum pos afii10054 @_cyr_Te_right -10;
-   enum pos afii10054 @_cyr_U_right -20;
-   enum pos afii10054 @_cyr_Ha_right -20;
-   enum pos afii10054 @_cyr_el_right -10;
-   enum pos afii10054 @_cyr_te_right -10;
-   enum pos afii10054 @_cyr_u_left -10;
-   enum pos afii10054 @_cyr_ha_right -20;
-   enum pos afii10054 @_cyr_tshe_right -10;
-   enum pos afii10057 @_dots_right -30;
-   enum pos afii10057 @_cyrA_right -30;
-   enum pos afii10057 @_cyr_el_right -30;
-   enum pos afii10060 @_quotes_straight_top_right -60;
-   enum pos afii10060 @_cyr_Te_right -60;
-   enum pos afii10060 @_cyr_U_right -60;
-   enum pos afii10060 @_cyrChe_right -20;
-   enum pos afii10060 @_quotes_top_right -40;
-   enum pos afii10018 @_quotes_straight_top_right -30;
-   enum pos afii10018 @_cyrA_right -20;
-   enum pos afii10018 @_cyr_Te_right -20;
-   enum pos afii10018 @_cyr_U_right -20;
-   enum pos afii10018 @_cyr_Ha_right -20;
-   enum pos afii10018 @_cyr_el_right -10;
-   enum pos afii10018 @_cyr_te_right -20;
-   enum pos afii10018 @_cyr_u_left -30;
-   enum pos afii10018 @_cyr_ha_right -20;
-   enum pos afii10018 @_cyr_tshe_right -10;
-   enum pos afii10018 @_quotes_top_right -40;
-   enum pos afii10018 @_uni04AE_right -20;
-   enum pos afii10034 @_quotes_straight_top_right 10;
-   enum pos afii10034 @_dots_right -140;
-   enum pos afii10034 @_cyrA_right -80;
-   enum pos afii10034 @_cyr_El_right -50;
-   enum pos afii10034 @_cyr_Te_right -10;
-   enum pos afii10034 @_cyr_U_right -10;
-   enum pos afii10034 @_cyr_Ha_right -20;
-   enum pos afii10034 @_cyr_el_right -50;
-   enum pos afii10034 @_cyr_o_right -10;
-   enum pos afii10034 @_cyr_te_right 20;
-   enum pos afii10034 @_cyr_u_left 20;
-   enum pos afii10034 @_cyr_ha_right 10;
-   enum pos afii10034 @_cyr_tshe_right 20;
-   enum pos afii10034 @_quotes_top_right 20;
-   enum pos afii10034 @_uni04AE_right -10;
-   enum pos afii10036 @_quotes_straight_top_right 30;
-   enum pos afii10036 @_dashes_right -30;
-   enum pos afii10036 @_dots_right -120;
-   enum pos afii10036 @_colon_right -20;
-   enum pos afii10036 @_cyrA_right -80;
-   enum pos afii10036 @_cyr_El_right -40;
-   enum pos afii10036 @_cyr_O_right -20;
-   enum pos afii10036 @_cyr_Te_right 40;
-   enum pos afii10036 @_cyr_U_right 30;
-   enum pos afii10036 @_cyr_a_right -90;
-   enum pos afii10036 @_cyr_el_right -90;
-   enum pos afii10036 @_cyr_en_right -90;
-   enum pos afii10036 @_cyr_o_right -90;
-   enum pos afii10036 @_cyr_te_right -70;
-   enum pos afii10036 @_cyr_u_left -80;
-   enum pos afii10036 @_cyr_ha_right -80;
-   enum pos afii10036 @_cyr_che_right -90;
-   enum pos afii10036 @_cyr_tshe_right 40;
-   enum pos afii10068 @_dots_right -140;
-   enum pos afii10101 [afii10077 uni0513] -10;
-   enum pos afii10104 @_quotes_straight_top_right 80;
-   enum pos afii10104 @_cyr_i_right 10;
-   enum pos afii10104 @_quotes_top_right 30;
-   enum pos uni04BB @_cyr_u_left -20;
-   enum pos cyrGebar.alt @_quotes_straight_top_right 20;
-   enum pos cyrGebar.alt @_dots_right -120;
-   enum pos cyrGebar.alt @_cyrA_right -60;
-   enum pos cyrGebar.alt @_cyr_El_right -34;
-   enum pos cyrGebar.alt @_cyr_O_right -5;
-   enum pos cyrGebar.alt @_cyr_a_right -20;
-   enum pos cyrGebar.alt @_cyr_el_right -30;
-   enum pos cyrGebar.alt @_cyr_o_right -10;
-   subtable;
-   pos @_A_left @_quotes_straight_top_right -80;
-   pos @_A_left @_dots_right 10;
-   pos @_A_left @_A_right 20;
-   pos @_A_left @_O_right -20;
-   pos @_A_left @_S_right -10;
-   pos @_A_left @_U_right -30;
-   pos @_A_left @_Y_right -100;
-   pos @_A_left @_o_right -10;
-   pos @_A_left @_u_right -20;
-   pos @_A_left @_y_right -60;
-   pos @_A_left @_o_accented_right -10;
-   pos @_A_left @_u_accented_right -20;
-   pos @_A_left @_quotes_top_right -80;
-   pos @_B_left @_quotes_straight_top_right -10;
-   pos @_B_left @_dots_right -10;
-   pos @_B_left @_A_right -20;
-   pos @_B_left @_O_right -5;
-   pos @_B_left @_Y_right -40;
-   pos @_B_left @_y_right -10;
-   pos @_E_left @_quotes_straight_top_right 20;
-   pos @_E_left @_O_right -5;
-   pos @_E_left @_Y_right 10;
-   pos @_E_left @_a_right -10;
-   pos @_E_left @_o_right -10;
-   pos @_E_left @_y_right -10;
-   pos @_E_left @_a_accented_right -10;
-   pos @_E_left @_i_accented_right 30;
-   pos @_E_left @_o_accented_right -10;
-   pos @_L_left @_quotes_straight_top_right -100;
-   pos @_L_left @_dots_right 20;
-   pos @_L_left @_A_right 30;
-   pos @_L_left @_O_right -40;
-   pos @_L_left @_S_right -20;
-   pos @_L_left @_U_right -30;
-   pos @_L_left @_Y_right -120;
-   pos @_L_left @_Z_right 20;
-   pos @_L_left @_a_right 10;
-   pos @_L_left @_o_right -10;
-   pos @_L_left @_u_right -20;
-   pos @_L_left @_y_right -80;
-   pos @_L_left @_a_accented_right 10;
-   pos @_L_left @_o_accented_right -10;
-   pos @_L_left @_u_accented_right -20;
-   pos @_L_left @_quotes_top_right -120;
-   pos @_H_left @_i_accented_right 10;
-   pos @_O_left @_dots_right -20;
-   pos @_O_left @_A_right -20;
-   pos @_O_left @_Y_right -30;
-   pos @_O_left @_Z_right -10;
-   pos @_S_left @_dots_right -10;
-   pos @_S_left @_A_right -10;
-   pos @_S_left @_Y_right -20;
-   pos @_S_left @_Z_right -10;
-   pos @_S_left @_y_right -10;
-   pos @_S_left @_i_accented_right 10;
-   pos @_U_left @_dots_right -30;
-   pos @_U_left @_A_right -30;
-   pos @_U_left @_i_accented_right 10;
-   pos @_X_left @_A_right 20;
-   pos @_X_left @_O_right -20;
-   pos @_X_left @_S_right -20;
-   pos @_X_left @_Y_right 10;
-   pos @_X_left @_a_right -10;
-   pos @_X_left @_o_right -20;
-   pos @_X_left @_u_right -20;
-   pos @_X_left @_y_right -40;
-   pos @_X_left @_a_accented_right -10;
-   pos @_X_left @_i_accented_right 10;
-   pos @_X_left @_o_accented_right -20;
-   pos @_X_left @_u_accented_right -20;
-   pos @_X_left @_quotes_top_right -20;
-   pos @_Y_left @_quotes_straight_top_right 30;
-   pos @_Y_left @_dashes_right -40;
-   pos @_Y_left @_dots_right -140;
-   pos @_Y_left @_colon_right -40;
-   pos @_Y_left @_A_right -100;
-   pos @_Y_left @_O_right -30;
-   pos @_Y_left @_S_right -20;
-   pos @_Y_left @_Y_right 20;
-   pos @_Y_left @_a_right -80;
-   pos @_Y_left @_n_right -60;
-   pos @_Y_left @_o_right -80;
-   pos @_Y_left @_u_right -60;
-   pos @_Y_left @_y_right -10;
-   pos @_Y_left @_a_accented_right -70;
-   pos @_Y_left @_i_accented_right 60;
-   pos @_Y_left @_o_accented_right -80;
-   pos @_Y_left @_u_accented_right -60;
-   pos @_Z_left @_quotes_straight_top_right 10;
-   pos @_Z_left @_O_right -10;
-   pos @_Z_left @_S_right -20;
-   pos @_Z_left @_Z_right 10;
-   pos @_Z_left @_o_right -20;
-   pos @_Z_left @_u_right -20;
-   pos @_Z_left @_y_right -20;
-   pos @_Z_left @_i_accented_right 40;
-   pos @_Z_left @_o_accented_right -20;
-   pos @_Z_left @_u_accented_right -20;
-   pos @_I_accented_left @_I_accented_right 80;
-   pos @_o_left @_quotes_straight_top_right -10;
-   pos @_o_left @_dots_right -20;
-   pos @_o_left @_y_right -20;
-   pos @_o_left @_quotes_top_right -10;
-   pos @_c_left @_quotes_straight_top_right -10;
-   pos @_c_left @_dots_right -20;
-   pos @_c_left @_y_right -20;
-   pos @_c_left @_quotes_top_right -10;
-   pos @_d_left @_i_accented_right 20;
-   pos @_n_left @_quotes_straight_top_right -10;
-   pos @_n_left @_y_right -20;
-   pos @_n_left @_quotes_top_right -10;
-   pos @_x_left @_quotes_straight_top_right 20;
-   pos @_x_left @_dashes_right -40;
-   pos @_x_left @_dots_right 10;
-   pos @_x_left @_a_right -10;
-   pos @_x_left @_o_right -20;
-   pos @_x_left @_y_right 10;
-   pos @_x_left @_a_accented_right -10;
-   pos @_x_left @_o_accented_right -20;
-   pos @_y_left @_quotes_straight_top_right 40;
-   pos @_y_left @_dashes_right -20;
-   pos @_y_left @_dots_right -60;
-   pos @_y_left @_a_right -30;
-   pos @_y_left @_o_right -20;
-   pos @_y_left @_y_right 30;
-   pos @_y_left @_a_accented_right -20;
-   pos @_y_left @_o_accented_right -20;
-   pos @_y_left @_quotes_top_right 20;
-   pos @_z_left @_quotes_straight_top_right 20;
-   pos @_z_left @_dashes_right -20;
-   pos @_z_left @_dots_right 20;
-   pos @_z_left @_y_right 10;
-   pos @_i_accented_left @_quotes_straight_top_right 80;
-   pos @_i_accented_left @_h_right 20;
-   pos @_i_accented_left @_i_accented_right 100;
-   pos @_i_accented_left @_quotes_top_right 40;
-   pos @_cyrA_left @_quotes_straight_top_right -80;
-   pos @_cyrA_left @_dots_right 10;
-   pos @_cyrA_left @_cyrA_right 20;
-   pos @_cyrA_left @_cyr_El_right 20;
-   pos @_cyrA_left @_cyr_O_right -20;
-   pos @_cyrA_left @_cyr_Te_right -80;
-   pos @_cyrA_left @_cyr_U_right -60;
-   pos @_cyrA_left @_cyr_Ha_right 20;
-   pos @_cyrA_left @_cyrChe_right -60;
-   pos @_cyrA_left @_cyr_el_right 20;
-   pos @_cyrA_left @_cyr_o_right -10;
-   pos @_cyrA_left @_cyr_te_right -60;
-   pos @_cyrA_left @_cyr_u_left -60;
-   pos @_cyrA_left @_cyr_ha_right 20;
-   pos @_cyrA_left @_cyr_che_right -40;
-   pos @_cyrA_left @_quotes_top_right -80;
-   pos @_cyrA_left @_uni04AE_right -90;
-   pos @_cyr_O_left @_dots_right -20;
-   pos @_cyr_O_left @_cyrA_right -20;
-   pos @_cyr_O_left @_cyr_Te_right -20;
-   pos @_cyr_O_left @_cyr_U_right -30;
-   pos @_cyr_O_left @_cyr_Ha_right -20;
-   pos @_cyr_O_left @_cyr_el_right -30;
-   pos @_cyr_O_left @_cyr_ha_right -10;
-   pos @_cyr_O_left @_uni04AE_right -30;
-   pos @_cyr_Ve_left @_quotes_straight_top_right -10;
-   pos @_cyr_Ve_left @_dots_right -10;
-   pos @_cyr_Ve_left @_cyrA_right -20;
-   pos @_cyr_Ve_left @_cyr_O_right -10;
-   pos @_cyr_Ve_left @_cyr_U_right -40;
-   pos @_cyr_Ve_left @_cyr_Ha_right -20;
-   pos @_cyr_Ve_left @_cyr_el_right -10;
-   pos @_cyr_Ve_left @_cyr_te_right -10;
-   pos @_cyr_Ve_left @_cyr_u_left -10;
-   pos @_cyr_Ve_left @_cyr_ha_right -10;
-   pos @_cyr_Ve_left @_quotes_top_right -10;
-   pos @_cyr_Ve_left @_uni04AE_right -40;
-   pos @_cyr_Ge_left @_quotes_straight_top_right 30;
-   pos @_cyr_Ge_left @_dots_right -140;
-   pos @_cyr_Ge_left @_cyrA_right -100;
-   pos @_cyr_Ge_left @_cyr_El_right -40;
-   pos @_cyr_Ge_left @_cyr_O_right -20;
-   pos @_cyr_Ge_left @_cyr_Te_right 40;
-   pos @_cyr_Ge_left @_cyr_U_right 20;
-   pos @_cyr_Ge_left @_cyr_a_right -100;
-   pos @_cyr_Ge_left @_cyr_el_right -110;
-   pos @_cyr_Ge_left @_cyr_en_right -110;
-   pos @_cyr_Ge_left @_cyr_o_right -110;
-   pos @_cyr_Ge_left @_cyr_te_right -80;
-   pos @_cyr_Ge_left @_cyr_u_left -80;
-   pos @_cyr_Ge_left @_cyr_ha_right -80;
-   pos @_cyr_Ge_left @_cyr_che_right -100;
-   pos @_cyr_Ge_left @_cyr_tshe_right 40;
-   pos @_cyr_De_left @_dots_right 40;
-   pos @_cyr_De_left @_cyrA_right 30;
-   pos @_cyr_De_left @_cyr_El_right 30;
-   pos @_cyr_De_left @_cyr_O_right -10;
-   pos @_cyr_De_left @_cyr_Te_right -20;
-   pos @_cyr_De_left @_cyr_U_right -20;
-   pos @_cyr_De_left @_cyr_Ha_right 20;
-   pos @_cyr_De_left @_cyrChe_right -20;
-   pos @_cyr_De_left @_cyr_el_right 40;
-   pos @_cyr_De_left @_cyr_o_right -10;
-   pos @_cyr_De_left @_cyr_te_right -20;
-   pos @_cyr_De_left @_cyr_u_left -20;
-   pos @_cyr_De_left @_cyr_ha_right 10;
-   pos @_cyr_De_left @_cyr_che_right -20;
-   pos @_cyr_De_left @_cyr_tshe_right -20;
-   pos @_cyr_De_left @_quotes_top_right -20;
-   pos @_cyr_De_left @_uni04AE_right -20;
-   pos @_cyr_Ie_left @_quotes_straight_top_right 20;
-   pos @_cyr_Ie_left @_cyr_O_right -5;
-   pos @_cyr_Ie_left @_cyr_Te_right 10;
-   pos @_cyr_Ie_left @_cyr_U_right 10;
-   pos @_cyr_Ie_left @_cyr_el_right 10;
-   pos @_cyr_Ie_left @_cyr_o_right -10;
-   pos @_cyr_Ie_left @_cyr_te_right -20;
-   pos @_cyr_Ie_left @_cyr_u_left -10;
-   pos @_cyr_Ie_left @_cyr_che_right -10;
-   pos @_cyr_Ie_left @_cyr_tshe_right 20;
-   pos @_cyr_U_left @_quotes_straight_top_right 30;
-   pos @_cyr_U_left @_dashes_right -30;
-   pos @_cyr_U_left @_dots_right -160;
-   pos @_cyr_U_left @_colon_right -40;
-   pos @_cyr_U_left @_cyrA_right -90;
-   pos @_cyr_U_left @_cyr_El_right -60;
-   pos @_cyr_U_left @_cyr_O_right -30;
-   pos @_cyr_U_left @_cyr_Te_right 30;
-   pos @_cyr_U_left @_cyr_U_right 20;
-   pos @_cyr_U_left @_cyr_Ha_right 10;
-   pos @_cyr_U_left @_cyr_a_right -60;
-   pos @_cyr_U_left @_cyr_el_right -80;
-   pos @_cyr_U_left @_cyr_en_right -40;
-   pos @_cyr_U_left @_cyr_o_right -60;
-   pos @_cyr_U_left @_cyr_te_right -20;
-   pos @_cyr_U_left @_cyr_u_left -20;
-   pos @_cyr_U_left @_cyr_ha_right -20;
-   pos @_cyr_U_left @_cyr_che_right -20;
-   pos @_cyr_U_left @_quotes_top_right -20;
-   pos @_cyr_TverdiyZnak_left @_quotes_straight_top_right -40;
-   pos @_cyr_TverdiyZnak_left @_cyrA_right -10;
-   pos @_cyr_TverdiyZnak_left @_cyr_Te_right -80;
-   pos @_cyr_TverdiyZnak_left @_cyr_U_right -60;
-   pos @_cyr_TverdiyZnak_left @_cyr_Ha_right -20;
-   pos @_cyr_TverdiyZnak_left @_cyrChe_right -10;
-   pos @_cyr_TverdiyZnak_left @_cyr_a_right 10;
-   pos @_cyr_TverdiyZnak_left @_cyr_el_right -10;
-   pos @_cyr_TverdiyZnak_left @_cyr_o_right 10;
-   pos @_cyr_TverdiyZnak_left @_cyr_te_right -30;
-   pos @_cyr_TverdiyZnak_left @_cyr_u_left -40;
-   pos @_cyr_TverdiyZnak_left @_cyr_ha_right -20;
-   pos @_cyr_TverdiyZnak_left @_cyr_tshe_right -30;
-   pos @_cyr_TverdiyZnak_left @_quotes_top_right -40;
-   pos @_cyr_TverdiyZnak_left @_uni04AE_right -60;
-   pos @_cyr_Ha_left @_cyrA_right 20;
-   pos @_cyr_Ha_left @_cyr_El_right 20;
-   pos @_cyr_Ha_left @_cyr_O_right -20;
-   pos @_cyr_Ha_left @_cyr_U_right 10;
-   pos @_cyr_Ha_left @_cyr_Ha_right 10;
-   pos @_cyr_Ha_left @_cyrChe_right -10;
-   pos @_cyr_Ha_left @_cyr_a_right -10;
-   pos @_cyr_Ha_left @_cyr_el_right 20;
-   pos @_cyr_Ha_left @_cyr_o_right -20;
-   pos @_cyr_Ha_left @_cyr_te_right -40;
-   pos @_cyr_Ha_left @_cyr_u_left -40;
-   pos @_cyr_Ha_left @_cyr_ha_right 20;
-   pos @_cyr_Ha_left @_cyr_che_right -40;
-   pos @_cyr_Ha_left @_cyr_tshe_right -20;
-   pos @_cyr_Ha_left @_quotes_top_right -20;
-   pos @_cyr_en_left @_cyr_Te_right -120;
-   pos @_cyr_o_left @_quotes_straight_top_right -10;
-   pos @_cyr_o_left @_dots_right -20;
-   pos @_cyr_o_left @_cyr_el_right -10;
-   pos @_cyr_o_left @_cyr_te_right -10;
-   pos @_cyr_o_left @_cyr_u_left -20;
-   pos @_cyr_o_left @_cyr_ha_right -20;
-   pos @_cyr_o_left @_quotes_top_right -10;
-   pos @_cyr_a_left @_quotes_straight_top_right -10;
-   pos @_cyr_a_left @_cyr_Te_right -90;
-   pos @_cyr_a_left @_cyr_te_right -10;
-   pos @_cyr_a_left @_cyr_u_left -20;
-   pos @_cyr_ve_left @_quotes_straight_top_right -10;
-   pos @_cyr_ve_left @_dashes_right -10;
-   pos @_cyr_ve_left @_dots_right -10;
-   pos @_cyr_ve_left @_cyr_te_right -10;
-   pos @_cyr_ve_left @_cyr_u_left -20;
-   pos @_cyr_ve_left @_cyr_ha_right -10;
-   pos @_cyr_ve_left @_cyr_tshe_right -10;
-   pos @_cyr_ve_left @_quotes_top_right -10;
-   pos @_cyr_de_left @_dots_right 40;
-   pos @_cyr_de_left @_cyr_a_right 10;
-   pos @_cyr_de_left @_cyr_el_right 20;
-   pos @_cyr_de_left @_cyr_te_right -10;
-   pos @_cyr_de_left @_cyr_u_left -10;
-   pos @_cyr_de_left @_cyr_ha_right 10;
-   pos @_cyr_de_left @_cyr_che_right -10;
-   pos @_cyr_de_left @_cyr_tshe_right -10;
-   pos @_cyr_de_left @_quotes_top_right -10;
-   pos @_cyr_es_left @_quotes_straight_top_right -10;
-   pos @_cyr_es_left @_dots_right -20;
-   pos @_cyr_es_left @_cyr_u_left -20;
-   pos @_cyr_es_left @_cyr_ha_right -10;
-   pos @_cyr_es_left @_quotes_top_right -10;
-   pos @_cyr_te_left @_quotes_straight_top_right 40;
-   pos @_cyr_te_left @_dashes_right -80;
-   pos @_cyr_te_left @_dots_right -100;
-   pos @_cyr_te_left @_cyr_a_right -20;
-   pos @_cyr_te_left @_cyr_el_right -40;
-   pos @_cyr_te_left @_cyr_o_right -10;
-   pos @_cyr_te_left @_cyr_te_right 30;
-   pos @_cyr_te_left @_cyr_u_left 20;
-   pos @_cyr_te_left @_quotes_top_right 30;
-   pos @_cyr_u_left @_quotes_straight_top_right 40;
-   pos @_cyr_u_left @_dashes_right -20;
-   pos @_cyr_u_left @_dots_right -60;
-   pos @_cyr_u_left @_cyr_a_right -30;
-   pos @_cyr_u_left @_cyr_el_right -20;
-   pos @_cyr_u_left @_cyr_o_right -20;
-   pos @_cyr_u_left @_cyr_te_right 20;
-   pos @_cyr_u_left @_cyr_u_left 30;
-   pos @_cyr_u_left @_cyr_ha_right 10;
-   pos @_cyr_u_left @_cyr_che_right 10;
-   pos @_cyr_u_left @_quotes_top_right 20;
-   pos @_cyr_ha_left @_quotes_straight_top_right 20;
-   pos @_cyr_ha_left @_dashes_right -40;
-   pos @_cyr_ha_left @_dots_right 10;
-   pos @_cyr_ha_left @_cyr_a_right -10;
-   pos @_cyr_ha_left @_cyr_el_right 20;
-   pos @_cyr_ha_left @_cyr_o_right -20;
-   pos @_cyr_ha_left @_cyr_u_left 10;
-   pos @_cyr_ha_left @_cyr_ha_right 10;
-   pos @_cyr_ha_left @_cyr_che_right -10;
-   pos @_cyr_tverdiyznak_left @_quotes_straight_top_right -60;
-   pos @_cyr_tverdiyznak_left @_dashes_right 20;
-   pos @_cyr_tverdiyznak_left @_cyr_el_right 10;
-   pos @_cyr_tverdiyznak_left @_cyr_o_right 10;
-   pos @_cyr_tverdiyznak_left @_cyr_te_right -50;
-   pos @_cyr_tverdiyznak_left @_cyr_u_left -50;
-   pos @_cyr_tverdiyznak_left @_cyr_ha_right -10;
-   pos @_cyr_tverdiyznak_left @_quotes_top_right -40;
-   pos @_dots_left @_A_right 10;
-   pos @_dots_left @_O_right -20;
-   pos @_dots_left @_S_right -10;
-   pos @_dots_left @_U_right -30;
-   pos @_dots_left @_Y_right -150;
-   pos @_dots_left @_o_right -20;
-   pos @_dots_left @_u_right -20;
-   pos @_dots_left @_y_right -60;
-   pos @_dots_left @_o_accented_right -20;
-   pos @_dots_left @_u_accented_right -20;
-   pos @_dots_left @_cyrA_right 10;
-   pos @_dots_left @_cyr_El_right 40;
-   pos @_dots_left @_cyr_O_right -20;
-   pos @_dots_left @_cyr_Te_right -120;
-   pos @_dots_left @_cyr_U_right -120;
-   pos @_dots_left @_cyrChe_right -140;
-   pos @_dots_left @_cyr_el_right 40;
-   pos @_dots_left @_cyr_o_right -20;
-   pos @_dots_left @_cyr_te_right -100;
-   pos @_dots_left @_cyr_u_left -60;
-   pos @_dots_left @_cyr_ha_right 10;
-   pos @_dots_left @_cyr_che_right -60;
-   pos @_dots_left @_uni04AE_right -100;
-   pos @_dashes_left @_Y_right -40;
-   pos @_dashes_left @_y_right -20;
-   pos @_dashes_left @_cyr_Te_right -30;
-   pos @_dashes_left @_cyr_U_right -20;
-   pos @_dashes_left @_cyr_el_right -40;
-   pos @_dashes_left @_cyr_te_right -80;
-   pos @_dashes_left @_cyr_u_left -20;
-   pos @_dashes_left @_cyr_ha_right -40;
-   pos @_dashes_left @_cyr_che_right 10;
-   pos @_dashes_left @_uni04AE_right -30;
-   pos @_quotes_base_left @_A_right 20;
-   pos @_quotes_base_left @_O_right -20;
-   pos @_quotes_base_left @_U_right -20;
-   pos @_quotes_base_left @_Y_right -120;
-   pos @_quotes_base_left @_o_right -10;
-   pos @_quotes_base_left @_u_right -10;
-   pos @_quotes_base_left @_y_right -60;
-   pos @_quotes_base_left @_o_accented_right -10;
-   pos @_quotes_base_left @_cyrA_right 20;
-   pos @_quotes_base_left @_cyr_El_right 10;
-   pos @_quotes_base_left @_cyr_O_right -20;
-   pos @_quotes_base_left @_cyr_Te_right -100;
-   pos @_quotes_base_left @_cyr_U_right -80;
-   pos @_quotes_base_left @_cyrChe_right -100;
-   pos @_quotes_base_left @_cyr_el_right 20;
-   pos @_quotes_base_left @_cyr_o_right -10;
-   pos @_quotes_base_left @_cyr_te_right -60;
-   pos @_quotes_base_left @_cyr_u_left -60;
-   pos @_quotes_base_left @_cyr_che_right -60;
-   pos @_quotes_straight_top_left @_A_right -80;
-   pos @_quotes_straight_top_left @_Y_right 30;
-   pos @_quotes_straight_top_left @_o_right -10;
-   pos @_quotes_straight_top_left @_y_right 40;
-   pos @_quotes_straight_top_left @_i_accented_right 80;
-   pos @_quotes_straight_top_left @_o_accented_right -10;
-   pos @_quotes_straight_top_left @_cyrA_right -80;
-   pos @_quotes_straight_top_left @_cyr_El_right -70;
-   pos @_quotes_straight_top_left @_cyr_Te_right 30;
-   pos @_quotes_straight_top_left @_cyr_U_right 30;
-   pos @_quotes_straight_top_left @_cyrChe_right 20;
-   pos @_quotes_straight_top_left @_cyr_el_right -40;
-   pos @_quotes_straight_top_left @_cyr_o_right -10;
-   pos @_quotes_straight_top_left @_cyr_te_right 40;
-   pos @_quotes_straight_top_left @_cyr_u_left 40;
-   pos @_quotes_straight_top_left @_cyr_ha_right 20;
-   pos @_quotes_straight_top_left @_cyr_che_right 20;
-   pos @_quotes_straight_top_left @_cyr_tshe_right 60;
-   pos @_colon_left @_Y_right -40;
-   pos @_colon_left @_cyr_Te_right -20;
-   pos @_colon_left @_cyr_U_right -30;
-   pos @_colon_left @_uni04AE_right -40;
-";
-disabled = 1;
-tag = kern;
 },
 {
 automatic = 1;
@@ -1576,15 +331,15 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 774;
+value = 980;
 },
 {
 name = typoDescender;
-value = -226;
+value = -220;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = strikeoutSize;
@@ -1604,7 +359,7 @@ value = 980;
 },
 {
 name = winDescent;
-value = 220;
+value = 230;
 }
 );
 guides = (
@@ -2002,7 +757,6 @@ com.fontlab.layer.wireframe = 0;
 };
 com.schriftgestaltung.Glyphs.ufoYear = 2020;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -2023,15 +777,15 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 774;
+value = 980;
 },
 {
 name = typoDescender;
-value = -226;
+value = -220;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = strikeoutSize;
@@ -2051,7 +805,7 @@ value = 980;
 },
 {
 name = winDescent;
-value = 220;
+value = 230;
 }
 );
 guides = (
@@ -2447,7 +1201,6 @@ com.fontlab.layer.wireframe = 0;
 };
 com.schriftgestaltung.Glyphs.ufoYear = 2020;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -2468,15 +1221,15 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 774;
+value = 980;
 },
 {
 name = typoDescender;
-value = -226;
+value = -220;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = strikeoutSize;
@@ -2496,7 +1249,7 @@ value = 980;
 },
 {
 name = winDescent;
-value = 220;
+value = 230;
 }
 );
 guides = (
@@ -2891,7 +1644,6 @@ com.fontlab.layer.wireframe = 0;
 };
 com.schriftgestaltung.Glyphs.ufoYear = 2020;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -2912,15 +1664,15 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 774;
+value = 980;
 },
 {
 name = typoDescender;
-value = -226;
+value = -220;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = strikeoutSize;
@@ -2940,7 +1692,7 @@ value = 980;
 },
 {
 name = winDescent;
-value = 220;
+value = 230;
 }
 );
 guides = (
@@ -3328,7 +2080,6 @@ com.fontlab.layer.wireframe = 0;
 };
 com.schriftgestaltung.Glyphs.ufoYear = 2020;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -3349,15 +2100,15 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 774;
+value = 980;
 },
 {
 name = typoDescender;
-value = -226;
+value = -220;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = strikeoutSize;
@@ -3377,7 +2128,7 @@ value = 980;
 },
 {
 name = winDescent;
-value = 220;
+value = 230;
 }
 );
 guides = (
@@ -3839,7 +2590,6 @@ com.fontlab.layer.wireframe = 0;
 };
 com.schriftgestaltung.Glyphs.ufoYear = 2020;
 };
-visible = 1;
 }
 );
 glyphs = (
@@ -147899,7 +146649,7 @@ unicode = 1227;
 glyphname = "Abreve-cy";
 kernLeft = _cyrA_right;
 kernRight = _cyrA_left;
-lastChange = "2022-12-02 15:34:46 +0000";
+lastChange = "2022-12-08 15:52:35 +0000";
 layers = (
 {
 background = {
@@ -148069,8 +146819,7 @@ pos = (141,2);
 ref = cyrBreve;
 }
 );
-vertWidth = 0;
-width = 683;
+width = 680;
 },
 {
 background = {
@@ -148155,8 +146904,7 @@ pos = (138,2);
 ref = cyrBreve;
 }
 );
-vertWidth = 0;
-width = 697;
+width = 690;
 },
 {
 background = {
@@ -149107,7 +147855,7 @@ unicode = 1236;
 glyphname = "Iebreve-cy";
 kernLeft = _cyr_En_right;
 kernRight = _cyr_Ie_left;
-lastChange = "2022-12-02 15:34:46 +0000";
+lastChange = "2022-12-08 15:52:35 +0000";
 layers = (
 {
 background = {
@@ -149273,7 +148021,6 @@ pos = (125,0);
 ref = cyrBreve;
 }
 );
-vertWidth = 0;
 width = 615;
 },
 {
@@ -149357,7 +148104,6 @@ pos = (115,0);
 ref = cyrBreve;
 }
 );
-vertWidth = 0;
 width = 620;
 },
 {
@@ -173949,7 +172695,7 @@ unicode = 1091;
 glyphname = "ushort-cy";
 kernLeft = _cyr_u_left;
 kernRight = _cyr_u_left;
-lastChange = "2022-12-02 15:34:46 +0000";
+lastChange = "2022-12-08 15:52:35 +0000";
 layers = (
 {
 background = {
@@ -174101,7 +172847,6 @@ pos = (114,0);
 ref = cyrbreve;
 }
 );
-vertWidth = 0;
 width = 580;
 },
 {
@@ -174194,7 +172939,6 @@ pos = (106,0);
 ref = cyrbreve;
 }
 );
-vertWidth = 0;
 width = 580;
 },
 {
@@ -204264,7 +203008,7 @@ unicode = 1228;
 glyphname = "abreve-cy";
 kernLeft = _cyr_a_right;
 kernRight = _cyr_a_left;
-lastChange = "2022-12-02 15:34:46 +0000";
+lastChange = "2022-12-08 15:52:35 +0000";
 layers = (
 {
 background = {
@@ -204486,7 +203230,6 @@ pos = (110,1);
 ref = cyrbreve;
 }
 );
-vertWidth = 0;
 width = 570;
 },
 {
@@ -204598,7 +203341,6 @@ pos = (104,0);
 ref = cyrbreve;
 }
 );
-vertWidth = 0;
 width = 575;
 },
 {
@@ -205925,7 +204667,7 @@ unicode = 1237;
 {
 glyphname = "iebreve-cy";
 kernLeft = _cyr_o_right;
-lastChange = "2022-12-02 15:34:46 +0000";
+lastChange = "2022-12-08 15:52:35 +0000";
 layers = (
 {
 background = {
@@ -206147,8 +204889,7 @@ pos = (111,0);
 ref = cyrbreve;
 }
 );
-vertWidth = 0;
-width = 583;
+width = 580;
 },
 {
 background = {
@@ -206259,8 +205000,7 @@ pos = (103,0);
 ref = cyrbreve;
 }
 );
-vertWidth = 0;
-width = 587;
+width = 580;
 },
 {
 background = {
@@ -290397,7 +289137,7 @@ unicode = 62774;
 glyphname = cyryerucyrbreve;
 kernLeft = _cyr_en_right;
 kernRight = _cyr_en_left;
-lastChange = "2022-12-02 15:35:19 +0000";
+lastChange = "2022-12-08 15:52:36 +0000";
 layers = (
 {
 anchors = (
@@ -290435,7 +289175,7 @@ pos = (185,0);
 ref = cyrbreve;
 }
 );
-width = 730;
+width = 740;
 },
 {
 anchors = (
@@ -290454,7 +289194,7 @@ pos = (180,0);
 ref = cyrbreve;
 }
 );
-width = 740;
+width = 750;
 },
 {
 anchors = (
@@ -290473,7 +289213,7 @@ pos = (175,0);
 ref = cyrbreve;
 }
 );
-width = 750;
+width = 760;
 },
 {
 anchors = (
@@ -299301,7 +298041,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2022 The Golos Text Project Authors (https://github.com/googlefonts/golos-text)";
+value = "Copyright 2019 The Golos Text Project Authors (https://github.com/googlefonts/golos-text)";
 }
 );
 },
@@ -299350,15 +298090,6 @@ values = (
 {
 language = dflt;
 value = "This software is a property of ParaType Ltd. Golos is a registered trademark of Smena Ltd.";
-}
-);
-},
-{
-key = descriptions;
-values = (
-{
-language = dflt;
-value = "Golos is a versatile closed sans-serif commissioned by Smena and AIC Media for state and social service websites. Golos Text suits perfectly for continuous reading on screen. It includes five weights from Regular to Black. Golos was designed by Alexandra Korolkova and Vitaly Kuzmin and released by Paratype in 2019.";
 }
 );
 },

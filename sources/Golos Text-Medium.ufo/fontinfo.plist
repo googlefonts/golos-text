@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>774</integer>
+	<key>capHeight</key>
+	<integer>700</integer>
+	<key>copyright</key>
+	<string>Copyright 2022 The Golos Text Project Authors (https://github.com/googlefonts/golos-text)</string>
+	<key>descender</key>
+	<integer>-226</integer>
+	<key>familyName</key>
+	<string>Golos Text</string>
+	<key>guidelines</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>m</string>
+			<key>y</key>
+			<integer>300</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>f1</string>
+			<key>y</key>
+			<integer>825</integer>
+		</dict>
+	</array>
+	<key>openTypeHeadCreated</key>
+	<string>2020/12/15 19:55:51</string>
+	<key>openTypeHheaAscender</key>
+	<integer>980</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-220</integer>
+	<key>openTypeHheaLineGap</key>
+	<integer>0</integer>
+	<key>openTypeNameDesigner</key>
+	<string>A.Korolkova, Vitaly Kuzmin</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>https://www.paratype.com/help/designers</string>
+	<key>openTypeNameLicense</key>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
+	<key>openTypeNameLicenseURL</key>
+	<string>https://scripts.sil.org/OFL</string>
+	<key>openTypeNameManufacturer</key>
+	<string>ParaType Ltd</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>https://www.paratype.com</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Medium</string>
+	<key>openTypeOS2Panose</key>
+	<array>
+		<integer>2</integer>
+		<integer>11</integer>
+		<integer>5</integer>
+		<integer>3</integer>
+		<integer>2</integer>
+		<integer>2</integer>
+		<integer>2</integer>
+		<integer>2</integer>
+		<integer>2</integer>
+		<integer>4</integer>
+	</array>
+	<key>openTypeOS2StrikeoutPosition</key>
+	<integer>250</integer>
+	<key>openTypeOS2StrikeoutSize</key>
+	<integer>50</integer>
+	<key>openTypeOS2Type</key>
+	<array/>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>980</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-220</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>0</integer>
+	<key>openTypeOS2VendorID</key>
+	<string>PARA</string>
+	<key>openTypeOS2WeightClass</key>
+	<integer>500</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
+	<key>openTypeOS2WinAscent</key>
+	<integer>980</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>230</integer>
+	<key>postscriptBlueScale</key>
+	<real>0.04</real>
+	<key>postscriptBlueShift</key>
+	<integer>7</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+		<real>-11.0</real>
+		<real>0.0</real>
+		<real>530.0</real>
+		<real>541.0</real>
+		<real>700.0</real>
+		<real>711.0</real>
+	</array>
+	<key>postscriptFontName</key>
+	<string>GolosText-Medium</string>
+	<key>postscriptOtherBlues</key>
+	<array/>
+	<key>postscriptUnderlinePosition</key>
+	<integer>-75</integer>
+	<key>styleMapFamilyName</key>
+	<string>Golos Text Medium</string>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
+	<key>styleName</key>
+	<string>Medium</string>
+	<key>trademark</key>
+	<string>This software is a property of ParaType Ltd. Golos is a registered trademark of Smena Ltd.</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>versionMajor</key>
+	<integer>2</integer>
+	<key>versionMinor</key>
+	<integer>4</integer>
+	<key>xHeight</key>
+	<integer>530</integer>
+</dict>
+</plist>

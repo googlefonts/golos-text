@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniF50C" format="2">
+	<advance width="725"/>
+	<unicode hex="F50C"/>
+	<outline>
+		<component base="C"/>
+		<component base="uni0327.case" xOffset="240"/>
+	</outline>
+</glyph>

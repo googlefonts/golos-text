@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0496" format="2">
+	<advance width="998" height="0"/>
+	<anchor x="889" y="0" name="bottomright"/>
+	<anchor x="490" y="700" name="top"/>
+	<outline>
+		<contour>
+			<point x="969" y="-130" type="line" name="hr02"/>
+			<point x="969" y="104" type="line"/>
+			<point x="885" y="104" type="line" name="sv05"/>
+			<point x="708" y="369" type="line" name="iv02"/>
+			<point x="945" y="700" type="line"/>
+			<point x="816" y="700" type="line" name="at03"/>
+			<point x="612" y="407" type="line" name="iv01"/>
+			<point x="552" y="407" type="line"/>
+			<point x="552" y="700" type="line"/>
+			<point x="429" y="700" type="line" name="at02"/>
+			<point x="429" y="407" type="line" name="hr01"/>
+			<point x="369" y="407" type="line" name="sv04"/>
+			<point x="168" y="700" type="line"/>
+			<point x="35" y="700" type="line" name="at01"/>
+			<point x="272" y="362" type="line" name="sv03"/>
+			<point x="25" y="0" type="line" name="hr01"/>
+			<point x="160" y="0" type="line" name="ab03"/>
+			<point x="369" y="313" type="line"/>
+			<point x="429" y="313" type="line" name="sv02"/>
+			<point x="429" y="0" type="line"/>
+			<point x="552" y="0" type="line" name="ab02"/>
+			<point x="552" y="313" type="line" name="ih01"/>
+			<point x="612" y="313" type="line" name="sv01"/>
+			<point x="816" y="0" type="line"/>
+			<point x="857" y="0" type="line" name="ab01"/>
+			<point x="857" y="-130" type="line" name="av01"/>
+		</contour>
+	</outline>
+</glyph>

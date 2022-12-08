@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ntilde" format="2">
+	<advance width="760"/>
+	<outline>
+		<contour>
+			<point x="90" y="0" type="line"/>
+			<point x="210" y="0" type="line" name="ab02"/>
+			<point x="210" y="500" type="line" name="iv01"/>
+			<point x="554" y="0" type="line"/>
+			<point x="670" y="0" type="line" name="ab01"/>
+			<point x="670" y="700" type="line"/>
+			<point x="550" y="700" type="line" name="at02"/>
+			<point x="550" y="200" type="line" name="ih01"/>
+			<point x="206" y="700" type="line"/>
+			<point x="90" y="700" type="line" name="at01"/>
+		</contour>
+		<contour>
+			<point x="450" y="755" type="curve" smooth="yes"/>
+			<point x="495" y="755"/>
+			<point x="523" y="780"/>
+			<point x="539" y="807" type="curve" smooth="yes"/>
+			<point x="548" y="822"/>
+			<point x="555" y="840"/>
+			<point x="560" y="860" type="curve"/>
+			<point x="495" y="890" type="line"/>
+			<point x="492" y="883"/>
+			<point x="488" y="876"/>
+			<point x="484" y="870" type="curve"/>
+			<point x="476" y="859"/>
+			<point x="465" y="850"/>
+			<point x="450" y="850" type="curve" smooth="yes"/>
+			<point x="405" y="850"/>
+			<point x="380" y="895" name="hr01"/>
+			<point x="310" y="895" type="curve" smooth="yes"/>
+			<point x="265" y="895"/>
+			<point x="237" y="869"/>
+			<point x="221" y="842" type="curve" smooth="yes"/>
+			<point x="212" y="827"/>
+			<point x="205" y="809"/>
+			<point x="200" y="790" type="curve"/>
+			<point x="265" y="760" type="line"/>
+			<point x="268" y="767"/>
+			<point x="271" y="774"/>
+			<point x="276" y="780" type="curve"/>
+			<point x="283" y="791"/>
+			<point x="295" y="800"/>
+			<point x="310" y="800" type="curve" smooth="yes"/>
+			<point x="355" y="800"/>
+			<point x="380" y="755" name="hr02"/>
+		</contour>
+	</outline>
+</glyph>

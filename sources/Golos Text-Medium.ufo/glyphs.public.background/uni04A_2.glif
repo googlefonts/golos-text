@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04A2" format="2">
+	<advance width="779" height="0"/>
+	<anchor x="670" y="0" name="bottomright"/>
+	<outline>
+		<contour>
+			<point x="750" y="-130" type="line" name="hr04"/>
+			<point x="750" y="104" type="line" name="hr03"/>
+			<point x="670" y="104" type="line" name="sv02"/>
+			<point x="670" y="700" type="line"/>
+			<point x="547" y="700" type="line" name="at02"/>
+			<point x="547" y="412" type="line" name="iv01"/>
+			<point x="213" y="412" type="line" name="hr02"/>
+			<point x="213" y="700" type="line"/>
+			<point x="90" y="700" type="line" name="at01"/>
+			<point x="90" y="0" type="line" name="hr02"/>
+			<point x="213" y="0" type="line" name="ab02"/>
+			<point x="213" y="308" type="line"/>
+			<point x="547" y="308" type="line" name="sv01"/>
+			<point x="547" y="0" type="line" name="hr01"/>
+			<point x="638" y="0" type="line" name="ab01"/>
+			<point x="638" y="-130" type="line" name="av01"/>
+		</contour>
+	</outline>
+</glyph>

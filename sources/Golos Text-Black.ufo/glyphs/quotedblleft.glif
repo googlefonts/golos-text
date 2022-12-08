@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblleft" format="2">
+	<advance width="580" height="0"/>
+	<unicode hex="201C"/>
+	<outline>
+		<component base="quotesinglbase" xScale="-1" yScale="-1" xOffset="320" yOffset="545"/>
+		<component base="quotesinglbase" xScale="-1" yScale="-1" xOffset="580" yOffset="545"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttcommands</key>
+			<array>
+				<dict>
+					<key>code</key>
+					<string>alignt</string>
+					<key>point</key>
+					<string>rsb</string>
+					<key>zone</key>
+					<string>uc</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>
