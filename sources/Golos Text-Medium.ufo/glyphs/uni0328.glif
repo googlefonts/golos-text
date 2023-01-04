@@ -2,39 +2,30 @@
 <glyph name="uni0328" format="2">
 	<advance width="240"/>
 	<unicode hex="0328"/>
+	<guideline x="190" y="10" angle="90"/>
 	<anchor x="190" y="0" name="_ogonek"/>
 	<outline>
 		<contour>
-			<point x="145" y="-211" type="curve" smooth="yes"/>
+			<point x="132" y="-211" type="curve" smooth="yes"/>
+			<point x="151" y="-211"/>
 			<point x="166" y="-211"/>
-			<point x="182" y="-210"/>
-			<point x="193" y="-208" type="curve"/>
-			<point x="200" y="-207"/>
-			<point x="205" y="-205"/>
-			<point x="210" y="-204" type="curve"/>
-			<point x="210" y="-138" type="line" name="hr02"/>
-			<point x="196" y="-140" type="line"/>
-			<point x="187" y="-141"/>
-			<point x="175" y="-142"/>
-			<point x="166" y="-142" type="curve" smooth="yes" name="hr01"/>
-			<point x="137" y="-142"/>
-			<point x="126" y="-126"/>
-			<point x="126" y="-100" type="curve" smooth="yes"/>
-			<point x="126" y="-53" name="hr01"/>
+			<point x="190" y="-206" type="curve"/>
+			<point x="190" y="-138" type="line" name="hr02"/>
+			<point x="177" y="-140"/>
+			<point x="171" y="-141"/>
+			<point x="162" y="-141" type="curve" smooth="yes" name="hr01"/>
+			<point x="124" y="-141"/>
+			<point x="113" y="-126"/>
+			<point x="113" y="-100" type="curve" smooth="yes"/>
+			<point x="113" y="-53" name="hr01"/>
 			<point x="174" y="-5"/>
 			<point x="190" y="0" type="curve" name="ab01"/>
 			<point x="129" y="0" type="line"/>
 			<point x="83" y="-14"/>
-			<point x="38" y="-59"/>
-			<point x="38" y="-115" type="curve" smooth="yes"/>
-			<point x="38" y="-174"/>
-			<point x="71" y="-211"/>
+			<point x="25" y="-59"/>
+			<point x="25" y="-122" type="curve" smooth="yes"/>
+			<point x="25" y="-174"/>
+			<point x="58" y="-211"/>
 		</contour>
 	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.98,0.36,0.67,1</string>
-		</dict>
-	</lib>
 </glyph>

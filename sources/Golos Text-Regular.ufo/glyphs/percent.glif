@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="percent" format="2">
-	<advance width="1463"/>
+	<advance width="840"/>
 	<unicode hex="0025"/>
 	<outline>
-		<component base="ordmasculine" yOffset="170"/>
-		<component base="fraction" xOffset="640"/>
-		<component base="ordmasculine" xOffset="863"/>
+		<component base="ordmasculine" yOffset="-10"/>
+		<component base="fraction" xOffset="330" yOffset="-10"/>
+		<component base="ordmasculine" xOffset="460" yOffset="-390"/>
 	</outline>
 	<lib>
 		<dict>
@@ -28,12 +28,6 @@
 					<string>ordmasculine</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>ordmasculine</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>ordmasculine</string>
-			<key>public.markColor</key>
-			<string>0.98,0.36,0.67,1</string>
 		</dict>
 	</lib>
 </glyph>

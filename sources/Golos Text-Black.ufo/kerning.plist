@@ -273,8 +273,6 @@
 		<integer>-50</integer>
 		<key>oslash</key>
 		<integer>-50</integer>
-		<key>public.kern2._A_right</key>
-		<integer>-90</integer>
 		<key>public.kern2._O_right</key>
 		<integer>-20</integer>
 		<key>public.kern2._S_right</key>
@@ -458,8 +456,6 @@
 		<integer>-20</integer>
 		<key>oslash</key>
 		<integer>-50</integer>
-		<key>public.kern2._A_right</key>
-		<integer>-90</integer>
 		<key>public.kern2._O_right</key>
 		<integer>-20</integer>
 		<key>public.kern2._S_right</key>
@@ -719,8 +715,6 @@
 		<integer>-90</integer>
 		<key>V</key>
 		<integer>-100</integer>
-		<key>W</key>
-		<integer>-90</integer>
 		<key>X</key>
 		<integer>20</integer>
 		<key>f</key>
@@ -737,8 +731,12 @@
 		<integer>-50</integer>
 		<key>public.kern2._S_right</key>
 		<integer>-10</integer>
+		<key>public.kern2._T_right</key>
+		<integer>-90</integer>
 		<key>public.kern2._U_right</key>
 		<integer>-30</integer>
+		<key>public.kern2._W_right</key>
+		<integer>-90</integer>
 		<key>public.kern2._Y_right</key>
 		<integer>-110</integer>
 		<key>public.kern2._Z_right</key>
@@ -1013,6 +1011,11 @@
 		<key>x</key>
 		<integer>-10</integer>
 	</dict>
+	<key>public.kern1._T_left</key>
+	<dict>
+		<key>public.kern2._A_right</key>
+		<integer>-90</integer>
+	</dict>
 	<key>public.kern1._U_left</key>
 	<dict>
 		<key>AE</key>
@@ -1023,6 +1026,11 @@
 		<integer>-24</integer>
 		<key>public.kern2._i_accented_right</key>
 		<integer>70</integer>
+	</dict>
+	<key>public.kern1._W_left</key>
+	<dict>
+		<key>public.kern2._A_right</key>
+		<integer>-90</integer>
 	</dict>
 	<key>public.kern1._X_left</key>
 	<dict>

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="perthousand" format="2">
-	<advance width="2136"/>
+	<advance width="1234"/>
 	<unicode hex="2030"/>
 	<outline>
-		<component base="ordmasculine" xOffset="1536"/>
-		<component base="ordmasculine" yOffset="170"/>
-		<component base="fraction" xOffset="670"/>
-		<component base="ordmasculine" xOffset="911"/>
+		<component base="percent"/>
+		<component base="ordmasculine" xOffset="854" yOffset="-390"/>
 	</outline>
 	<lib>
 		<dict>
@@ -16,23 +14,7 @@
 					<key>alignment</key>
 					<integer>-1</integer>
 					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>ordmasculine</string>
-				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
 					<integer>1</integer>
-					<key>name</key>
-					<string>ordmasculine</string>
-				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>3</integer>
 					<key>name</key>
 					<string>ordmasculine</string>
 				</dict>
@@ -41,8 +23,6 @@
 			<string>ordmasculine</string>
 			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
 			<string>ordmasculine</string>
-			<key>public.markColor</key>
-			<string>0.98,0.36,0.67,1</string>
 		</dict>
 	</lib>
 </glyph>
