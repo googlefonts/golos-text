@@ -5,5 +5,5 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
-Alexandra Korolkova
-Vitaly Kuzmin <molaruso@gmail.com>
+Alexandra Korolkova <korolkova@paratype.com>
+Vitaly Kuzmin <kuzmin@paratype.com>
