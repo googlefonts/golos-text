@@ -81,6 +81,7 @@ feature pnum;
 feature tnum;
 feature onum;
 feature case;
+feature calt;
 ";
 tag = aalt;
 },
@@ -160,10 +161,11 @@ sub four by foursuperior;
 tag = sups;
 },
 {
-automatic = 1;
 code = "sub one slash four by onequarter;
 sub one slash two by onehalf;
 sub three slash four by threequarters;
+sub zero slash zero zero by perthousand;
+sub zero slash zero by percent;
 ";
 tag = frac;
 },
@@ -306,6 +308,17 @@ sub eight.tosf by eight;
 sub nine.tosf by nine;
 ";
 tag = case;
+},
+{
+code = "lookup arrows {
+  sub [hyphen endash emdash] greater by arrowright;
+  sub less [hyphen endash emdash] by arrowleft;
+} arrows;
+lookup guillemot {
+    sub less less by guillemotleft;
+    sub greater greater by guillemotright;
+} guillemot;";
+tag = calt;
 }
 );
 fontMaster = (
@@ -296852,11 +296865,17 @@ lslash = 20;
 t = -5;
 x = -10;
 };
+"@MMK_L__T_left" = {
+"@MMK_R__A_right" = -90;
+};
 "@MMK_L__U_left" = {
 "@MMK_R__A_right" = -30;
 "@MMK_R__dots_right" = -24;
 "@MMK_R__i_accented_right" = 70;
 AE = -50;
+};
+"@MMK_L__W_left" = {
+"@MMK_R__A_right" = -90;
 };
 "@MMK_L__X_left" = {
 "@MMK_R__A_right" = 20;
@@ -298139,12 +298158,6 @@ zcaron = 5;
 "@MMK_R__quotes_straight_top_right" = 64;
 "@MMK_R__quotes_top_right" = 24;
 "yi-cy" = 150;
-};
-"@MMK_L__W_left" = {
-"@MMK_R__A_right" = -90;
-};
-"@MMK_L__T_left" = {
-"@MMK_R__A_right" = -90;
 };
 };
 };
