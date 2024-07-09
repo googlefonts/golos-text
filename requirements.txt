@@ -110,5 +110,5 @@ urllib3==1.26.13
 vharfbuzz==0.1.4
 vttLib==0.11.0
 wrapt==1.14.1
-zipp==3.10.0
+zipp==3.19.1
 zopfli==0.2.2
