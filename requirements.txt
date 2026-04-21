@@ -50,7 +50,7 @@ hyperglot==0.4.2
 idna==3.4
 importlib-resources==5.10.0
 Jinja2==3.1.2
-lxml==4.9.1
+lxml==6.1.0
 MarkupSafe==2.1.1
 nanoemoji==0.15.0
 ninja==1.11.1
