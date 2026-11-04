@@ -3,6 +3,7 @@
     axisOrder:
       - wght
     familyName: "Golos Text"
+    cleanUp: true
     buildOTF: true
     stat:
       GolosText[wght].ttf:
