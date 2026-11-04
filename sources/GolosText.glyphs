@@ -1,6 +1,10 @@
 {
 .appVersion = "3532";
 .formatVersion = 3;
+DisplayStrings = (
+"",
+"∆/increment.tf"
+);
 axes = (
 {
 name = Weight;
@@ -10,7 +14,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent Germandbls T Tcaron Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Gestroke-cy Gemiddlehook-cy De-cy Ie-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kabashkir-cy Endescender-cy EnGe-cy Esdescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Palochka-cy Kahook-cy Enhook-cy Chekhakassian-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Yerudieresis-cy Elhook-cy Delta.tf";
+code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent Germandbls T Tcaron Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Gestroke-cy Gemiddlehook-cy De-cy Ie-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kabashkir-cy Endescender-cy EnGe-cy Esdescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Palochka-cy Kahook-cy Enhook-cy Chekhakassian-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Yerudieresis-cy Elhook-cy";
 name = Uppercase;
 }
 );
@@ -217,6 +221,7 @@ sub hryvnia.tf by hryvnia;
 sub ruble.tf by ruble;
 sub tenge.tf by tenge;
 sub yen.tf by yen;
+sub divisionslash.tf by divisionslash;
 sub plus.tf by plus;
 sub minus.tf by minus;
 sub multiply.tf by multiply;
@@ -230,6 +235,7 @@ sub plusminus.tf by plusminus;
 sub approxequal.tf by approxequal;
 sub asciitilde.tf by asciitilde;
 sub logicalnot.tf by logicalnot;
+sub increment.tf by increment;
 sub radical.tf by radical;
 sub zero.tosf by zero.osf;
 sub one.tosf by one.osf;
@@ -265,6 +271,7 @@ sub hryvnia by hryvnia.tf;
 sub ruble by ruble.tf;
 sub tenge by tenge.tf;
 sub yen by yen.tf;
+sub divisionslash by divisionslash.tf;
 sub plus by plus.tf;
 sub minus by minus.tf;
 sub multiply by multiply.tf;
@@ -278,6 +285,7 @@ sub plusminus by plusminus.tf;
 sub approxequal by approxequal.tf;
 sub asciitilde by asciitilde.tf;
 sub logicalnot by logicalnot.tf;
+sub increment by increment.tf;
 sub radical by radical.tf;
 sub zero.osf by zero.tosf;
 sub one.osf by one.tosf;
@@ -214590,430 +214598,6 @@ width = 600;
 unicode = 1299;
 },
 {
-glyphname = Delta.tf;
-lastChange = "2026-11-04 15:44:11 +0000";
-layers = (
-{
-layerId = "153974D4-4CB0-4785-B412-2977049B2888";
-shapes = (
-{
-closed = 1;
-nodes = (
-(360,700,l),
-(260,700,l,{
-name = sh01;
-}),
-(15,0,l,{
-name = ab01;
-}),
-(605,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(472,82,l),
-(143,82,l,{
-name = sv01;
-}),
-(308,580,l,{
-name = ih01;
-})
-);
-}
-);
-userData = {
-com.fontlab.ttcommands = (
-{
-code = alignt;
-point = sh01;
-zone = uc;
-},
-{
-code = alignb;
-point = ab01;
-zone = "b: 0";
-},
-{
-align = right;
-code = interpolatev;
-point = ih01;
-point1 = sh01;
-point2 = ab01;
-},
-{
-align = round;
-code = singlev;
-point1 = ab01;
-point2 = sv01;
-stem = "BES: 82";
-},
-{
-align = round;
-code = interpolateh;
-point = ih01;
-point1 = lsb;
-point2 = rsb;
-},
-{
-align = right;
-code = singleh;
-point1 = ih01;
-point2 = sh01;
-}
-);
-};
-vertWidth = 0;
-width = 620;
-},
-{
-layerId = "519BD859-66F8-41ED-8E65-BDFB48F6DA60";
-shapes = (
-{
-closed = 1;
-nodes = (
-(381,700,l),
-(249,700,l,{
-name = sh01;
-}),
-(12,0,l,{
-name = ab01;
-}),
-(618,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(452,104,l),
-(169,104,l,{
-name = sv01;
-}),
-(310,550,l,{
-name = ih01;
-})
-);
-}
-);
-userData = {
-com.fontlab.ttcommands = (
-{
-code = alignt;
-point = sh01;
-zone = uc;
-},
-{
-code = alignb;
-point = ab01;
-zone = "b: 0";
-},
-{
-align = right;
-code = interpolatev;
-point = ih01;
-point1 = sh01;
-point2 = ab01;
-},
-{
-code = mdeltav;
-delta = 5;
-point = ih01;
-ppm1 = 24;
-ppm2 = 25;
-},
-{
-code = mdeltav;
-delta = 3;
-point = ih01;
-ppm1 = 21;
-ppm2 = 23;
-},
-{
-align = round;
-code = singlev;
-point1 = ab01;
-point2 = sv01;
-stem = "BES: 104";
-},
-{
-align = round;
-code = interpolateh;
-point = ih01;
-point1 = lsb;
-point2 = rsb;
-},
-{
-align = right;
-code = singleh;
-point1 = ih01;
-point2 = sh01;
-}
-);
-};
-vertWidth = 0;
-width = 630;
-},
-{
-layerId = "68905092-2787-4DB6-B22F-3BD17B98A53B";
-shapes = (
-{
-closed = 1;
-nodes = (
-(401,700,l),
-(239,700,l,{
-name = sh01;
-}),
-(8,0,l,{
-name = ab01;
-}),
-(632,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(431,126,l),
-(194,126,l,{
-name = sv01;
-}),
-(313,520,l,{
-name = ih01;
-})
-);
-}
-);
-userData = {
-com.fontlab.ttcommands = (
-{
-code = alignt;
-point = sh01;
-zone = uc;
-},
-{
-code = alignb;
-point = ab01;
-zone = "b: 0";
-},
-{
-align = right;
-code = interpolatev;
-point = ih01;
-point1 = sh01;
-point2 = ab01;
-},
-{
-code = mdeltav;
-delta = 6;
-point = ih01;
-ppm1 = 21;
-ppm2 = 21;
-},
-{
-code = mdeltav;
-delta = 3;
-point = ih01;
-ppm1 = 15;
-ppm2 = 20;
-},
-{
-code = mdeltav;
-delta = 3;
-point = ih01;
-ppm1 = 11;
-ppm2 = 12;
-},
-{
-align = round;
-code = singlev;
-point1 = ab01;
-point2 = sv01;
-stem = "OH: 124";
-},
-{
-align = round;
-code = interpolateh;
-point = ih01;
-point1 = lsb;
-point2 = rsb;
-},
-{
-align = right;
-code = singleh;
-point1 = ih01;
-point2 = sh01;
-}
-);
-};
-vertWidth = 0;
-width = 640;
-},
-{
-layerId = "694BE86E-DB85-4EB8-AAFE-5A09896C9F48";
-shapes = (
-{
-closed = 1;
-nodes = (
-(422,700,l),
-(228,700,l,{
-name = sh01;
-}),
-(5,0,l,{
-name = ab01;
-}),
-(645,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(411,148,l),
-(220,148,l,{
-name = sv01;
-}),
-(315,490,l,{
-name = ih01;
-})
-);
-}
-);
-userData = {
-com.fontlab.ttcommands = (
-{
-code = alignt;
-point = sh01;
-zone = uc;
-},
-{
-code = alignb;
-point = ab01;
-zone = "b: 0";
-},
-{
-align = right;
-code = interpolatev;
-point = ih01;
-point1 = sh01;
-point2 = ab01;
-},
-{
-code = mdeltav;
-delta = 4;
-point = ih01;
-ppm1 = 15;
-ppm2 = 17;
-},
-{
-code = mdeltav;
-delta = 4;
-point = ih01;
-ppm1 = 9;
-ppm2 = 12;
-},
-{
-align = round;
-code = singlev;
-point1 = ab01;
-point2 = sv01;
-stem = "OH: 148";
-},
-{
-align = round;
-code = interpolateh;
-point = ih01;
-point1 = lsb;
-point2 = rsb;
-},
-{
-align = right;
-code = singleh;
-point1 = ih01;
-point2 = sh01;
-}
-);
-};
-vertWidth = 0;
-width = 650;
-},
-{
-layerId = "BB51FDA8-DF56-46E5-B7C8-6101400FE38F";
-shapes = (
-{
-closed = 1;
-nodes = (
-(477,700,l,{
-name = sh01;
-}),
-(191,700,l,{
-name = at01;
-}),
-(0,0,l,{
-name = ab01;
-}),
-(670,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(354,192,l,{
-name = ih01;
-}),
-(281,192,l,{
-name = sv01;
-}),
-(316,440,l,{
-name = iv01;
-})
-);
-}
-);
-userData = {
-com.fontlab.ttcommands = (
-{
-code = alignt;
-point = at01;
-zone = uc;
-},
-{
-code = alignb;
-point = ab01;
-zone = "b: 0";
-},
-{
-align = right;
-code = interpolatev;
-point = iv01;
-point1 = at01;
-point2 = ab01;
-},
-{
-align = round;
-code = singlev;
-point1 = ab01;
-point2 = sv01;
-stem = "EP: 192";
-},
-{
-align = round;
-code = interpolateh;
-point = ih01;
-point1 = lsb;
-point2 = rsb;
-},
-{
-align = left;
-code = singleh;
-point1 = ih01;
-point2 = sh01;
-}
-);
-};
-vertWidth = 0;
-width = 670;
-}
-);
-},
-{
 glyphname = zero;
 lastChange = "2026-11-04 15:33:48 +0000";
 layers = (
@@ -233182,37 +232766,6 @@ width = 250;
 }
 );
 unicode = 13;
-},
-{
-glyphname = NULL;
-lastChange = "2026-11-04 15:41:52 +0000";
-layers = (
-{
-layerId = "153974D4-4CB0-4785-B412-2977049B2888";
-vertWidth = 0;
-width = 0;
-},
-{
-layerId = "519BD859-66F8-41ED-8E65-BDFB48F6DA60";
-vertWidth = 0;
-width = 0;
-},
-{
-layerId = "68905092-2787-4DB6-B22F-3BD17B98A53B";
-vertWidth = 0;
-width = 0;
-},
-{
-layerId = "694BE86E-DB85-4EB8-AAFE-5A09896C9F48";
-vertWidth = 0;
-width = 0;
-},
-{
-layerId = "BB51FDA8-DF56-46E5-B7C8-6101400FE38F";
-vertWidth = 0;
-width = 0;
-}
-);
 },
 {
 glyphname = lineseparator;
@@ -270757,6 +270310,217 @@ metricRight = ordmasculine;
 unicode = 8240;
 },
 {
+glyphname = divisionslash.tf;
+lastChange = "2026-11-04 15:50:32 +0000";
+layers = (
+{
+layerId = "153974D4-4CB0-4785-B412-2977049B2888";
+shapes = (
+{
+closed = 1;
+nodes = (
+(525,700,l),
+(435,700,l,{
+name = ih01;
+}),
+(95,0,l,{
+name = ab01;
+}),
+(185,0,l)
+);
+}
+);
+userData = {
+com.fontlab.ttcommands = (
+{
+code = alignt;
+point = ih01;
+zone = uc;
+},
+{
+code = alignb;
+point = ab01;
+zone = "b: 0";
+},
+{
+align = double;
+code = interpolateh;
+point = ih01;
+point1 = lsb;
+point2 = rsb;
+}
+);
+};
+vertWidth = 0;
+width = 620;
+},
+{
+layerId = "519BD859-66F8-41ED-8E65-BDFB48F6DA60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(542,700,l),
+(428,700,l,{
+name = ih01;
+}),
+(88,0,l,{
+name = ab01;
+}),
+(202,0,l)
+);
+}
+);
+userData = {
+com.fontlab.ttcommands = (
+{
+code = alignt;
+point = ih01;
+zone = uc;
+},
+{
+code = alignb;
+point = ab01;
+zone = "b: 0";
+},
+{
+align = double;
+code = interpolateh;
+point = ih01;
+point1 = lsb;
+point2 = rsb;
+}
+);
+};
+vertWidth = 0;
+width = 630;
+},
+{
+layerId = "68905092-2787-4DB6-B22F-3BD17B98A53B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(558,700,l),
+(420,700,l,{
+name = ih01;
+}),
+(82,0,l,{
+name = ab01;
+}),
+(220,0,l)
+);
+}
+);
+userData = {
+com.fontlab.ttcommands = (
+{
+code = alignt;
+point = ih01;
+zone = uc;
+},
+{
+code = alignb;
+point = ab01;
+zone = "b: 0";
+},
+{
+align = double;
+code = interpolateh;
+point = ih01;
+point1 = lsb;
+point2 = rsb;
+}
+);
+};
+vertWidth = 0;
+width = 640;
+},
+{
+layerId = "694BE86E-DB85-4EB8-AAFE-5A09896C9F48";
+shapes = (
+{
+closed = 1;
+nodes = (
+(575,700,l),
+(413,700,l,{
+name = ih01;
+}),
+(75,0,l,{
+name = ab01;
+}),
+(237,0,l)
+);
+}
+);
+userData = {
+com.fontlab.ttcommands = (
+{
+code = alignt;
+point = ih01;
+zone = uc;
+},
+{
+code = alignb;
+point = ab01;
+zone = "b: 0";
+},
+{
+align = double;
+code = interpolateh;
+point = ih01;
+point1 = lsb;
+point2 = rsb;
+}
+);
+};
+vertWidth = 0;
+width = 650;
+},
+{
+layerId = "BB51FDA8-DF56-46E5-B7C8-6101400FE38F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(615,700,l),
+(395,700,l,{
+name = ih01;
+}),
+(55,0,l,{
+name = ab01;
+}),
+(275,0,l)
+);
+}
+);
+userData = {
+com.fontlab.ttcommands = (
+{
+code = alignt;
+point = ih01;
+zone = uc;
+},
+{
+code = alignb;
+point = ab01;
+zone = "b: 0";
+},
+{
+align = double;
+code = interpolateh;
+point = ih01;
+point1 = lsb;
+point2 = rsb;
+}
+);
+};
+vertWidth = 0;
+width = 670;
+}
+);
+},
+{
 glyphname = plus.tf;
 lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
@@ -273901,6 +273665,377 @@ ref = logicalnot;
 );
 vertWidth = 0;
 width = 670;
+}
+);
+},
+{
+glyphname = increment.tf;
+lastChange = "2026-11-04 15:53:26 +0000";
+layers = (
+{
+layerId = "153974D4-4CB0-4785-B412-2977049B2888";
+shapes = (
+{
+closed = 1;
+nodes = (
+(650,0,l,{
+name = ab01;
+}),
+(385,700,l),
+(285,700,l,{
+name = sh01;
+}),
+(20,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(517,82,l),
+(148,82,l,{
+name = sv01;
+}),
+(333,580,l,{
+name = ih01;
+})
+);
+}
+);
+userData = {
+com.fontlab.ttcommands = (
+{
+code = alignt;
+point = sh01;
+zone = uc;
+},
+{
+code = alignb;
+point = ab01;
+zone = "b: 0";
+},
+{
+align = center;
+code = interpolatev;
+point = ih01;
+point1 = sh01;
+point2 = ab01;
+},
+{
+align = round;
+code = singlev;
+point1 = ab01;
+point2 = sv01;
+stem = "OH: 82";
+},
+{
+align = round;
+code = interpolateh;
+point = ih01;
+point1 = lsb;
+point2 = rsb;
+},
+{
+align = center;
+code = singleh;
+point1 = ih01;
+point2 = sh01;
+}
+);
+};
+vertWidth = 0;
+width = 670;
+},
+{
+layerId = "519BD859-66F8-41ED-8E65-BDFB48F6DA60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(665,0,l,{
+name = ab01;
+}),
+(405,700,l),
+(275,700,l,{
+name = sh01;
+}),
+(15,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(501,104,l),
+(173,104,l,{
+name = sv01;
+}),
+(337,560,l,{
+name = ih01;
+})
+);
+}
+);
+userData = {
+com.fontlab.ttcommands = (
+{
+code = alignt;
+point = sh01;
+zone = uc;
+},
+{
+code = alignb;
+point = ab01;
+zone = "b: 0";
+},
+{
+align = center;
+code = interpolatev;
+point = ih01;
+point1 = sh01;
+point2 = ab01;
+},
+{
+align = round;
+code = singlev;
+point1 = ab01;
+point2 = sv01;
+stem = "OH: 104";
+},
+{
+align = round;
+code = interpolateh;
+point = ih01;
+point1 = lsb;
+point2 = rsb;
+},
+{
+align = center;
+code = singleh;
+point1 = ih01;
+point2 = sh01;
+}
+);
+};
+vertWidth = 0;
+width = 680;
+},
+{
+layerId = "68905092-2787-4DB6-B22F-3BD17B98A53B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(680,0,l,{
+name = ab01;
+}),
+(426,700,l),
+(264,700,l,{
+name = sh01;
+}),
+(10,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(480,124,l),
+(196,124,l,{
+name = sv01;
+}),
+(338,520,l,{
+name = ih01;
+})
+);
+}
+);
+userData = {
+com.fontlab.ttcommands = (
+{
+code = alignt;
+point = sh01;
+zone = uc;
+},
+{
+code = alignb;
+point = ab01;
+zone = "b: 0";
+},
+{
+align = center;
+code = interpolatev;
+point = ih01;
+point1 = sh01;
+point2 = ab01;
+},
+{
+align = round;
+code = singlev;
+point1 = ab01;
+point2 = sv01;
+stem = "OH: 124";
+},
+{
+align = round;
+code = interpolateh;
+point = ih01;
+point1 = lsb;
+point2 = rsb;
+},
+{
+align = center;
+code = singleh;
+point1 = ih01;
+point2 = sh01;
+}
+);
+};
+vertWidth = 0;
+width = 690;
+},
+{
+layerId = "694BE86E-DB85-4EB8-AAFE-5A09896C9F48";
+shapes = (
+{
+closed = 1;
+nodes = (
+(690,0,l,{
+name = ab01;
+}),
+(447,700,l),
+(253,700,l,{
+name = sh01;
+}),
+(10,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(456,148,l),
+(225,148,l,{
+name = sv01;
+}),
+(340,490,l,{
+name = ih01;
+})
+);
+}
+);
+userData = {
+com.fontlab.ttcommands = (
+{
+code = alignt;
+point = sh01;
+zone = uc;
+},
+{
+code = alignb;
+point = ab01;
+zone = "b: 0";
+},
+{
+align = center;
+code = interpolatev;
+point = ih01;
+point1 = sh01;
+point2 = ab01;
+},
+{
+align = round;
+code = singlev;
+point1 = ab01;
+point2 = sv01;
+stem = "OH: 148";
+},
+{
+align = round;
+code = interpolateh;
+point = ih01;
+point1 = lsb;
+point2 = rsb;
+},
+{
+align = center;
+code = singleh;
+point1 = ih01;
+point2 = sh01;
+}
+);
+};
+vertWidth = 0;
+width = 700;
+},
+{
+layerId = "BB51FDA8-DF56-46E5-B7C8-6101400FE38F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(742,0,l,{
+name = ab01;
+}),
+(515,700,l),
+(229,700,l,{
+name = sh01;
+}),
+(2,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(426,192,l),
+(283,192,l,{
+name = sv01;
+}),
+(354,440,l,{
+name = ih01;
+})
+);
+}
+);
+userData = {
+com.fontlab.ttcommands = (
+{
+code = alignt;
+point = sh01;
+zone = uc;
+},
+{
+code = alignb;
+point = ab01;
+zone = "b: 0";
+},
+{
+align = center;
+code = interpolatev;
+point = ih01;
+point1 = sh01;
+point2 = ab01;
+},
+{
+align = round;
+code = singlev;
+point1 = ab01;
+point2 = sv01;
+stem = "EP: 192";
+},
+{
+align = round;
+code = interpolateh;
+point = ih01;
+point1 = lsb;
+point2 = rsb;
+},
+{
+align = center;
+code = singleh;
+point1 = ih01;
+point2 = sh01;
+}
+);
+};
+vertWidth = 0;
+width = 744;
 }
 );
 },
@@ -290982,217 +291117,6 @@ width = 0;
 }
 );
 unicode = 62465;
-},
-{
-glyphname = division.tf;
-lastChange = "2026-11-04 15:44:11 +0000";
-layers = (
-{
-layerId = "153974D4-4CB0-4785-B412-2977049B2888";
-shapes = (
-{
-closed = 1;
-nodes = (
-(525,700,l),
-(435,700,l,{
-name = ih01;
-}),
-(95,0,l,{
-name = ab01;
-}),
-(185,0,l)
-);
-}
-);
-userData = {
-com.fontlab.ttcommands = (
-{
-code = alignt;
-point = ih01;
-zone = uc;
-},
-{
-code = alignb;
-point = ab01;
-zone = "b: 0";
-},
-{
-align = double;
-code = interpolateh;
-point = ih01;
-point1 = lsb;
-point2 = rsb;
-}
-);
-};
-vertWidth = 0;
-width = 620;
-},
-{
-layerId = "519BD859-66F8-41ED-8E65-BDFB48F6DA60";
-shapes = (
-{
-closed = 1;
-nodes = (
-(542,700,l),
-(428,700,l,{
-name = ih01;
-}),
-(88,0,l,{
-name = ab01;
-}),
-(202,0,l)
-);
-}
-);
-userData = {
-com.fontlab.ttcommands = (
-{
-code = alignt;
-point = ih01;
-zone = uc;
-},
-{
-code = alignb;
-point = ab01;
-zone = "b: 0";
-},
-{
-align = double;
-code = interpolateh;
-point = ih01;
-point1 = lsb;
-point2 = rsb;
-}
-);
-};
-vertWidth = 0;
-width = 630;
-},
-{
-layerId = "68905092-2787-4DB6-B22F-3BD17B98A53B";
-shapes = (
-{
-closed = 1;
-nodes = (
-(558,700,l),
-(420,700,l,{
-name = ih01;
-}),
-(82,0,l,{
-name = ab01;
-}),
-(220,0,l)
-);
-}
-);
-userData = {
-com.fontlab.ttcommands = (
-{
-code = alignt;
-point = ih01;
-zone = uc;
-},
-{
-code = alignb;
-point = ab01;
-zone = "b: 0";
-},
-{
-align = double;
-code = interpolateh;
-point = ih01;
-point1 = lsb;
-point2 = rsb;
-}
-);
-};
-vertWidth = 0;
-width = 640;
-},
-{
-layerId = "694BE86E-DB85-4EB8-AAFE-5A09896C9F48";
-shapes = (
-{
-closed = 1;
-nodes = (
-(575,700,l),
-(413,700,l,{
-name = ih01;
-}),
-(75,0,l,{
-name = ab01;
-}),
-(237,0,l)
-);
-}
-);
-userData = {
-com.fontlab.ttcommands = (
-{
-code = alignt;
-point = ih01;
-zone = uc;
-},
-{
-code = alignb;
-point = ab01;
-zone = "b: 0";
-},
-{
-align = double;
-code = interpolateh;
-point = ih01;
-point1 = lsb;
-point2 = rsb;
-}
-);
-};
-vertWidth = 0;
-width = 650;
-},
-{
-layerId = "BB51FDA8-DF56-46E5-B7C8-6101400FE38F";
-shapes = (
-{
-closed = 1;
-nodes = (
-(615,700,l),
-(395,700,l,{
-name = ih01;
-}),
-(55,0,l,{
-name = ab01;
-}),
-(275,0,l)
-);
-}
-);
-userData = {
-com.fontlab.ttcommands = (
-{
-code = alignt;
-point = ih01;
-zone = uc;
-},
-{
-code = alignb;
-point = ab01;
-zone = "b: 0";
-},
-{
-align = double;
-code = interpolateh;
-point = ih01;
-point1 = lsb;
-point2 = rsb;
-}
-);
-};
-vertWidth = 0;
-width = 670;
-}
-);
 }
 );
 instances = (
