@@ -10,7 +10,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent Germandbls T Tcaron Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Gestroke-cy Gemiddlehook-cy De-cy Ie-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kabashkir-cy Endescender-cy EnGe-cy Esdescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Palochka-cy Kahook-cy Enhook-cy Chekhakassian-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Yerudieresis-cy Elhook-cy Delta.tab";
+code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent Germandbls T Tcaron Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Gestroke-cy Gemiddlehook-cy De-cy Ie-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kabashkir-cy Endescender-cy EnGe-cy Esdescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Palochka-cy Kahook-cy Enhook-cy Chekhakassian-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Yerudieresis-cy Elhook-cy Delta.tf";
 name = Uppercase;
 }
 );
@@ -208,6 +208,29 @@ sub six.tf by six;
 sub seven.tf by seven;
 sub eight.tf by eight;
 sub nine.tf by nine;
+sub numbersign.tf by numbersign;
+sub cent.tf by cent;
+sub currency.tf by currency;
+sub dollar.tf by dollar;
+sub euro.tf by euro;
+sub hryvnia.tf by hryvnia;
+sub ruble.tf by ruble;
+sub tenge.tf by tenge;
+sub yen.tf by yen;
+sub plus.tf by plus;
+sub minus.tf by minus;
+sub multiply.tf by multiply;
+sub divide.tf by divide;
+sub equal.tf by equal;
+sub greater.tf by greater;
+sub less.tf by less;
+sub greaterequal.tf by greaterequal;
+sub lessequal.tf by lessequal;
+sub plusminus.tf by plusminus;
+sub approxequal.tf by approxequal;
+sub asciitilde.tf by asciitilde;
+sub logicalnot.tf by logicalnot;
+sub radical.tf by radical;
 sub zero.tosf by zero.osf;
 sub one.tosf by one.osf;
 sub two.tosf by two.osf;
@@ -233,6 +256,29 @@ sub six by six.tf;
 sub seven by seven.tf;
 sub eight by eight.tf;
 sub nine by nine.tf;
+sub numbersign by numbersign.tf;
+sub cent by cent.tf;
+sub currency by currency.tf;
+sub dollar by dollar.tf;
+sub euro by euro.tf;
+sub hryvnia by hryvnia.tf;
+sub ruble by ruble.tf;
+sub tenge by tenge.tf;
+sub yen by yen.tf;
+sub plus by plus.tf;
+sub minus by minus.tf;
+sub multiply by multiply.tf;
+sub divide by divide.tf;
+sub equal by equal.tf;
+sub greater by greater.tf;
+sub less by less.tf;
+sub greaterequal by greaterequal.tf;
+sub lessequal by lessequal.tf;
+sub plusminus by plusminus.tf;
+sub approxequal by approxequal.tf;
+sub asciitilde by asciitilde.tf;
+sub logicalnot by logicalnot.tf;
+sub radical by radical.tf;
 sub zero.osf by zero.tosf;
 sub one.osf by one.tosf;
 sub two.osf by two.tosf;
@@ -214544,8 +214590,8 @@ width = 600;
 unicode = 1299;
 },
 {
-glyphname = Delta.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = Delta.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -238517,8 +238563,8 @@ width = 500;
 unicode = 92;
 },
 {
-glyphname = numbersign.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = numbersign.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -259545,8 +259591,8 @@ width = 750;
 unicode = 165;
 },
 {
-glyphname = cent.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = cent.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -259606,8 +259652,8 @@ width = 670;
 );
 },
 {
-glyphname = currency.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = currency.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -259667,8 +259713,8 @@ width = 670;
 );
 },
 {
-glyphname = dollar.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = dollar.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -259727,8 +259773,8 @@ width = 670;
 );
 },
 {
-glyphname = euro.tab;
-lastChange = "2026-11-04 15:41:52 +0000";
+glyphname = euro.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -260541,8 +260587,8 @@ width = 670;
 );
 },
 {
-glyphname = hryvnia.tab;
-lastChange = "2026-11-04 15:41:52 +0000";
+glyphname = hryvnia.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -260602,8 +260648,8 @@ width = 670;
 );
 },
 {
-glyphname = ruble.tab;
-lastChange = "2026-11-04 15:41:52 +0000";
+glyphname = ruble.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -261464,8 +261510,8 @@ width = 670;
 );
 },
 {
-glyphname = tenge.tab;
-lastChange = "2026-11-04 15:41:52 +0000";
+glyphname = tenge.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -261520,8 +261566,8 @@ width = 670;
 );
 },
 {
-glyphname = yen.tab;
-lastChange = "2026-11-04 15:38:40 +0000";
+glyphname = yen.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -270768,8 +270814,8 @@ metricRight = ordmasculine;
 unicode = 8240;
 },
 {
-glyphname = plus.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = plus.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -270829,8 +270875,8 @@ width = 670;
 );
 },
 {
-glyphname = minus.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = minus.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -270890,8 +270936,8 @@ width = 670;
 );
 },
 {
-glyphname = multiply.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = multiply.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -271265,8 +271311,8 @@ width = 670;
 );
 },
 {
-glyphname = divide.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = divide.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -271326,8 +271372,8 @@ width = 670;
 );
 },
 {
-glyphname = equal.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = equal.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -271387,8 +271433,8 @@ width = 670;
 );
 },
 {
-glyphname = greater.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = greater.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 guides = (
@@ -271998,8 +272044,8 @@ width = 670;
 );
 },
 {
-glyphname = less.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = less.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 guides = (
@@ -272609,8 +272655,8 @@ width = 670;
 );
 },
 {
-glyphname = greaterequal.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = greaterequal.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -272670,8 +272716,8 @@ width = 670;
 );
 },
 {
-glyphname = lessequal.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = lessequal.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -272731,8 +272777,8 @@ width = 670;
 );
 },
 {
-glyphname = plusminus.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = plusminus.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -272792,8 +272838,8 @@ width = 670;
 );
 },
 {
-glyphname = approxequal.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = approxequal.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -273473,8 +273519,8 @@ width = 670;
 );
 },
 {
-glyphname = asciitilde.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = asciitilde.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -273855,8 +273901,8 @@ width = 670;
 );
 },
 {
-glyphname = logicalnot.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = logicalnot.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -273916,8 +273962,8 @@ width = 670;
 );
 },
 {
-glyphname = radical.tab;
-lastChange = "2026-11-04 15:33:48 +0000";
+glyphname = radical.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
@@ -290995,8 +291041,8 @@ width = 0;
 unicode = 62465;
 },
 {
-glyphname = division.tab;
-lastChange = "2026-11-04 15:41:52 +0000";
+glyphname = division.tf;
+lastChange = "2026-11-04 15:44:11 +0000";
 layers = (
 {
 layerId = "153974D4-4CB0-4785-B412-2977049B2888";
