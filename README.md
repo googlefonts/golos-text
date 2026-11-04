@@ -2,7 +2,10 @@
 
 ![Golostext](documentation/Golostext.png)
 
-Golos is a versatile closed sans-serif commissioned by Smena and AIC Media for state and social service websites. Golos Text suits perfectly for continuous reading on screen. It includes five weights from Regular to Black. Golos was designed by Alexandra Korolkova and Vitaly Kuzmin and released by Paratype in 2019.
+Golos is a versatile closed sans-serif commissioned by Smena and AIC Media for state and social service websites.
+Golos Text suits perfectly for continuous reading on screen.
+As a variable font, it includes a weight axis that spans named weight styles from Regular (400) to Black (900).
+Golos was designed by Alexandra Korolkova and Vitaly Kuzmin and released by Paratype in 2019.
 
 ![Designspace](documentation/Designspace.png)
 
