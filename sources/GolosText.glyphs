@@ -238858,63 +238858,6 @@ width = 380;
 unicode = 45;
 },
 {
-glyphname = softhyphen;
-lastChange = "2026-11-04 15:41:52 +0000";
-layers = (
-{
-layerId = "153974D4-4CB0-4785-B412-2977049B2888";
-shapes = (
-{
-ref = hyphen;
-}
-);
-vertWidth = 0;
-width = 380;
-},
-{
-layerId = "519BD859-66F8-41ED-8E65-BDFB48F6DA60";
-shapes = (
-{
-ref = hyphen;
-}
-);
-vertWidth = 0;
-width = 380;
-},
-{
-layerId = "68905092-2787-4DB6-B22F-3BD17B98A53B";
-shapes = (
-{
-ref = hyphen;
-}
-);
-vertWidth = 0;
-width = 380;
-},
-{
-layerId = "694BE86E-DB85-4EB8-AAFE-5A09896C9F48";
-shapes = (
-{
-ref = hyphen;
-}
-);
-vertWidth = 0;
-width = 380;
-},
-{
-layerId = "BB51FDA8-DF56-46E5-B7C8-6101400FE38F";
-shapes = (
-{
-ref = hyphen;
-}
-);
-vertWidth = 0;
-width = 380;
-}
-);
-unicode = 173;
-},
-{
 glyphname = endash;
 kernLeft = _dashes_right;
 kernRight = _dashes_left;
@@ -298347,13 +298290,13 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;
