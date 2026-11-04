@@ -1,4 +1,4 @@
-# My Font
+# Golos Text
 
 ![Golostext](documentation/Golostext.png)
 
