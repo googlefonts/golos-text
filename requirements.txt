@@ -89,7 +89,7 @@ sh==1.14.3
 simplejson==3.18.0
 six==1.16.0
 skia-pathops==0.7.4
-skia-python==87.5
+skia-python==144.0.post2
 smmap==5.0.0
 soupsieve==2.3.2.post1
 sre-yield==1.2
